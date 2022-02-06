@@ -1,0 +1,2462 @@
+##### List of UAs for unwanted bots to define as variables. #####
+
+# With these notations, we will be able to block most of the bots except Google.
+# However, some of the normal services will be blocked at the same time due to the partial matching of the keywords used.
+# There may be a few lines with duplicate keywords defined as UA.
+# There are also old UAs that are no longer in use.
+# In that case, try deleting the corresponding line if necessary.
+
+# Note: The crawler "ia_archiver" of the Wayback Machine <archive.org>, which is a major archiving site, is currently not functioning.
+# To block it, you need to either specify the IP directly or contact the site administrator to have it excluded from the crawl.
+# For this reason, "ia_archiver" is now a dead letter, but I have added it to the following line just in case.
+
+SetEnvIfNoCase User-Agent "007ac9" blockua
+SetEnvIfNoCase User-Agent "12soso" blockua
+SetEnvIfNoCase User-Agent "1470" blockua
+SetEnvIfNoCase User-Agent "192.comAgent" blockua
+SetEnvIfNoCase User-Agent "1Noonbot" blockua
+SetEnvIfNoCase User-Agent "1on1searchBot" blockua
+SetEnvIfNoCase User-Agent "2ip.ru" blockua
+SetEnvIfNoCase User-Agent "360Spider" blockua
+SetEnvIfNoCase User-Agent "3DE_SEARCH2" blockua
+SetEnvIfNoCase User-Agent "3D_SEARCH" blockua
+SetEnvIfNoCase User-Agent "3GSE" blockua
+SetEnvIfNoCase User-Agent "50.nu" blockua
+SetEnvIfNoCase User-Agent "A1 Sitemap Generator" blockua
+SetEnvIfNoCase User-Agent "A1 Website Download" blockua
+SetEnvIfNoCase User-Agent "A6-Indexer" blockua
+SetEnvIfNoCase User-Agent "AASP" blockua
+SetEnvIfNoCase User-Agent "ABACHOBot" blockua
+SetEnvIfNoCase User-Agent "Abonti" blockua
+SetEnvIfNoCase User-Agent "abot" blockua
+SetEnvIfNoCase User-Agent "AbotEmailSearch" blockua
+SetEnvIfNoCase User-Agent "Aboundex" blockua
+SetEnvIfNoCase User-Agent "AboutUsBot" blockua
+SetEnvIfNoCase User-Agent "abuse" blockua
+SetEnvIfNoCase User-Agent "acapbot" blockua
+SetEnvIfNoCase User-Agent "accelobot" blockua
+SetEnvIfNoCase User-Agent "AccessibilityBot" blockua
+SetEnvIfNoCase User-Agent "AccMonitor Compliance Server" blockua
+SetEnvIfNoCase User-Agent "accoona" blockua
+SetEnvIfNoCase User-Agent "AChulkov.NET page walker" blockua
+SetEnvIfNoCase User-Agent "Acme.Spider" blockua
+SetEnvIfNoCase User-Agent "acoonbot" blockua
+SetEnvIfNoCase User-Agent "acquia-crawler" blockua
+SetEnvIfNoCase User-Agent "ActiveTouristBot" blockua
+SetEnvIfNoCase User-Agent "Ad Muncher" blockua
+SetEnvIfNoCase User-Agent "AdamM Bot" blockua
+SetEnvIfNoCase User-Agent "adbeat_bot" blockua
+SetEnvIfNoCase User-Agent "AddSearchBot" blockua
+SetEnvIfNoCase User-Agent "Adidxbot" blockua
+SetEnvIfNoCase User-Agent "Admantx" blockua
+SetEnvIfNoCase User-Agent "AdMedia bot" blockua
+SetEnvIfNoCase User-Agent "adminshop.com" blockua
+SetEnvIfNoCase User-Agent "adscanner" blockua
+SetEnvIfNoCase User-Agent "AdsTxtCrawler" blockua
+SetEnvIfNoCase User-Agent "Advanced Email Extractor" blockua
+SetEnvIfNoCase User-Agent "AdvBot" blockua
+SetEnvIfNoCase User-Agent "AESOP_com_SpiderMan" blockua
+SetEnvIfNoCase User-Agent "AESpider" blockua
+SetEnvIfNoCase User-Agent "AF Knowledge Now Verity Spider" blockua
+SetEnvIfNoCase User-Agent "aggregator" blockua
+SetEnvIfNoCase User-Agent "agilemedia" blockua
+SetEnvIfNoCase User-Agent "ag_dm_spider" blockua
+SetEnvIfNoCase User-Agent "ah-ha.com" blockua
+SetEnvIfNoCase User-Agent "AHC" blockua
+SetEnvIfNoCase User-Agent "Ahrefs" blockua
+SetEnvIfNoCase User-Agent "AIBOT" blockua
+SetEnvIfNoCase User-Agent "aiderss" blockua
+SetEnvIfNoCase User-Agent "aiHit" blockua
+SetEnvIfNoCase User-Agent "aiohttp" blockua
+SetEnvIfNoCase User-Agent "aipbot" blockua
+SetEnvIfNoCase User-Agent "AISearchBot" blockua
+SetEnvIfNoCase User-Agent "AISIID" blockua
+SetEnvIfNoCase User-Agent "AITCSRobot" blockua
+SetEnvIfNoCase User-Agent "aka.ms" blockua
+SetEnvIfNoCase User-Agent "Akamai-SiteSnapshot" blockua
+SetEnvIfNoCase User-Agent "alanreed" blockua
+SetEnvIfNoCase User-Agent "alexa" blockua
+SetEnvIfNoCase User-Agent "AlexaWebSearchPlatform" blockua
+SetEnvIfNoCase User-Agent "AlexfDownload" blockua
+SetEnvIfNoCase User-Agent "Alexibot" blockua
+SetEnvIfNoCase User-Agent "ALittle" blockua
+SetEnvIfNoCase User-Agent "AlkalineBOT" blockua
+SetEnvIfNoCase User-Agent "All Acronyms Bot" blockua
+SetEnvIfNoCase User-Agent "allenai" blockua
+SetEnvIfNoCase User-Agent "Alpha Search Agent" blockua
+SetEnvIfNoCase User-Agent "AlphaBot" blockua
+SetEnvIfNoCase User-Agent "alphaseobot" blockua
+SetEnvIfNoCase User-Agent "Amerla Search Bot" blockua
+SetEnvIfNoCase User-Agent "Amfibibot" blockua
+SetEnvIfNoCase User-Agent "amidalla" blockua
+SetEnvIfNoCase User-Agent "amirkr" blockua
+SetEnvIfNoCase User-Agent "AmPmPPC.com" blockua
+SetEnvIfNoCase User-Agent "AMZNKAssocBot" blockua
+SetEnvIfNoCase User-Agent "AndersPinkBot" blockua
+SetEnvIfNoCase User-Agent "Anemone" blockua
+SetEnvIfNoCase User-Agent "Animator" blockua
+SetEnvIfNoCase User-Agent "Anonymous" blockua
+SetEnvIfNoCase User-Agent "AnotherBot" blockua
+SetEnvIfNoCase User-Agent "AnswerBot" blockua
+SetEnvIfNoCase User-Agent "AnswerBus" blockua
+SetEnvIfNoCase User-Agent "AnswerChase" blockua
+SetEnvIfNoCase User-Agent "AntBot" blockua
+SetEnvIfNoCase User-Agent "antibot" blockua
+SetEnvIfNoCase User-Agent "AntiSantyWorm" blockua
+SetEnvIfNoCase User-Agent "Antro.Net" blockua
+SetEnvIfNoCase User-Agent "AnyEvent" blockua
+SetEnvIfNoCase User-Agent "AONDE-Spider" blockua
+SetEnvIfNoCase User-Agent "Apache-HttpClient" blockua
+SetEnvIfNoCase User-Agent "ApacheBench" blockua
+SetEnvIfNoCase User-Agent "Apercite" blockua
+SetEnvIfNoCase User-Agent "Apoena" blockua
+SetEnvIfNoCase User-Agent "Aport" blockua
+SetEnvIfNoCase User-Agent "appid: s~stremor-crawler" blockua
+SetEnvIfNoCase User-Agent "AppInsights" blockua
+SetEnvIfNoCase User-Agent "Applebot" blockua
+SetEnvIfNoCase User-Agent "Aqua_Products" blockua
+SetEnvIfNoCase User-Agent "arabot" blockua
+SetEnvIfNoCase User-Agent "Arachmo" blockua
+SetEnvIfNoCase User-Agent "Arachnophilia" blockua
+SetEnvIfNoCase User-Agent "AraTurka" blockua
+SetEnvIfNoCase User-Agent "Archetype" blockua
+SetEnvIfNoCase User-Agent "archive.org_bot" blockua
+SetEnvIfNoCase User-Agent "ArchiveBot" blockua
+SetEnvIfNoCase User-Agent "ArchiveTeam" blockua
+SetEnvIfNoCase User-Agent "aria eQualizer" blockua
+SetEnvIfNoCase User-Agent "arianna.libero.it" blockua
+SetEnvIfNoCase User-Agent "Arikus_Spider" blockua
+SetEnvIfNoCase User-Agent "arocom" blockua
+SetEnvIfNoCase User-Agent "Art-Online.com" blockua
+SetEnvIfNoCase User-Agent "ArtavisBot" blockua
+SetEnvIfNoCase User-Agent "Artera" blockua
+SetEnvIfNoCase User-Agent "aruyo" blockua
+SetEnvIfNoCase User-Agent "ASAHA Search Engine Turkey" blockua
+SetEnvIfNoCase User-Agent "ASpider" blockua
+SetEnvIfNoCase User-Agent "AspiegelBot" blockua
+SetEnvIfNoCase User-Agent "ASPSeek" blockua
+SetEnvIfNoCase User-Agent "asterias" blockua
+SetEnvIfNoCase User-Agent "AstroFind" blockua
+SetEnvIfNoCase User-Agent "athenusbot" blockua
+SetEnvIfNoCase User-Agent "AtlocalBot" blockua
+SetEnvIfNoCase User-Agent "Atom Feed Robot" blockua
+SetEnvIfNoCase User-Agent "Atomic_Email_Hunter" blockua
+SetEnvIfNoCase User-Agent "attach" blockua
+SetEnvIfNoCase User-Agent "attrakt" blockua
+SetEnvIfNoCase User-Agent "attributor" blockua
+SetEnvIfNoCase User-Agent "atw-crawler" blockua
+SetEnvIfNoCase User-Agent "audience" blockua
+SetEnvIfNoCase User-Agent "Auditor" blockua
+SetEnvIfNoCase User-Agent "augurfind" blockua
+SetEnvIfNoCase User-Agent "AURESYS" blockua
+SetEnvIfNoCase User-Agent "Australis" blockua
+SetEnvIfNoCase User-Agent "AutoBaron crawler" blockua
+SetEnvIfNoCase User-Agent "autoemailspider" blockua
+SetEnvIfNoCase User-Agent "autowebdir" blockua
+SetEnvIfNoCase User-Agent "avira" blockua
+SetEnvIfNoCase User-Agent "AVSearch" blockua
+SetEnvIfNoCase User-Agent "AwarioRssBot" blockua
+SetEnvIfNoCase User-Agent "AwarioSmartBot" blockua
+SetEnvIfNoCase User-Agent "awesome" blockua
+SetEnvIfNoCase User-Agent "axfeedsbot" blockua
+SetEnvIfNoCase User-Agent "axios" blockua
+SetEnvIfNoCase User-Agent "Axonize-bot" blockua
+SetEnvIfNoCase User-Agent "Ayna" blockua
+SetEnvIfNoCase User-Agent "B2B Bot" blockua
+SetEnvIfNoCase User-Agent "b2w" blockua
+SetEnvIfNoCase User-Agent "b97" blockua
+SetEnvIfNoCase User-Agent "BackDoorBot" blockua
+SetEnvIfNoCase User-Agent "Backlink-Checker" blockua
+SetEnvIfNoCase User-Agent "BacklinkCrawler" blockua
+SetEnvIfNoCase User-Agent "BackRub" blockua
+SetEnvIfNoCase User-Agent "BackStreet Browser" blockua
+SetEnvIfNoCase User-Agent "BackWeb" blockua
+SetEnvIfNoCase User-Agent "Baidu" blockua
+SetEnvIfNoCase User-Agent "Bait" blockua
+SetEnvIfNoCase User-Agent "Bandit" blockua
+SetEnvIfNoCase User-Agent "Barkrowler" blockua
+SetEnvIfNoCase User-Agent "BatchFTP" blockua
+SetEnvIfNoCase User-Agent "baypup" blockua
+SetEnvIfNoCase User-Agent "BazQux" blockua
+SetEnvIfNoCase User-Agent "BDCbot" blockua
+SetEnvIfNoCase User-Agent "BDFetch" blockua
+SetEnvIfNoCase User-Agent "beast" blockua
+SetEnvIfNoCase User-Agent "Becky" blockua
+SetEnvIfNoCase User-Agent "BecomeBot" blockua
+SetEnvIfNoCase User-Agent "BecomeJPBot" blockua
+SetEnvIfNoCase User-Agent "BeetleBot" blockua
+SetEnvIfNoCase User-Agent "BehloolBot" blockua
+SetEnvIfNoCase User-Agent "Bender" blockua
+SetEnvIfNoCase User-Agent "besserscheitern-crawl" blockua
+SetEnvIfNoCase User-Agent "best-practices" blockua
+SetEnvIfNoCase User-Agent "betaBot" blockua
+SetEnvIfNoCase User-Agent "bibnum" blockua
+SetEnvIfNoCase User-Agent "bidswitchbot" blockua
+SetEnvIfNoCase User-Agent "Big Brother" blockua
+SetEnvIfNoCase User-Agent "Big Data" blockua
+SetEnvIfNoCase User-Agent "Bigado.com" blockua
+SetEnvIfNoCase User-Agent "BigClique" blockua
+SetEnvIfNoCase User-Agent "bigdatacorp" blockua
+SetEnvIfNoCase User-Agent "Bigfoot" blockua
+SetEnvIfNoCase User-Agent "biglobe" blockua
+SetEnvIfNoCase User-Agent "BIGLOTRON" blockua
+SetEnvIfNoCase User-Agent "Bilbo" blockua
+SetEnvIfNoCase User-Agent "BilgiBetaBot" blockua
+SetEnvIfNoCase User-Agent "BilgiBot" blockua
+SetEnvIfNoCase User-Agent "binlar" blockua
+SetEnvIfNoCase User-Agent "bintellibot" blockua
+SetEnvIfNoCase User-Agent "BitBot" blockua
+SetEnvIfNoCase User-Agent "bitbucket" blockua
+SetEnvIfNoCase User-Agent "Bitevni" blockua
+SetEnvIfNoCase User-Agent "bitlybot" blockua
+SetEnvIfNoCase User-Agent "BitvoUserAgent" blockua
+SetEnvIfNoCase User-Agent "Bizbot" blockua
+SetEnvIfNoCase User-Agent "BizCoDomainValidationAudit" blockua
+SetEnvIfNoCase User-Agent "BizOpsCompanies" blockua
+SetEnvIfNoCase User-Agent "BizWorks Retriever" blockua
+SetEnvIfNoCase User-Agent "Black Hole" blockua
+SetEnvIfNoCase User-Agent "Black.Hole" blockua
+SetEnvIfNoCase User-Agent "Blackbird" blockua
+SetEnvIfNoCase User-Agent "Blackboard" blockua
+SetEnvIfNoCase User-Agent "BlackMask" blockua
+SetEnvIfNoCase User-Agent "BlackWidow" blockua
+SetEnvIfNoCase User-Agent "bladder fusion" blockua
+SetEnvIfNoCase User-Agent "Blaiz-Bee" blockua
+SetEnvIfNoCase User-Agent "Bleriot" blockua
+SetEnvIfNoCase User-Agent "BLEXBot" blockua
+SetEnvIfNoCase User-Agent "Blinkx" blockua
+SetEnvIfNoCase User-Agent "BlitzBOT" blockua
+SetEnvIfNoCase User-Agent "Blog Conversation Project" blockua
+SetEnvIfNoCase User-Agent "Bloglines" blockua
+SetEnvIfNoCase User-Agent "blogmap" blockua
+SetEnvIfNoCase User-Agent "BlogMyWay" blockua
+SetEnvIfNoCase User-Agent "BlogPulseLive" blockua
+SetEnvIfNoCase User-Agent "BlogRanger" blockua
+SetEnvIfNoCase User-Agent "BlogRefsBot" blockua
+SetEnvIfNoCase User-Agent "BlogScope" blockua
+SetEnvIfNoCase User-Agent "Blogslive" blockua
+SetEnvIfNoCase User-Agent "blogspot" blockua
+SetEnvIfNoCase User-Agent "BlogTraffic" blockua
+SetEnvIfNoCase User-Agent "BloobyBot" blockua
+SetEnvIfNoCase User-Agent "Blork" blockua
+SetEnvIfNoCase User-Agent "BlowFish" blockua
+SetEnvIfNoCase User-Agent "BLP_bbot" blockua
+SetEnvIfNoCase User-Agent "BLT" blockua
+SetEnvIfNoCase User-Agent "BMC" blockua
+SetEnvIfNoCase User-Agent "bnf.fr_bot" blockua
+SetEnvIfNoCase User-Agent "BoaConstrictor" blockua
+SetEnvIfNoCase User-Agent "BoardReader-Image-Fetcher" blockua
+SetEnvIfNoCase User-Agent "BOIA-Scan-Agent" blockua
+SetEnvIfNoCase User-Agent "BOIA.ORG-Scan-Agent" blockua
+SetEnvIfNoCase User-Agent "boitho.com-dc" blockua
+SetEnvIfNoCase User-Agent "BOI_crawl" blockua
+SetEnvIfNoCase User-Agent "BomboraBot" blockua
+SetEnvIfNoCase User-Agent "Bookmark Buddy bookmark checker" blockua
+SetEnvIfNoCase User-Agent "Bookmark search tool" blockua
+SetEnvIfNoCase User-Agent "boston" blockua
+SetEnvIfNoCase User-Agent "bosug" blockua
+SetEnvIfNoCase User-Agent "BotALot" blockua
+SetEnvIfNoCase User-Agent "botify" blockua
+SetEnvIfNoCase User-Agent "BotRightHere" blockua
+SetEnvIfNoCase User-Agent "Botswana" blockua
+SetEnvIfNoCase User-Agent "bottybot" blockua
+SetEnvIfNoCase User-Agent "BoxcarBot" blockua
+SetEnvIfNoCase User-Agent "BpBot" blockua
+SetEnvIfNoCase User-Agent "brainobot" blockua
+SetEnvIfNoCase User-Agent "BRAINTIME_SEARCH" blockua
+SetEnvIfNoCase User-Agent "BrandONbot" blockua
+SetEnvIfNoCase User-Agent "brandonmedia" blockua
+SetEnvIfNoCase User-Agent "BrandVerity" blockua
+SetEnvIfNoCase User-Agent "brandwatch" blockua
+SetEnvIfNoCase User-Agent "Bridge" blockua
+SetEnvIfNoCase User-Agent "BrokenLinkCheck" blockua
+SetEnvIfNoCase User-Agent "BrowserEmulator" blockua
+SetEnvIfNoCase User-Agent "BrowserMob" blockua
+SetEnvIfNoCase User-Agent "browserproxy" blockua
+SetEnvIfNoCase User-Agent "BruinBot" blockua
+SetEnvIfNoCase User-Agent "BSearch" blockua
+SetEnvIfNoCase User-Agent "BSpider" blockua
+SetEnvIfNoCase User-Agent "btbot" blockua
+SetEnvIfNoCase User-Agent "Btsearch" blockua
+SetEnvIfNoCase User-Agent "BTWebClient" blockua
+SetEnvIfNoCase User-Agent "BUbiNG" blockua
+SetEnvIfNoCase User-Agent "BublupBot" blockua
+SetEnvIfNoCase User-Agent "Buck" blockua
+SetEnvIfNoCase User-Agent "Buddy" blockua
+SetEnvIfNoCase User-Agent "buddybuzz" blockua
+SetEnvIfNoCase User-Agent "Buibui" blockua
+SetEnvIfNoCase User-Agent "BuildCMS" blockua
+SetEnvIfNoCase User-Agent "BuiltBotTough" blockua
+SetEnvIfNoCase User-Agent "BuiltWith" blockua
+SetEnvIfNoCase User-Agent "Bullseye" blockua
+SetEnvIfNoCase User-Agent "bumblebee" blockua
+SetEnvIfNoCase User-Agent "BunnySlippers" blockua
+SetEnvIfNoCase User-Agent "BuscadorClarin" blockua
+SetEnvIfNoCase User-Agent "Buscaplus" blockua
+SetEnvIfNoCase User-Agent "Butterfly" blockua
+SetEnvIfNoCase User-Agent "BuyHawaii" blockua
+SetEnvIfNoCase User-Agent "buzzbot" blockua
+SetEnvIfNoCase User-Agent "buzzstream" blockua
+SetEnvIfNoCase User-Agent "byindia" blockua
+SetEnvIfNoCase User-Agent "BySpider" blockua
+SetEnvIfNoCase User-Agent "byteserver" blockua
+SetEnvIfNoCase User-Agent "Bytespider" blockua
+SetEnvIfNoCase User-Agent "bzBot" blockua
+SetEnvIfNoCase User-Agent "c r a w l 3 r" blockua
+SetEnvIfNoCase User-Agent "CacheBlaster" blockua
+SetEnvIfNoCase User-Agent "Caddbot" blockua
+SetEnvIfNoCase User-Agent "Cafi" blockua
+SetEnvIfNoCase User-Agent "Caliperbot" blockua
+SetEnvIfNoCase User-Agent "Camcrawler" blockua
+SetEnvIfNoCase User-Agent "CamelStampede" blockua
+SetEnvIfNoCase User-Agent "camper" blockua
+SetEnvIfNoCase User-Agent "Canon-WebRecord" blockua
+SetEnvIfNoCase User-Agent "CapsuleChecker" blockua
+SetEnvIfNoCase User-Agent "capsulink" blockua
+SetEnvIfNoCase User-Agent "careerbot" blockua
+SetEnvIfNoCase User-Agent "cataguru" blockua
+SetEnvIfNoCase User-Agent "catchall" blockua
+SetEnvIfNoCase User-Agent "CatchBot" blockua
+SetEnvIfNoCase User-Agent "CazoodleBot" blockua
+SetEnvIfNoCase User-Agent "CC Metadata Scaper" blockua
+SetEnvIfNoCase User-Agent "CCBot" blockua
+SetEnvIfNoCase User-Agent "CCGCrawl" blockua
+SetEnvIfNoCase User-Agent "ccubee" blockua
+SetEnvIfNoCase User-Agent "CD-Preload" blockua
+SetEnvIfNoCase User-Agent "cdlib" blockua
+SetEnvIfNoCase User-Agent "CE-Preload" blockua
+SetEnvIfNoCase User-Agent "Cegbfeieh" blockua
+SetEnvIfNoCase User-Agent "Centro" blockua
+SetEnvIfNoCase User-Agent "centurybot" blockua
+SetEnvIfNoCase User-Agent "Cerberian Drtrs" blockua
+SetEnvIfNoCase User-Agent "CERT FigleafBot" blockua
+SetEnvIfNoCase User-Agent "certifyscan" blockua
+SetEnvIfNoCase User-Agent "cfetch" blockua
+SetEnvIfNoCase User-Agent "cfnetowrk" blockua
+SetEnvIfNoCase User-Agent "CFNetwork" blockua
+SetEnvIfNoCase User-Agent "Chameleon" blockua
+SetEnvIfNoCase User-Agent "changedetection" blockua
+SetEnvIfNoCase User-Agent "Charlotte" blockua
+SetEnvIfNoCase User-Agent "Chassis Pheromone" blockua
+SetEnvIfNoCase User-Agent "Check&Get" blockua
+SetEnvIfNoCase User-Agent "Checkbot" blockua
+SetEnvIfNoCase User-Agent "checker" blockua
+SetEnvIfNoCase User-Agent "Checker1" blockua
+SetEnvIfNoCase User-Agent "Checklinks" blockua
+SetEnvIfNoCase User-Agent "CheckMarkNetwork" blockua
+SetEnvIfNoCase User-Agent "check_http" blockua
+SetEnvIfNoCase User-Agent "CheeseBot" blockua
+SetEnvIfNoCase User-Agent "ChemieDE" blockua
+SetEnvIfNoCase User-Agent "CherryPicker" blockua
+SetEnvIfNoCase User-Agent "Chilkat" blockua
+SetEnvIfNoCase User-Agent "chimebot" blockua
+SetEnvIfNoCase User-Agent "China" blockua
+SetEnvIfNoCase User-Agent "chlooe" blockua
+SetEnvIfNoCase User-Agent "Cincraw" blockua
+SetEnvIfNoCase User-Agent "CipaCrawler" blockua
+SetEnvIfNoCase User-Agent "CipinetBot" blockua
+SetEnvIfNoCase User-Agent "cis455crawler" blockua
+SetEnvIfNoCase User-Agent "citeseerxbot" blockua
+SetEnvIfNoCase User-Agent "cizilla" blockua
+SetEnvIfNoCase User-Agent "Clarabot" blockua
+SetEnvIfNoCase User-Agent "ClariaBot" blockua
+SetEnvIfNoCase User-Agent "Clickagy" blockua
+SetEnvIfNoCase User-Agent "Climate" blockua
+SetEnvIfNoCase User-Agent "Cliqzbot" blockua
+SetEnvIfNoCase User-Agent "Cloud Watch" blockua
+SetEnvIfNoCase User-Agent "CloudFlare-AlwaysOnline" blockua
+SetEnvIfNoCase User-Agent "cloudsystemnetworks" blockua
+SetEnvIfNoCase User-Agent "clsHTTP" blockua
+SetEnvIfNoCase User-Agent "Clushbot" blockua
+SetEnvIfNoCase User-Agent "COAST scan engine" blockua
+SetEnvIfNoCase User-Agent "COAST WebMaster" blockua
+SetEnvIfNoCase User-Agent "coccoc" blockua
+SetEnvIfNoCase User-Agent "codewise" blockua
+SetEnvIfNoCase User-Agent "cognitiveseo" blockua
+SetEnvIfNoCase User-Agent "Collapsar" blockua
+SetEnvIfNoCase User-Agent "collection" blockua
+SetEnvIfNoCase User-Agent "Collector" blockua
+SetEnvIfNoCase User-Agent "Comaneci" blockua
+SetEnvIfNoCase User-Agent "Combine" blockua
+SetEnvIfNoCase User-Agent "commoncrawl" blockua
+SetEnvIfNoCase User-Agent "Commons-HttpClient" blockua
+SetEnvIfNoCase User-Agent "Companybook-Crawler" blockua
+SetEnvIfNoCase User-Agent "competenzatlas" blockua
+SetEnvIfNoCase User-Agent "Conductor" blockua
+SetEnvIfNoCase User-Agent "Connector" blockua
+SetEnvIfNoCase User-Agent "ConnectSearch" blockua
+SetEnvIfNoCase User-Agent "conpilot" blockua
+SetEnvIfNoCase User-Agent "content crawler spider" blockua
+SetEnvIfNoCase User-Agent "content-bot" blockua
+SetEnvIfNoCase User-Agent "ContentSmartz" blockua
+SetEnvIfNoCase User-Agent "ContextAd" blockua
+SetEnvIfNoCase User-Agent "contxbot" blockua
+SetEnvIfNoCase User-Agent "contype" blockua
+SetEnvIfNoCase User-Agent "convera" blockua
+SetEnvIfNoCase User-Agent "Cookiebot" blockua
+SetEnvIfNoCase User-Agent "cookieNET" blockua
+SetEnvIfNoCase User-Agent "CoolBot" blockua
+SetEnvIfNoCase User-Agent "CoolCheck" blockua
+SetEnvIfNoCase User-Agent "Copernic" blockua
+SetEnvIfNoCase User-Agent "Copier" blockua
+SetEnvIfNoCase User-Agent "CopyRightCheck" blockua
+SetEnvIfNoCase User-Agent "Copyscape" blockua
+SetEnvIfNoCase User-Agent "core-project" blockua
+SetEnvIfNoCase User-Agent "corpora" blockua
+SetEnvIfNoCase User-Agent "cosmos" blockua
+SetEnvIfNoCase User-Agent "Covario-IDS" blockua
+SetEnvIfNoCase User-Agent "Cowbot" blockua
+SetEnvIfNoCase User-Agent "Cowdog" blockua
+SetEnvIfNoCase User-Agent "crabbyBot" blockua
+SetEnvIfNoCase User-Agent "craftbot" blockua
+SetEnvIfNoCase User-Agent "crawl.UserAgent" blockua
+SetEnvIfNoCase User-Agent "CrawlConvera" blockua
+SetEnvIfNoCase User-Agent "CRAWLER-ALTSE.VUNET.ORG-Lynx" blockua
+SetEnvIfNoCase User-Agent "crawler-upgrade-config" blockua
+SetEnvIfNoCase User-Agent "crawler.kpricorn.org" blockua
+SetEnvIfNoCase User-Agent "crawler43.ejupiter.com" blockua
+SetEnvIfNoCase User-Agent "crawler4j" blockua
+SetEnvIfNoCase User-Agent "crawler@" blockua
+SetEnvIfNoCase User-Agent "crawlerinfo" blockua
+SetEnvIfNoCase User-Agent "crawler_for_infomine" blockua
+SetEnvIfNoCase User-Agent "Crawly" blockua
+SetEnvIfNoCase User-Agent "Crawl_Application" blockua
+SetEnvIfNoCase User-Agent "CreativeCommons" blockua
+SetEnvIfNoCase User-Agent "Crescent" blockua
+SetEnvIfNoCase User-Agent "crim" blockua
+SetEnvIfNoCase User-Agent "CriteoBot" blockua
+SetEnvIfNoCase User-Agent "Crowsnest" blockua
+SetEnvIfNoCase User-Agent "Cruiser" blockua
+SetEnvIfNoCase User-Agent "CrunchBot" blockua
+SetEnvIfNoCase User-Agent "CrystalSemanticsBot" blockua
+SetEnvIfNoCase User-Agent "cs-crawler" blockua
+SetEnvIfNoCase User-Agent "CSE HTML Validator" blockua
+SetEnvIfNoCase User-Agent "CSHttpClient" blockua
+SetEnvIfNoCase User-Agent "cuab" blockua
+SetEnvIfNoCase User-Agent "Cuasarbot" blockua
+SetEnvIfNoCase User-Agent "culs" blockua
+SetEnvIfNoCase User-Agent "culsearch" blockua
+SetEnvIfNoCase User-Agent "Curebot" blockua
+SetEnvIfNoCase User-Agent "Custo" blockua
+SetEnvIfNoCase User-Agent "Cutbot" blockua
+SetEnvIfNoCase User-Agent "cvaulev" blockua
+SetEnvIfNoCase User-Agent "cXensebot" blockua
+SetEnvIfNoCase User-Agent "Cyberdog" blockua
+SetEnvIfNoCase User-Agent "CyberNavi" blockua
+SetEnvIfNoCase User-Agent "CyberPatrol" blockua
+SetEnvIfNoCase User-Agent "CyberPilot" blockua
+SetEnvIfNoCase User-Agent "CyberSpyder" blockua
+SetEnvIfNoCase User-Agent "Cyberz" blockua
+SetEnvIfNoCase User-Agent "CydralSpider" blockua
+SetEnvIfNoCase User-Agent "D1GArabicEngine" blockua
+SetEnvIfNoCase User-Agent "DareBoost" blockua
+SetEnvIfNoCase User-Agent "data gatherer" blockua
+SetEnvIfNoCase User-Agent "DataCha0s" blockua
+SetEnvIfNoCase User-Agent "Datafeedwatch" blockua
+SetEnvIfNoCase User-Agent "DataFountains" blockua
+SetEnvIfNoCase User-Agent "datagnionbot" blockua
+SetEnvIfNoCase User-Agent "Datanyze" blockua
+SetEnvIfNoCase User-Agent "DataparkSearch" blockua
+SetEnvIfNoCase User-Agent "Dataprovider" blockua
+SetEnvIfNoCase User-Agent "datascape" blockua
+SetEnvIfNoCase User-Agent "datasift" blockua
+SetEnvIfNoCase User-Agent "DataSpearSpiderBot" blockua
+SetEnvIfNoCase User-Agent "DataSpider" blockua
+SetEnvIfNoCase User-Agent "DataXu" blockua
+SetEnvIfNoCase User-Agent "datenbank" blockua
+SetEnvIfNoCase User-Agent "datenbutler" blockua
+SetEnvIfNoCase User-Agent "Dattatec" blockua
+SetEnvIfNoCase User-Agent "Daum" blockua
+SetEnvIfNoCase User-Agent "DB DB2 ODBC" blockua
+SetEnvIfNoCase User-Agent "dcrawl" blockua
+SetEnvIfNoCase User-Agent "deadlinkchecker" blockua
+SetEnvIfNoCase User-Agent "DealGates" blockua
+SetEnvIfNoCase User-Agent "debugging" blockua
+SetEnvIfNoCase User-Agent "Declumbot" blockua
+SetEnvIfNoCase User-Agent "Deepindex" blockua
+SetEnvIfNoCase User-Agent "deepnet" blockua
+SetEnvIfNoCase User-Agent "DeepTrawl" blockua
+SetEnvIfNoCase User-Agent "dejan" blockua
+SetEnvIfNoCase User-Agent "del.icio.us-thumbnails" blockua
+SetEnvIfNoCase User-Agent "DELCO" blockua
+SetEnvIfNoCase User-Agent "DelvuBot" blockua
+SetEnvIfNoCase User-Agent "Der groﾃ歹 BilderSauger" blockua
+SetEnvIfNoCase User-Agent "Detection" blockua
+SetEnvIfNoCase User-Agent "detector" blockua
+SetEnvIfNoCase User-Agent "DeuSu" blockua
+SetEnvIfNoCase User-Agent "DFS-Fetch" blockua
+SetEnvIfNoCase User-Agent "DiaGem" blockua
+SetEnvIfNoCase User-Agent "diagnostics" blockua
+SetEnvIfNoCase User-Agent "Diamond" blockua
+SetEnvIfNoCase User-Agent "DiBot" blockua
+SetEnvIfNoCase User-Agent "didaxusbot" blockua
+SetEnvIfNoCase User-Agent "Diffbot" blockua
+SetEnvIfNoCase User-Agent "DigExt" blockua
+SetEnvIfNoCase User-Agent "Digg Deeper" blockua
+SetEnvIfNoCase User-Agent "Digger" blockua
+SetEnvIfNoCase User-Agent "DiGi-RSSBot" blockua
+SetEnvIfNoCase User-Agent "Digincore" blockua
+SetEnvIfNoCase User-Agent "DigitalArchivesBot" blockua
+SetEnvIfNoCase User-Agent "DigOut4U" blockua
+SetEnvIfNoCase User-Agent "DIIbot" blockua
+SetEnvIfNoCase User-Agent "Dillo" blockua
+SetEnvIfNoCase User-Agent "dimension" blockua
+SetEnvIfNoCase User-Agent "DirectFetcher" blockua
+SetEnvIfNoCase User-Agent "Directory" blockua
+SetEnvIfNoCase User-Agent "Dir_Snatch" blockua
+SetEnvIfNoCase User-Agent "DISCo Pump" blockua
+SetEnvIfNoCase User-Agent "discobot" blockua
+SetEnvIfNoCase User-Agent "DISCoFinder" blockua
+SetEnvIfNoCase User-Agent "Discordbot" blockua
+SetEnvIfNoCase User-Agent "Discover" blockua
+SetEnvIfNoCase User-Agent "discovery" blockua
+SetEnvIfNoCase User-Agent "Disqus" blockua
+SetEnvIfNoCase User-Agent "Distilled-Reputation-Monitor" blockua
+SetEnvIfNoCase User-Agent "Dit" blockua
+SetEnvIfNoCase User-Agent "DittoSpyder" blockua
+SetEnvIfNoCase User-Agent "DjangoTraineeBot" blockua
+SetEnvIfNoCase User-Agent "DKIMRepBot" blockua
+SetEnvIfNoCase User-Agent "dloader" blockua
+SetEnvIfNoCase User-Agent "DMOZ" blockua
+SetEnvIfNoCase User-Agent "DNSResearchBot" blockua
+SetEnvIfNoCase User-Agent "DnyzBot" blockua
+SetEnvIfNoCase User-Agent "DOF-Verify" blockua
+SetEnvIfNoCase User-Agent "Domain Re-Animator" blockua
+SetEnvIfNoCase User-Agent "DomainCrawler" blockua
+SetEnvIfNoCase User-Agent "domainreanimator" blockua
+SetEnvIfNoCase User-Agent "Domains Project" blockua
+SetEnvIfNoCase User-Agent "domainsbot" blockua
+SetEnvIfNoCase User-Agent "DomainScan" blockua
+SetEnvIfNoCase User-Agent "DomainStatsBot" blockua
+SetEnvIfNoCase User-Agent "DomainWatcher" blockua
+SetEnvIfNoCase User-Agent "dotbot" blockua
+SetEnvIfNoCase User-Agent "dotnetdotcom" blockua
+SetEnvIfNoCase User-Agent "DotSpotsBot" blockua
+SetEnvIfNoCase User-Agent "Dow Jones Searchbot" blockua
+SetEnvIfNoCase User-Agent "Download Demon" blockua
+SetEnvIfNoCase User-Agent "Download Devil" blockua
+SetEnvIfNoCase User-Agent "Download Master" blockua
+SetEnvIfNoCase User-Agent "Download Ninja" blockua
+SetEnvIfNoCase User-Agent "Download Wonder" blockua
+SetEnvIfNoCase User-Agent "Downloader" blockua
+SetEnvIfNoCase User-Agent "DOY" blockua
+SetEnvIfNoCase User-Agent "Dragonbot" blockua
+SetEnvIfNoCase User-Agent "dragonfly" blockua
+SetEnvIfNoCase User-Agent "dragonmetrics" blockua
+SetEnvIfNoCase User-Agent "Drecom" blockua
+SetEnvIfNoCase User-Agent "Drip" blockua
+SetEnvIfNoCase User-Agent "drone" blockua
+SetEnvIfNoCase User-Agent "drupact" blockua
+SetEnvIfNoCase User-Agent "Drupal" blockua
+SetEnvIfNoCase User-Agent "DTAAgent" blockua
+SetEnvIfNoCase User-Agent "dtSearchSpider" blockua
+SetEnvIfNoCase User-Agent "Dubbotbot" blockua
+SetEnvIfNoCase User-Agent "duedil" blockua
+SetEnvIfNoCase User-Agent "Dumbot" blockua
+SetEnvIfNoCase User-Agent "durato" blockua
+SetEnvIfNoCase User-Agent "Dwaar" blockua
+SetEnvIfNoCase User-Agent "Dwaarbot" blockua
+SetEnvIfNoCase User-Agent "DXSeeker" blockua
+SetEnvIfNoCase User-Agent "Dyslexalizer" blockua
+SetEnvIfNoCase User-Agent "Dyslexics" blockua
+SetEnvIfNoCase User-Agent "e-SocietyRobot" blockua
+SetEnvIfNoCase User-Agent "EAH" blockua
+SetEnvIfNoCase User-Agent "Earth Platform Indexer" blockua
+SetEnvIfNoCase User-Agent "Earth Science Educator" blockua
+SetEnvIfNoCase User-Agent "EARTHCOM" blockua
+SetEnvIfNoCase User-Agent "EasyDL" blockua
+SetEnvIfNoCase User-Agent "ebingbong" blockua
+SetEnvIfNoCase User-Agent "ec2linkfinder" blockua
+SetEnvIfNoCase User-Agent "eCairn-Grabber" blockua
+SetEnvIfNoCase User-Agent "eCatch" blockua
+SetEnvIfNoCase User-Agent "eChooseBot" blockua
+SetEnvIfNoCase User-Agent "edister" blockua
+SetEnvIfNoCase User-Agent "EduGovSearch" blockua
+SetEnvIfNoCase User-Agent "egothor" blockua
+SetEnvIfNoCase User-Agent "eidetica" blockua
+SetEnvIfNoCase User-Agent "EirGrabber" blockua
+SetEnvIfNoCase User-Agent "Elblindo the Blind" blockua
+SetEnvIfNoCase User-Agent "electricmonk" blockua
+SetEnvIfNoCase User-Agent "elisabot" blockua
+SetEnvIfNoCase User-Agent "EllerdaleBot" blockua
+SetEnvIfNoCase User-Agent "EMail Exractor" blockua
+SetEnvIfNoCase User-Agent "EmailCollector" blockua
+SetEnvIfNoCase User-Agent "EmailLeach" blockua
+SetEnvIfNoCase User-Agent "EmailSiphon" blockua
+SetEnvIfNoCase User-Agent "EmailWolf" blockua
+SetEnvIfNoCase User-Agent "Embedly" blockua
+SetEnvIfNoCase User-Agent "EMPAS_ROBOT" blockua
+SetEnvIfNoCase User-Agent "empty user agent string" blockua
+SetEnvIfNoCase User-Agent "EnaBot" blockua
+SetEnvIfNoCase User-Agent "endeca" blockua
+SetEnvIfNoCase User-Agent "EnigmaBot" blockua
+SetEnvIfNoCase User-Agent "Ensemble" blockua
+SetEnvIfNoCase User-Agent "Enswer Neuro" blockua
+SetEnvIfNoCase User-Agent "entireweb" blockua
+SetEnvIfNoCase User-Agent "EntityCubeBot" blockua
+SetEnvIfNoCase User-Agent "entries" blockua
+SetEnvIfNoCase User-Agent "Environment" blockua
+SetEnvIfNoCase User-Agent "epicbot" blockua
+SetEnvIfNoCase User-Agent "eright" blockua
+SetEnvIfNoCase User-Agent "EroCrawler" blockua
+SetEnvIfNoCase User-Agent "eStyleSearch" blockua
+SetEnvIfNoCase User-Agent "eSyndiCat" blockua
+SetEnvIfNoCase User-Agent "europarchive.org" blockua
+SetEnvIfNoCase User-Agent "Eurosoft-Bot" blockua
+SetEnvIfNoCase User-Agent "Evaal" blockua
+SetEnvIfNoCase User-Agent "evc-batch" blockua
+SetEnvIfNoCase User-Agent "Eventware" blockua
+SetEnvIfNoCase User-Agent "Everest-Vulcan" blockua
+SetEnvIfNoCase User-Agent "EveryoneSocialBot" blockua
+SetEnvIfNoCase User-Agent "Exabot" blockua
+SetEnvIfNoCase User-Agent "ExactSearch" blockua
+SetEnvIfNoCase User-Agent "exactseek" blockua
+SetEnvIfNoCase User-Agent "exensa" blockua
+SetEnvIfNoCase User-Agent "exif-search" blockua
+SetEnvIfNoCase User-Agent "exooba" blockua
+SetEnvIfNoCase User-Agent "Expanse" blockua
+SetEnvIfNoCase User-Agent "expanseinc" blockua
+SetEnvIfNoCase User-Agent "Experibot" blockua
+SetEnvIfNoCase User-Agent "experimenting" blockua
+SetEnvIfNoCase User-Agent "Exploder" blockua
+SetEnvIfNoCase User-Agent "Express WebPictures" blockua
+SetEnvIfNoCase User-Agent "external" blockua
+SetEnvIfNoCase User-Agent "ExtLinksBot" blockua
+SetEnvIfNoCase User-Agent "Extractor" blockua
+SetEnvIfNoCase User-Agent "EyeNetIE" blockua
+SetEnvIfNoCase User-Agent "Eyeotabot" blockua
+SetEnvIfNoCase User-Agent "ez-robot" blockua
+SetEnvIfNoCase User-Agent "EZID" blockua
+SetEnvIfNoCase User-Agent "ezooms" blockua
+SetEnvIfNoCase User-Agent "f-bot test pilot" blockua
+SetEnvIfNoCase User-Agent "Facebot" blockua
+SetEnvIfNoCase User-Agent "factbot" blockua
+SetEnvIfNoCase User-Agent "FairAd Client" blockua
+SetEnvIfNoCase User-Agent "falcon" blockua
+SetEnvIfNoCase User-Agent "FAST Data Search Document Retriever" blockua
+SetEnvIfNoCase User-Agent "FAST Enterprise Crawler" blockua
+SetEnvIfNoCase User-Agent "FAST ESP" blockua
+SetEnvIfNoCase User-Agent "fast-search-engine" blockua
+SetEnvIfNoCase User-Agent "FAST-WebCrawler" blockua
+SetEnvIfNoCase User-Agent "fastbot" blockua
+SetEnvIfNoCase User-Agent "fasthealth" blockua
+SetEnvIfNoCase User-Agent "Fastladder" blockua
+SetEnvIfNoCase User-Agent "Fatbot" blockua
+SetEnvIfNoCase User-Agent "Favcollector" blockua
+SetEnvIfNoCase User-Agent "Faviconizer" blockua
+SetEnvIfNoCase User-Agent "Favorites Sweeper" blockua
+SetEnvIfNoCase User-Agent "FDM" blockua
+SetEnvIfNoCase User-Agent "FDSE" blockua
+SetEnvIfNoCase User-Agent "FedContractorBot" blockua
+SetEnvIfNoCase User-Agent "fedoraplanet" blockua
+SetEnvIfNoCase User-Agent "Feed-Fetcher" blockua
+SetEnvIfNoCase User-Agent "feed-media" blockua
+SetEnvIfNoCase User-Agent "feedbot" blockua
+SetEnvIfNoCase User-Agent "FeedChecker" blockua
+SetEnvIfNoCase User-Agent "FeedDemon" blockua
+SetEnvIfNoCase User-Agent "feedhub" blockua
+SetEnvIfNoCase User-Agent "Feedly" blockua
+SetEnvIfNoCase User-Agent "Feedspot" blockua
+SetEnvIfNoCase User-Agent "FeedValidator" blockua
+SetEnvIfNoCase User-Agent "FeedWordPress" blockua
+SetEnvIfNoCase User-Agent "fembot" blockua
+SetEnvIfNoCase User-Agent "FemtosearchBot" blockua
+SetEnvIfNoCase User-Agent "Fenrir" blockua
+SetEnvIfNoCase User-Agent "Fetch API Request" blockua
+SetEnvIfNoCase User-Agent "fetch_ici" blockua
+SetEnvIfNoCase User-Agent "Fever" blockua
+SetEnvIfNoCase User-Agent "fgcrawler" blockua
+SetEnvIfNoCase User-Agent "Filangy" blockua
+SetEnvIfNoCase User-Agent "FileHound" blockua
+SetEnvIfNoCase User-Agent "filterdb.iss" blockua
+SetEnvIfNoCase User-Agent "FindAnISP" blockua
+SetEnvIfNoCase User-Agent "FindITAnswersbot" blockua
+SetEnvIfNoCase User-Agent "findlink" blockua
+SetEnvIfNoCase User-Agent "findthatfile" blockua
+SetEnvIfNoCase User-Agent "FindWeb" blockua
+SetEnvIfNoCase User-Agent "findxbot" blockua
+SetEnvIfNoCase User-Agent "Firebat" blockua
+SetEnvIfNoCase User-Agent "FirstGov.gov Search" blockua
+SetEnvIfNoCase User-Agent "FirstPage" blockua
+SetEnvIfNoCase User-Agent "Flaming AttackBot" blockua
+SetEnvIfNoCase User-Agent "Flamingo_SearchEngine" blockua
+SetEnvIfNoCase User-Agent "FlashCapture" blockua
+SetEnvIfNoCase User-Agent "FlashGet" blockua
+SetEnvIfNoCase User-Agent "flatlandbot" blockua
+SetEnvIfNoCase User-Agent "Flax" blockua
+SetEnvIfNoCase User-Agent "FlickySearchBot" blockua
+SetEnvIfNoCase User-Agent "FlipboardProxy" blockua
+SetEnvIfNoCase User-Agent "fluffy" blockua
+SetEnvIfNoCase User-Agent "flunky" blockua
+SetEnvIfNoCase User-Agent "fly" blockua
+SetEnvIfNoCase User-Agent "focused_crawler" blockua
+SetEnvIfNoCase User-Agent "FollowSite" blockua
+SetEnvIfNoCase User-Agent "Foobot" blockua
+SetEnvIfNoCase User-Agent "Fooooo_Web_Video_Crawl" blockua
+SetEnvIfNoCase User-Agent "Fopper" blockua
+SetEnvIfNoCase User-Agent "ForDomain" blockua
+SetEnvIfNoCase User-Agent "Forest Conservation" blockua
+SetEnvIfNoCase User-Agent "Forests.org Spider" blockua
+SetEnvIfNoCase User-Agent "FormulaFinderBot" blockua
+SetEnvIfNoCase User-Agent "Forschungsportal" blockua
+SetEnvIfNoCase User-Agent "FoxTails" blockua
+SetEnvIfNoCase User-Agent "fr-crawler" blockua
+SetEnvIfNoCase User-Agent "Francis" blockua
+SetEnvIfNoCase User-Agent "freerss" blockua
+SetEnvIfNoCase User-Agent "FreeWeb" blockua
+SetEnvIfNoCase User-Agent "FreeWebMonitoring" blockua
+SetEnvIfNoCase User-Agent "FreshDownload" blockua
+SetEnvIfNoCase User-Agent "freshlinks" blockua
+SetEnvIfNoCase User-Agent "FreshReader" blockua
+SetEnvIfNoCase User-Agent "FreshRSS" blockua
+SetEnvIfNoCase User-Agent "FriendFeedBot" blockua
+SetEnvIfNoCase User-Agent "Friendica" blockua
+SetEnvIfNoCase User-Agent "frodo.at" blockua
+SetEnvIfNoCase User-Agent "froGgle" blockua
+SetEnvIfNoCase User-Agent "FrontPage" blockua
+SetEnvIfNoCase User-Agent "Froola" blockua
+SetEnvIfNoCase User-Agent "fr_crawler" blockua
+SetEnvIfNoCase User-Agent "FU-NBI" blockua
+SetEnvIfNoCase User-Agent "fuelbot" blockua
+SetEnvIfNoCase User-Agent "full_breadth_crawler" blockua
+SetEnvIfNoCase User-Agent "FunBot" blockua
+SetEnvIfNoCase User-Agent "FunnelBack" blockua
+SetEnvIfNoCase User-Agent "FurlBot" blockua
+SetEnvIfNoCase User-Agent "Fyrebot" blockua
+SetEnvIfNoCase User-Agent "g00g1e" blockua
+SetEnvIfNoCase User-Agent "G10" blockua
+SetEnvIfNoCase User-Agent "G2 Web Services" blockua
+SetEnvIfNoCase User-Agent "g2llc" blockua
+SetEnvIfNoCase User-Agent "g2reader" blockua
+SetEnvIfNoCase User-Agent "g2reader-bot" blockua
+SetEnvIfNoCase User-Agent "g2webservices" blockua
+SetEnvIfNoCase User-Agent "Gaisbot" blockua
+SetEnvIfNoCase User-Agent "GalaxyBot" blockua
+SetEnvIfNoCase User-Agent "GarlikCrawler" blockua
+SetEnvIfNoCase User-Agent "gazz" blockua
+SetEnvIfNoCase User-Agent "generate_infomine_category_classifiers" blockua
+SetEnvIfNoCase User-Agent "genevabot" blockua
+SetEnvIfNoCase User-Agent "genieBot" blockua
+SetEnvIfNoCase User-Agent "GenieBotRD_SmallCrawl" blockua
+SetEnvIfNoCase User-Agent "Genieo" blockua
+SetEnvIfNoCase User-Agent "Geomaxenginebot" blockua
+SetEnvIfNoCase User-Agent "geometabot" blockua
+SetEnvIfNoCase User-Agent "GeonaBot" blockua
+SetEnvIfNoCase User-Agent "GeoVisu" blockua
+SetEnvIfNoCase User-Agent "GetHTML" blockua
+SetEnvIfNoCase User-Agent "GetHTMLContents" blockua
+SetEnvIfNoCase User-Agent "GetIntent" blockua
+SetEnvIfNoCase User-Agent "Getleft" blockua
+SetEnvIfNoCase User-Agent "GetRight" blockua
+SetEnvIfNoCase User-Agent "GetSmart" blockua
+SetEnvIfNoCase User-Agent "GetURL" blockua
+SetEnvIfNoCase User-Agent "GetWeb" blockua
+SetEnvIfNoCase User-Agent "Giant" blockua
+SetEnvIfNoCase User-Agent "Gigablast" blockua
+SetEnvIfNoCase User-Agent "Gigabot" blockua
+SetEnvIfNoCase User-Agent "GingerCrawler" blockua
+SetEnvIfNoCase User-Agent "gingersoftware" blockua
+SetEnvIfNoCase User-Agent "Girafabot" blockua
+SetEnvIfNoCase User-Agent "GleameBot" blockua
+SetEnvIfNoCase User-Agent "Gluten" blockua
+SetEnvIfNoCase User-Agent "gnam gnam spider" blockua
+SetEnvIfNoCase User-Agent "gnome-vfs" blockua
+SetEnvIfNoCase User-Agent "GnowitNewsbot" blockua
+SetEnvIfNoCase User-Agent "Go!Zilla" blockua
+SetEnvIfNoCase User-Agent "Go-Ahead-Got-It" blockua
+SetEnvIfNoCase User-Agent "Go-http-client" blockua
+SetEnvIfNoCase User-Agent "go-resty" blockua
+SetEnvIfNoCase User-Agent "GoForIt" blockua
+SetEnvIfNoCase User-Agent "GOFORITBOT" blockua
+SetEnvIfNoCase User-Agent "golang" blockua
+SetEnvIfNoCase User-Agent "gold crawler" blockua
+SetEnvIfNoCase User-Agent "Goldfire Server" blockua
+SetEnvIfNoCase User-Agent "Golem" blockua
+SetEnvIfNoCase User-Agent "GoodJelly" blockua
+SetEnvIfNoCase User-Agent "Gordon-College" blockua
+SetEnvIfNoCase User-Agent "goroam" blockua
+SetEnvIfNoCase User-Agent "GoSeebot" blockua
+SetEnvIfNoCase User-Agent "gotit" blockua
+SetEnvIfNoCase User-Agent "Govbot" blockua
+SetEnvIfNoCase User-Agent "Gowikibot" blockua
+SetEnvIfNoCase User-Agent "GPU p2p" blockua
+SetEnvIfNoCase User-Agent "Grabber" blockua
+SetEnvIfNoCase User-Agent "GrabNet" blockua
+SetEnvIfNoCase User-Agent "Grafula" blockua
+SetEnvIfNoCase User-Agent "grapeFX" blockua
+SetEnvIfNoCase User-Agent "grapeshot" blockua
+SetEnvIfNoCase User-Agent "grbot" blockua
+SetEnvIfNoCase User-Agent "GreatNews" blockua
+SetEnvIfNoCase User-Agent "GreenYogi" blockua
+SetEnvIfNoCase User-Agent "Gregarius" blockua
+SetEnvIfNoCase User-Agent "Grobbot" blockua
+SetEnvIfNoCase User-Agent "Gromit" blockua
+SetEnvIfNoCase User-Agent "GroupHigh" blockua
+SetEnvIfNoCase User-Agent "grub crawler" blockua
+SetEnvIfNoCase User-Agent "grub-client" blockua
+SetEnvIfNoCase User-Agent "grub.org" blockua
+SetEnvIfNoCase User-Agent "Grubclient" blockua
+SetEnvIfNoCase User-Agent "GrubNG" blockua
+SetEnvIfNoCase User-Agent "GruBot" blockua
+SetEnvIfNoCase User-Agent "gsa-accuracyEval" blockua
+SetEnvIfNoCase User-Agent "gsa-crawler" blockua
+SetEnvIfNoCase User-Agent "gsa-eusleg" blockua
+SetEnvIfNoCase User-Agent "gslfbot" blockua
+SetEnvIfNoCase User-Agent "guess" blockua
+SetEnvIfNoCase User-Agent "Gulliver" blockua
+SetEnvIfNoCase User-Agent "GulperBot" blockua
+SetEnvIfNoCase User-Agent "GumGum-Bot" blockua
+SetEnvIfNoCase User-Agent "Gunosy" blockua
+SetEnvIfNoCase User-Agent "GurujiBot" blockua
+SetEnvIfNoCase User-Agent "GVC BUSINESS" blockua
+SetEnvIfNoCase User-Agent "GVC crawler" blockua
+SetEnvIfNoCase User-Agent "GVC SEARCH BOT" blockua
+SetEnvIfNoCase User-Agent "GVC WEB crawler" blockua
+SetEnvIfNoCase User-Agent "GVC Weblink crawler" blockua
+SetEnvIfNoCase User-Agent "GVC WORLD LINKS" blockua
+SetEnvIfNoCase User-Agent "gvcbot" blockua
+SetEnvIfNoCase User-Agent "Gwene" blockua
+SetEnvIfNoCase User-Agent "hanrss" blockua
+SetEnvIfNoCase User-Agent "hao123" blockua
+SetEnvIfNoCase User-Agent "Haosou" blockua
+SetEnvIfNoCase User-Agent "happy" blockua
+SetEnvIfNoCase User-Agent "Harvest" blockua
+SetEnvIfNoCase User-Agent "Hawler" blockua
+SetEnvIfNoCase User-Agent "haxx" blockua
+SetEnvIfNoCase User-Agent "hcat" blockua
+SetEnvIfNoCase User-Agent "hclsreport-crawler" blockua
+SetEnvIfNoCase User-Agent "HD nutch agent" blockua
+SetEnvIfNoCase User-Agent "Header_Test_Client" blockua
+SetEnvIfNoCase User-Agent "HeadlessChrome" blockua
+SetEnvIfNoCase User-Agent "healia" blockua
+SetEnvIfNoCase User-Agent "Helix" blockua
+SetEnvIfNoCase User-Agent "helsinki" blockua
+SetEnvIfNoCase User-Agent "here will be link to crawler site" blockua
+SetEnvIfNoCase User-Agent "heritrix" blockua
+SetEnvIfNoCase User-Agent "hh204496" blockua
+SetEnvIfNoCase User-Agent "hijbul-heritrix-crawler" blockua
+SetEnvIfNoCase User-Agent "HiScan" blockua
+SetEnvIfNoCase User-Agent "HiSoftware AccMonitor Server" blockua
+SetEnvIfNoCase User-Agent "HiSoftware AccVerify" blockua
+SetEnvIfNoCase User-Agent "hitcrawler" blockua
+SetEnvIfNoCase User-Agent "hivaBot" blockua
+SetEnvIfNoCase User-Agent "hloader" blockua
+SetEnvIfNoCase User-Agent "HMSEbot" blockua
+SetEnvIfNoCase User-Agent "HMView" blockua
+SetEnvIfNoCase User-Agent "hoge" blockua
+SetEnvIfNoCase User-Agent "holmes" blockua
+SetEnvIfNoCase User-Agent "HomePageSearch" blockua
+SetEnvIfNoCase User-Agent "Hooblybot-Image" blockua
+SetEnvIfNoCase User-Agent "HooWWWer" blockua
+SetEnvIfNoCase User-Agent "Hostcrawler" blockua
+SetEnvIfNoCase User-Agent "hoyer" blockua
+SetEnvIfNoCase User-Agent "HSFT - Link Scanner" blockua
+SetEnvIfNoCase User-Agent "HSFT - LVU Scanner" blockua
+SetEnvIfNoCase User-Agent "HSlide" blockua
+SetEnvIfNoCase User-Agent "ht://check" blockua
+SetEnvIfNoCase User-Agent "htdig" blockua
+SetEnvIfNoCase User-Agent "Html Link Validator" blockua
+SetEnvIfNoCase User-Agent "HTMLParser" blockua
+SetEnvIfNoCase User-Agent "httplib" blockua
+SetEnvIfNoCase User-Agent "httpunit" blockua
+SetEnvIfNoCase User-Agent "HttpUrlConnection" blockua
+SetEnvIfNoCase User-Agent "httpx" blockua
+SetEnvIfNoCase User-Agent "http_get" blockua
+SetEnvIfNoCase User-Agent "HTTrack" blockua
+SetEnvIfNoCase User-Agent "Huaweisymantecspider" blockua
+SetEnvIfNoCase User-Agent "HubSpot" blockua
+SetEnvIfNoCase User-Agent "hul-wax" blockua
+SetEnvIfNoCase User-Agent "humanlinks" blockua
+SetEnvIfNoCase User-Agent "huntsman" blockua
+SetEnvIfNoCase User-Agent "hypefactors" blockua
+SetEnvIfNoCase User-Agent "HyperEstraier" blockua
+SetEnvIfNoCase User-Agent "Hyperix" blockua
+SetEnvIfNoCase User-Agent "i586" blockua
+SetEnvIfNoCase User-Agent "IAArchiver" blockua
+SetEnvIfNoCase User-Agent "IABot" blockua
+SetEnvIfNoCase User-Agent "IABTechLab" blockua
+SetEnvIfNoCase User-Agent "IAS crawler" blockua
+SetEnvIfNoCase User-Agent "ias-sg" blockua
+SetEnvIfNoCase User-Agent "ia_archiver" blockua
+SetEnvIfNoCase User-Agent "ibuena" blockua
+SetEnvIfNoCase User-Agent "iCab" blockua
+SetEnvIfNoCase User-Agent "ICBot" blockua
+SetEnvIfNoCase User-Agent "ICC-Crawler" blockua
+SetEnvIfNoCase User-Agent "icccrawler" blockua
+SetEnvIfNoCase User-Agent "ICDS-Ingestion" blockua
+SetEnvIfNoCase User-Agent "Iceweasel" blockua
+SetEnvIfNoCase User-Agent "ichiro" blockua
+SetEnvIfNoCase User-Agent "iCopyright" blockua
+SetEnvIfNoCase User-Agent "ideasandcode" blockua
+SetEnvIfNoCase User-Agent "IEAutoDiscovery" blockua
+SetEnvIfNoCase User-Agent "IECheck" blockua
+SetEnvIfNoCase User-Agent "iHWebChecker" blockua
+SetEnvIfNoCase User-Agent "IIITBOT" blockua
+SetEnvIfNoCase User-Agent "iim_405" blockua
+SetEnvIfNoCase User-Agent "IlseBot" blockua
+SetEnvIfNoCase User-Agent "Iltrovatore" blockua
+SetEnvIfNoCase User-Agent "Image Stripper" blockua
+SetEnvIfNoCase User-Agent "Image Sucker" blockua
+SetEnvIfNoCase User-Agent "ImageBot" blockua
+SetEnvIfNoCase User-Agent "ImageCache" blockua
+SetEnvIfNoCase User-Agent "imagefortress" blockua
+SetEnvIfNoCase User-Agent "ImageResizer" blockua
+SetEnvIfNoCase User-Agent "ImagesHereImagesThereImagesEverywhere" blockua
+SetEnvIfNoCase User-Agent "ImageVisu" blockua
+SetEnvIfNoCase User-Agent "imcs" blockua
+SetEnvIfNoCase User-Agent "imds_monitor" blockua
+SetEnvIfNoCase User-Agent "imo-google-robot-intelink" blockua
+SetEnvIfNoCase User-Agent "Impact Radius Compliance" blockua
+SetEnvIfNoCase User-Agent "imrbot" blockua
+SetEnvIfNoCase User-Agent "InAGist" blockua
+SetEnvIfNoCase User-Agent "IndeedBot" blockua
+SetEnvIfNoCase User-Agent "Indexer" blockua
+SetEnvIfNoCase User-Agent "indexing" blockua
+SetEnvIfNoCase User-Agent "indexpert" blockua
+SetEnvIfNoCase User-Agent "Individuals" blockua
+SetEnvIfNoCase User-Agent "Industry Cortex Webcrawler" blockua
+SetEnvIfNoCase User-Agent "Indy Library" blockua
+SetEnvIfNoCase User-Agent "Indy-Library" blockua
+SetEnvIfNoCase User-Agent "indylabs_marius" blockua
+SetEnvIfNoCase User-Agent "InelaBot" blockua
+SetEnvIfNoCase User-Agent "Inet32 Ctrl" blockua
+SetEnvIfNoCase User-Agent "inetbot" blockua
+SetEnvIfNoCase User-Agent "infegy" blockua
+SetEnvIfNoCase User-Agent "influentials" blockua
+SetEnvIfNoCase User-Agent "info seeker" blockua
+SetEnvIfNoCase User-Agent "InfoLink" blockua
+SetEnvIfNoCase User-Agent "infomaker" blockua
+SetEnvIfNoCase User-Agent "INFOMINE" blockua
+SetEnvIfNoCase User-Agent "infomine.ucr.edu" blockua
+SetEnvIfNoCase User-Agent "InfoNaviRobot" blockua
+SetEnvIfNoCase User-Agent "infoobot" blockua
+SetEnvIfNoCase User-Agent "Informant" blockua
+SetEnvIfNoCase User-Agent "informatik" blockua
+SetEnvIfNoCase User-Agent "Infoseek" blockua
+SetEnvIfNoCase User-Agent "InfoTekies" blockua
+SetEnvIfNoCase User-Agent "InfoUSABot" blockua
+SetEnvIfNoCase User-Agent "INGRID" blockua
+SetEnvIfNoCase User-Agent "Inktomi" blockua
+SetEnvIfNoCase User-Agent "InsightsCollector" blockua
+SetEnvIfNoCase User-Agent "InsightsWorksBot" blockua
+SetEnvIfNoCase User-Agent "InspireBot" blockua
+SetEnvIfNoCase User-Agent "instructions" blockua
+SetEnvIfNoCase User-Agent "InsumaScout" blockua
+SetEnvIfNoCase User-Agent "integralads" blockua
+SetEnvIfNoCase User-Agent "integromedb" blockua
+SetEnvIfNoCase User-Agent "intelium_bot" blockua
+SetEnvIfNoCase User-Agent "Intelix" blockua
+SetEnvIfNoCase User-Agent "Intelligence" blockua
+SetEnvIfNoCase User-Agent "Intelliseek" blockua
+SetEnvIfNoCase User-Agent "InterfaxScanBot" blockua
+SetEnvIfNoCase User-Agent "InterGET" blockua
+SetEnvIfNoCase User-Agent "internal dummy connection" blockua
+SetEnvIfNoCase User-Agent "Internet Ninja" blockua
+SetEnvIfNoCase User-Agent "INTERNET RADIO crawler" blockua
+SetEnvIfNoCase User-Agent "internetarchive" blockua
+SetEnvIfNoCase User-Agent "InternetLinkAgent" blockua
+SetEnvIfNoCase User-Agent "internetseer" blockua
+SetEnvIfNoCase User-Agent "Interseek" blockua
+SetEnvIfNoCase User-Agent "Intraformant" blockua
+SetEnvIfNoCase User-Agent "intranet" blockua
+SetEnvIfNoCase User-Agent "invalid-url" blockua
+SetEnvIfNoCase User-Agent "IOBot" blockua
+SetEnvIfNoCase User-Agent "IOI" blockua
+SetEnvIfNoCase User-Agent "ip-web-crawler.com" blockua
+SetEnvIfNoCase User-Agent "ip1" blockua
+SetEnvIfNoCase User-Agent "IPAdd Bot" blockua
+SetEnvIfNoCase User-Agent "ips-agent" blockua
+SetEnvIfNoCase User-Agent "IpselonBot" blockua
+SetEnvIfNoCase User-Agent "Iria" blockua
+SetEnvIfNoCase User-Agent "IRLbot" blockua
+SetEnvIfNoCase User-Agent "Iron33" blockua
+SetEnvIfNoCase User-Agent "Isara" blockua
+SetEnvIfNoCase User-Agent "iSearch" blockua
+SetEnvIfNoCase User-Agent "iSiloX" blockua
+SetEnvIfNoCase User-Agent "iskanie" blockua
+SetEnvIfNoCase User-Agent "ISP_Finder" blockua
+SetEnvIfNoCase User-Agent "istellabot" blockua
+SetEnvIfNoCase User-Agent "it2media-domain-crawler" blockua
+SetEnvIfNoCase User-Agent "its-learning crawler" blockua
+SetEnvIfNoCase User-Agent "IU_CSCI_B659_class" blockua
+SetEnvIfNoCase User-Agent "iVia Page Fetcher" blockua
+SetEnvIfNoCase User-Agent "iVia Site Checker" blockua
+SetEnvIfNoCase User-Agent "iVia" blockua
+SetEnvIfNoCase User-Agent "JadynAve" blockua
+SetEnvIfNoCase User-Agent "Jakarta" blockua
+SetEnvIfNoCase User-Agent "James BOT" blockua
+SetEnvIfNoCase User-Agent "Jamie's Spider" blockua
+SetEnvIfNoCase User-Agent "jamiembrown" blockua
+SetEnvIfNoCase User-Agent "Jbot" blockua
+SetEnvIfNoCase User-Agent "Jeeves" blockua
+SetEnvIfNoCase User-Agent "JemmaTheTourist" blockua
+SetEnvIfNoCase User-Agent "JennyBot" blockua
+SetEnvIfNoCase User-Agent "jet-bot" blockua
+SetEnvIfNoCase User-Agent "Jetbot" blockua
+SetEnvIfNoCase User-Agent "JetBrains Omea" blockua
+SetEnvIfNoCase User-Agent "JetCar" blockua
+SetEnvIfNoCase User-Agent "Jetslide" blockua
+SetEnvIfNoCase User-Agent "Jetty" blockua
+SetEnvIfNoCase User-Agent "Jim" blockua
+SetEnvIfNoCase User-Agent "JobboerseBot" blockua
+SetEnvIfNoCase User-Agent "JoBo" blockua
+SetEnvIfNoCase User-Agent "JobSpider" blockua
+SetEnvIfNoCase User-Agent "JOC Web Spider" blockua
+SetEnvIfNoCase User-Agent "JoeDog" blockua
+SetEnvIfNoCase User-Agent "Jooblebot" blockua
+SetEnvIfNoCase User-Agent "Jorgee" blockua
+SetEnvIfNoCase User-Agent "JoyScapeBot" blockua
+SetEnvIfNoCase User-Agent "jpg-newsbot" blockua
+SetEnvIfNoCase User-Agent "jp_viewer" blockua
+SetEnvIfNoCase User-Agent "JSpyda" blockua
+SetEnvIfNoCase User-Agent "Jugendschutzprogramm" blockua
+SetEnvIfNoCase User-Agent "Junut" blockua
+SetEnvIfNoCase User-Agent "JustView" blockua
+SetEnvIfNoCase User-Agent "jyxobot" blockua
+SetEnvIfNoCase User-Agent "K.S.Bot" blockua
+SetEnvIfNoCase User-Agent "k7computing" blockua
+SetEnvIfNoCase User-Agent "K7MLWCBot" blockua
+SetEnvIfNoCase User-Agent "KakcleBot" blockua
+SetEnvIfNoCase User-Agent "kalapala" blockua
+SetEnvIfNoCase User-Agent "kalooga" blockua
+SetEnvIfNoCase User-Agent "karussell" blockua
+SetEnvIfNoCase User-Agent "KATATUDO-Spider" blockua
+SetEnvIfNoCase User-Agent "Kaus" blockua
+SetEnvIfNoCase User-Agent "kbeta1" blockua
+SetEnvIfNoCase User-Agent "KeepNI web site monitor" blockua
+SetEnvIfNoCase User-Agent "Kemvibot" blockua
+SetEnvIfNoCase User-Agent "Kenjin.Spider" blockua
+SetEnvIfNoCase User-Agent "Keybot Translation-Search-Machine" blockua
+SetEnvIfNoCase User-Agent "KeywenBot" blockua
+SetEnvIfNoCase User-Agent "Keyword Density" blockua
+SetEnvIfNoCase User-Agent "kinjabot" blockua
+SetEnvIfNoCase User-Agent "kirk" blockua
+SetEnvIfNoCase User-Agent "Kitenga-crawler-bot" blockua
+SetEnvIfNoCase User-Agent "KiwiStatus" blockua
+SetEnvIfNoCase User-Agent "kmbot" blockua
+SetEnvIfNoCase User-Agent "kmccrew Bot Search" blockua
+SetEnvIfNoCase User-Agent "Knight" blockua
+SetEnvIfNoCase User-Agent "KnowItAll" blockua
+SetEnvIfNoCase User-Agent "Knowledge AI" blockua
+SetEnvIfNoCase User-Agent "Knowledge Engine" blockua
+SetEnvIfNoCase User-Agent "Knowledge.com" blockua
+SetEnvIfNoCase User-Agent "kocka" blockua
+SetEnvIfNoCase User-Agent "KoepaBot" blockua
+SetEnvIfNoCase User-Agent "Koninklijke" blockua
+SetEnvIfNoCase User-Agent "KosmioBot" blockua
+SetEnvIfNoCase User-Agent "KrOWLer" blockua
+SetEnvIfNoCase User-Agent "KSbot" blockua
+SetEnvIfNoCase User-Agent "kuloko-bot" blockua
+SetEnvIfNoCase User-Agent "kulturarw3" blockua
+SetEnvIfNoCase User-Agent "KummHttp" blockua
+SetEnvIfNoCase User-Agent "Kurzor" blockua
+SetEnvIfNoCase User-Agent "Kyluka" blockua
+SetEnvIfNoCase User-Agent "L.webis" blockua
+SetEnvIfNoCase User-Agent "Labhoo" blockua
+SetEnvIfNoCase User-Agent "labourunions" blockua
+SetEnvIfNoCase User-Agent "Lachesis" blockua
+SetEnvIfNoCase User-Agent "Lament" blockua
+SetEnvIfNoCase User-Agent "LamerExterminator" blockua
+SetEnvIfNoCase User-Agent "Landau-Media-Spider" blockua
+SetEnvIfNoCase User-Agent "landaumedia" blockua
+SetEnvIfNoCase User-Agent "LapozzBot" blockua
+SetEnvIfNoCase User-Agent "larbin" blockua
+SetEnvIfNoCase User-Agent "LARBIN-EXPERIMENTAL" blockua
+SetEnvIfNoCase User-Agent "Laserlikebot" blockua
+SetEnvIfNoCase User-Agent "lb-spider" blockua
+SetEnvIfNoCase User-Agent "LBot" blockua
+SetEnvIfNoCase User-Agent "LCC" blockua
+SetEnvIfNoCase User-Agent "leadcrunch" blockua
+SetEnvIfNoCase User-Agent "LeapTag" blockua
+SetEnvIfNoCase User-Agent "LeechFTP" blockua
+SetEnvIfNoCase User-Agent "LeechGet" blockua
+SetEnvIfNoCase User-Agent "legaldeposit" blockua
+SetEnvIfNoCase User-Agent "Leikibot" blockua
+SetEnvIfNoCase User-Agent "leipzig" blockua
+SetEnvIfNoCase User-Agent "LetsCrawl.com" blockua
+SetEnvIfNoCase User-Agent "LexiBot" blockua
+SetEnvIfNoCase User-Agent "LexxeBot" blockua
+SetEnvIfNoCase User-Agent "lftp" blockua
+SetEnvIfNoCase User-Agent "libcrawl" blockua
+SetEnvIfNoCase User-Agent "libiViaCore" blockua
+SetEnvIfNoCase User-Agent "librabot" blockua
+SetEnvIfNoCase User-Agent "libWeb" blockua
+SetEnvIfNoCase User-Agent "libwww" blockua
+SetEnvIfNoCase User-Agent "libwww-perl" blockua
+SetEnvIfNoCase User-Agent "liferea" blockua
+SetEnvIfNoCase User-Agent "likse" blockua
+SetEnvIfNoCase User-Agent "lily" blockua
+SetEnvIfNoCase User-Agent "line-poker" blockua
+SetEnvIfNoCase User-Agent "Linespider" blockua
+SetEnvIfNoCase User-Agent "Linguee" blockua
+SetEnvIfNoCase User-Agent "Link Checker" blockua
+SetEnvIfNoCase User-Agent "Link Scout" blockua
+SetEnvIfNoCase User-Agent "Link Validator" blockua
+SetEnvIfNoCase User-Agent "LinkAlarm" blockua
+SetEnvIfNoCase User-Agent "linkapediabot" blockua
+SetEnvIfNoCase User-Agent "LinkArchiver" blockua
+SetEnvIfNoCase User-Agent "Linkbot" blockua
+SetEnvIfNoCase User-Agent "LinkCheck" blockua
+SetEnvIfNoCase User-Agent "linkdex" blockua
+SetEnvIfNoCase User-Agent "LinkedInBot" blockua
+SetEnvIfNoCase User-Agent "Linkextractor" blockua
+SetEnvIfNoCase User-Agent "linkfluence" blockua
+SetEnvIfNoCase User-Agent "LinkisBot" blockua
+SetEnvIfNoCase User-Agent "LinkLint" blockua
+SetEnvIfNoCase User-Agent "linklooker" blockua
+SetEnvIfNoCase User-Agent "Linkman" blockua
+SetEnvIfNoCase User-Agent "LinkpadBot" blockua
+SetEnvIfNoCase User-Agent "Links SQL" blockua
+SetEnvIfNoCase User-Agent "LinkScan" blockua
+SetEnvIfNoCase User-Agent "LinksManager" blockua
+SetEnvIfNoCase User-Agent "LinkSweeper" blockua
+SetEnvIfNoCase User-Agent "LinkWalker" blockua
+SetEnvIfNoCase User-Agent "link_checker" blockua
+SetEnvIfNoCase User-Agent "lipperhey" blockua
+SetEnvIfNoCase User-Agent "LiteFinder" blockua
+SetEnvIfNoCase User-Agent "LitlrBot" blockua
+SetEnvIfNoCase User-Agent "Little Grabber" blockua
+SetEnvIfNoCase User-Agent "Live.Com" blockua
+SetEnvIfNoCase User-Agent "livedoor" blockua
+SetEnvIfNoCase User-Agent "Livelapbot" blockua
+SetEnvIfNoCase User-Agent "LM Harvester" blockua
+SetEnvIfNoCase User-Agent "LMQueueBot" blockua
+SetEnvIfNoCase User-Agent "LNSpiderguy" blockua
+SetEnvIfNoCase User-Agent "LoadTimeBot" blockua
+SetEnvIfNoCase User-Agent "LocalcomBot" blockua
+SetEnvIfNoCase User-Agent "locust" blockua
+SetEnvIfNoCase User-Agent "logly" blockua
+SetEnvIfNoCase User-Agent "LolongBot" blockua
+SetEnvIfNoCase User-Agent "LookBot" blockua
+SetEnvIfNoCase User-Agent "lookseek" blockua
+SetEnvIfNoCase User-Agent "Lsearch" blockua
+SetEnvIfNoCase User-Agent "lssbot" blockua
+SetEnvIfNoCase User-Agent "lssrocketcrawler" blockua
+SetEnvIfNoCase User-Agent "LT Scotland Checklink" blockua
+SetEnvIfNoCase User-Agent "ltx71" blockua
+SetEnvIfNoCase User-Agent "lucene" blockua
+SetEnvIfNoCase User-Agent "Luminator-robots" blockua
+SetEnvIfNoCase User-Agent "LWP" blockua
+SetEnvIfNoCase User-Agent "Lycos_Spider" blockua
+SetEnvIfNoCase User-Agent "Lydia Entity Spider" blockua
+SetEnvIfNoCase User-Agent "LynnBot" blockua
+SetEnvIfNoCase User-Agent "Lytranslate" blockua
+SetEnvIfNoCase User-Agent "Mag-Net" blockua
+SetEnvIfNoCase User-Agent "Magnet" blockua
+SetEnvIfNoCase User-Agent "magpie" blockua
+SetEnvIfNoCase User-Agent "Magus" blockua
+SetEnvIfNoCase User-Agent "Mail.Ru" blockua
+SetEnvIfNoCase User-Agent "MAINSEEK_BOT" blockua
+SetEnvIfNoCase User-Agent "Majestic" blockua
+SetEnvIfNoCase User-Agent "Mammoth" blockua
+SetEnvIfNoCase User-Agent "ManicTime" blockua
+SetEnvIfNoCase User-Agent "Map robot" blockua
+SetEnvIfNoCase User-Agent "Mappy" blockua
+SetEnvIfNoCase User-Agent "marco" blockua
+SetEnvIfNoCase User-Agent "MarkWatch" blockua
+SetEnvIfNoCase User-Agent "Masagool" blockua
+SetEnvIfNoCase User-Agent "masidani_bot" blockua
+SetEnvIfNoCase User-Agent "Mass Downloader" blockua
+SetEnvIfNoCase User-Agent "masscan" blockua
+SetEnvIfNoCase User-Agent "Mastodon" blockua
+SetEnvIfNoCase User-Agent "Mata.Hari" blockua
+SetEnvIfNoCase User-Agent "matentzn at cs dot man dot ac dot uk" blockua
+SetEnvIfNoCase User-Agent "MauiBot" blockua
+SetEnvIfNoCase User-Agent "maxamine.com--robot" blockua
+SetEnvIfNoCase User-Agent "maxamine.com-robot" blockua
+SetEnvIfNoCase User-Agent "maxomobot" blockua
+SetEnvIfNoCase User-Agent "MBCrawler" blockua
+SetEnvIfNoCase User-Agent "mcafee" blockua
+SetEnvIfNoCase User-Agent "McBot" blockua
+SetEnvIfNoCase User-Agent "Mediatoolkitbot" blockua
+SetEnvIfNoCase User-Agent "media_cooperation" blockua
+SetEnvIfNoCase User-Agent "medrabbit" blockua
+SetEnvIfNoCase User-Agent "MegaIndex" blockua
+SetEnvIfNoCase User-Agent "Megalodon" blockua
+SetEnvIfNoCase User-Agent "MEGAUPLOAD" blockua
+SetEnvIfNoCase User-Agent "Megite" blockua
+SetEnvIfNoCase User-Agent "MelonBot" blockua
+SetEnvIfNoCase User-Agent "MeltwaterNews" blockua
+SetEnvIfNoCase User-Agent "MemacBot" blockua
+SetEnvIfNoCase User-Agent "Memo" blockua
+SetEnvIfNoCase User-Agent "memorybot" blockua
+SetEnvIfNoCase User-Agent "MendeleyBot" blockua
+SetEnvIfNoCase User-Agent "Mercator" blockua
+SetEnvIfNoCase User-Agent "mercuryboard_user_agent_sql_injection.nasl" blockua
+SetEnvIfNoCase User-Agent "MetaBot" blockua
+SetEnvIfNoCase User-Agent "metacarta" blockua
+SetEnvIfNoCase User-Agent "metadatalabs" blockua
+SetEnvIfNoCase User-Agent "Metaeuro Web Search" blockua
+SetEnvIfNoCase User-Agent "Metager2" blockua
+SetEnvIfNoCase User-Agent "MetaGloss" blockua
+SetEnvIfNoCase User-Agent "MetaJobBot" blockua
+SetEnvIfNoCase User-Agent "metal crawler" blockua
+SetEnvIfNoCase User-Agent "metaquerier.cs.uiuc.edu" blockua
+SetEnvIfNoCase User-Agent "Metasearch" blockua
+SetEnvIfNoCase User-Agent "METASpider" blockua
+SetEnvIfNoCase User-Agent "Metaspinner" blockua
+SetEnvIfNoCase User-Agent "MetaURI" blockua
+SetEnvIfNoCase User-Agent "Metrika" blockua
+SetEnvIfNoCase User-Agent "MFcrawler" blockua
+SetEnvIfNoCase User-Agent "MFHttpScan" blockua
+SetEnvIfNoCase User-Agent "mgmt" blockua
+SetEnvIfNoCase User-Agent "mhoy" blockua
+SetEnvIfNoCase User-Agent "MicroAdBot" blockua
+SetEnvIfNoCase User-Agent "microdata" blockua
+SetEnvIfNoCase User-Agent "Microsoft Office Protocol" blockua
+SetEnvIfNoCase User-Agent "Microsoft URL Control" blockua
+SetEnvIfNoCase User-Agent "Microsoft.URL" blockua
+SetEnvIfNoCase User-Agent "MIDown tool" blockua
+SetEnvIfNoCase User-Agent "mignify" blockua
+SetEnvIfNoCase User-Agent "MIIxpc" blockua
+SetEnvIfNoCase User-Agent "mindUpBot" blockua
+SetEnvIfNoCase User-Agent "mini-robot" blockua
+SetEnvIfNoCase User-Agent "minibot" blockua
+SetEnvIfNoCase User-Agent "minicrawler" blockua
+SetEnvIfNoCase User-Agent "Miniflux" blockua
+SetEnvIfNoCase User-Agent "miniRank" blockua
+SetEnvIfNoCase User-Agent "Mirror" blockua
+SetEnvIfNoCase User-Agent "Missigua Locator" blockua
+SetEnvIfNoCase User-Agent "Mister PiX" blockua
+SetEnvIfNoCase User-Agent "Mister.PiX" blockua
+SetEnvIfNoCase User-Agent "Miva" blockua
+SetEnvIfNoCase User-Agent "mixdata" blockua
+SetEnvIfNoCase User-Agent "Mixfeed" blockua
+SetEnvIfNoCase User-Agent "mixi" blockua
+SetEnvIfNoCase User-Agent "MixnodeCache" blockua
+SetEnvIfNoCase User-Agent "MixrankBot" blockua
+SetEnvIfNoCase User-Agent "MJ12bot" blockua
+SetEnvIfNoCase User-Agent "MLBot" blockua
+SetEnvIfNoCase User-Agent "mnoGoSearch" blockua
+SetEnvIfNoCase User-Agent "moatbot" blockua
+SetEnvIfNoCase User-Agent "moba-crawler" blockua
+SetEnvIfNoCase User-Agent "MobileScreen" blockua
+SetEnvIfNoCase User-Agent "modiphi" blockua
+SetEnvIfNoCase User-Agent "Modiphibot" blockua
+SetEnvIfNoCase User-Agent "moduna.com" blockua
+SetEnvIfNoCase User-Agent "mod_accessibility" blockua
+SetEnvIfNoCase User-Agent "moget" blockua
+SetEnvIfNoCase User-Agent "mogimogi" blockua
+SetEnvIfNoCase User-Agent "MojeekBot" blockua
+SetEnvIfNoCase User-Agent "Monitor Controller" blockua
+SetEnvIfNoCase User-Agent "monitorbacklinks" blockua
+SetEnvIfNoCase User-Agent "Monitoring" blockua
+SetEnvIfNoCase User-Agent "MonkeyCrawl" blockua
+SetEnvIfNoCase User-Agent "MoodleBot" blockua
+SetEnvIfNoCase User-Agent "Moreover" blockua
+SetEnvIfNoCase User-Agent "MOSES" blockua
+SetEnvIfNoCase User-Agent "mowserbot" blockua
+SetEnvIfNoCase User-Agent "MQbot" blockua
+SetEnvIfNoCase User-Agent "MS Search 5.0 Robot" blockua
+SetEnvIfNoCase User-Agent "MSE360" blockua
+SetEnvIfNoCase User-Agent "MSFrontPage" blockua
+SetEnvIfNoCase User-Agent "MSIECrawler" blockua
+SetEnvIfNoCase User-Agent "MSIndianWebcrawl" blockua
+SetEnvIfNoCase User-Agent "MSMOBOT" blockua
+SetEnvIfNoCase User-Agent "msnbot" blockua
+SetEnvIfNoCase User-Agent "MSNPTC" blockua
+SetEnvIfNoCase User-Agent "MSR-ISRCCrawler" blockua
+SetEnvIfNoCase User-Agent "msrbot" blockua
+SetEnvIfNoCase User-Agent "MT-Soft" blockua
+SetEnvIfNoCase User-Agent "MuckRack" blockua
+SetEnvIfNoCase User-Agent "muhstik-scan" blockua
+SetEnvIfNoCase User-Agent "MultiText" blockua
+SetEnvIfNoCase User-Agent "Multiviewbot" blockua
+SetEnvIfNoCase User-Agent "my-heritrix-crawler" blockua
+SetEnvIfNoCase User-Agent "MyApp" blockua
+SetEnvIfNoCase User-Agent "mycompany" blockua
+SetEnvIfNoCase User-Agent "mycrawler" blockua
+SetEnvIfNoCase User-Agent "MyEngines-US-Bot" blockua
+SetEnvIfNoCase User-Agent "MyFamilyBot" blockua
+SetEnvIfNoCase User-Agent "Myra" blockua
+SetEnvIfNoCase User-Agent "My_Little_SearchEngine_Project" blockua
+SetEnvIfNoCase User-Agent "nabot" blockua
+SetEnvIfNoCase User-Agent "nagios-plugins" blockua
+SetEnvIfNoCase User-Agent "Najdi" blockua
+SetEnvIfNoCase User-Agent "Nambu" blockua
+SetEnvIfNoCase User-Agent "NAMEPROTECT" blockua
+SetEnvIfNoCase User-Agent "napoveda" blockua
+SetEnvIfNoCase User-Agent "NASA Search" blockua
+SetEnvIfNoCase User-Agent "NatchCVS" blockua
+SetEnvIfNoCase User-Agent "National Park Service Dan Buan" blockua
+SetEnvIfNoCase User-Agent "natweb-bad-link-mailer" blockua
+SetEnvIfNoCase User-Agent "Naver" blockua
+SetEnvIfNoCase User-Agent "Navroad" blockua
+SetEnvIfNoCase User-Agent "ndl-japan-warp" blockua
+SetEnvIfNoCase User-Agent "NearSite" blockua
+SetEnvIfNoCase User-Agent "NEC-MeshExplorer" blockua
+SetEnvIfNoCase User-Agent "NeoScioCrawler" blockua
+SetEnvIfNoCase User-Agent "NerdByNature" blockua
+SetEnvIfNoCase User-Agent "NerdyBot" blockua
+SetEnvIfNoCase User-Agent "Nerima-crawl" blockua
+SetEnvIfNoCase User-Agent "NESSUS" blockua
+SetEnvIfNoCase User-Agent "nestReader" blockua
+SetEnvIfNoCase User-Agent "Net Vampire" blockua
+SetEnvIfNoCase User-Agent "Net::Trackback" blockua
+SetEnvIfNoCase User-Agent "NetAnts" blockua
+SetEnvIfNoCase User-Agent "netarkivet" blockua
+SetEnvIfNoCase User-Agent "netasbot" blockua
+SetEnvIfNoCase User-Agent "NetCarta" blockua
+SetEnvIfNoCase User-Agent "Netcraft" blockua
+SetEnvIfNoCase User-Agent "netEstate" blockua
+SetEnvIfNoCase User-Agent "Neticle" blockua
+SetEnvIfNoCase User-Agent "NetID" blockua
+SetEnvIfNoCase User-Agent "NetMechanic" blockua
+SetEnvIfNoCase User-Agent "Netprospector" blockua
+SetEnvIfNoCase User-Agent "netresearchserver" blockua
+SetEnvIfNoCase User-Agent "NetSeer" blockua
+SetEnvIfNoCase User-Agent "NetShift" blockua
+SetEnvIfNoCase User-Agent "NetSongBot" blockua
+SetEnvIfNoCase User-Agent "Netsparker" blockua
+SetEnvIfNoCase User-Agent "NetSpider" blockua
+SetEnvIfNoCase User-Agent "NetSrcherP" blockua
+SetEnvIfNoCase User-Agent "Netvibes" blockua
+SetEnvIfNoCase User-Agent "NetZIP" blockua
+SetEnvIfNoCase User-Agent "NewMedhunt" blockua
+SetEnvIfNoCase User-Agent "news bot" blockua
+SetEnvIfNoCase User-Agent "Newsclip" blockua
+SetEnvIfNoCase User-Agent "NewsFire" blockua
+SetEnvIfNoCase User-Agent "NewsFox" blockua
+SetEnvIfNoCase User-Agent "NewsGatherer" blockua
+SetEnvIfNoCase User-Agent "NewsGator" blockua
+SetEnvIfNoCase User-Agent "NewsGlue" blockua
+SetEnvIfNoCase User-Agent "Newsgroupreporter" blockua
+SetEnvIfNoCase User-Agent "newsharecounts" blockua
+SetEnvIfNoCase User-Agent "newspaper" blockua
+SetEnvIfNoCase User-Agent "NewsTroveBot" blockua
+SetEnvIfNoCase User-Agent "newswire" blockua
+SetEnvIfNoCase User-Agent "News_Search_App" blockua
+SetEnvIfNoCase User-Agent "NextCloud" blockua
+SetEnvIfNoCase User-Agent "NextGenSearchBot" blockua
+SetEnvIfNoCase User-Agent "nextthing.org" blockua
+SetEnvIfNoCase User-Agent "nicebot" blockua
+SetEnvIfNoCase User-Agent "NICErsPRO" blockua
+SetEnvIfNoCase User-Agent "nict" blockua
+SetEnvIfNoCase User-Agent "nifty" blockua
+SetEnvIfNoCase User-Agent "niki-bot" blockua
+SetEnvIfNoCase User-Agent "NimbleCrawler" blockua
+SetEnvIfNoCase User-Agent "Nimbostratus-Bot" blockua
+SetEnvIfNoCase User-Agent "nimbus" blockua
+SetEnvIfNoCase User-Agent "ninetowns" blockua
+SetEnvIfNoCase User-Agent "NING" blockua
+SetEnvIfNoCase User-Agent "NINJA" blockua
+SetEnvIfNoCase User-Agent "NIXStatsbot" blockua
+SetEnvIfNoCase User-Agent "NjuiceBot" blockua
+SetEnvIfNoCase User-Agent "NLESE" blockua
+SetEnvIfNoCase User-Agent "Nmap Scripting Engine" blockua
+SetEnvIfNoCase User-Agent "NodeBot" blockua
+SetEnvIfNoCase User-Agent "Nogate" blockua
+SetEnvIfNoCase User-Agent "Norbert" blockua
+SetEnvIfNoCase User-Agent "NoteworthyBot" blockua
+SetEnvIfNoCase User-Agent "no_user_agent" blockua
+SetEnvIfNoCase User-Agent "NPBot" blockua
+SetEnvIfNoCase User-Agent "NRCan" blockua
+SetEnvIfNoCase User-Agent "NSDL_Search_Bot" blockua
+SetEnvIfNoCase User-Agent "NTENTbot" blockua
+SetEnvIfNoCase User-Agent "nuggetize" blockua
+SetEnvIfNoCase User-Agent "nuSearch" blockua
+SetEnvIfNoCase User-Agent "Nutch" blockua
+SetEnvIfNoCase User-Agent "Nuzzel" blockua
+SetEnvIfNoCase User-Agent "Nu_tch" blockua
+SetEnvIfNoCase User-Agent "nu_tch-princeton" blockua
+SetEnvIfNoCase User-Agent "NWSpider" blockua
+SetEnvIfNoCase User-Agent "Nymesis" blockua
+SetEnvIfNoCase User-Agent "nys-crawler" blockua
+SetEnvIfNoCase User-Agent "NYU" blockua
+SetEnvIfNoCase User-Agent "ObjectsSearch" blockua
+SetEnvIfNoCase User-Agent "oBot" blockua
+SetEnvIfNoCase User-Agent "Obvius" blockua
+SetEnvIfNoCase User-Agent "Ocarinabot" blockua
+SetEnvIfNoCase User-Agent "Ocelli" blockua
+SetEnvIfNoCase User-Agent "Octoparse" blockua
+SetEnvIfNoCase User-Agent "Octopus" blockua
+SetEnvIfNoCase User-Agent "ODP" blockua
+SetEnvIfNoCase User-Agent "oegp" blockua
+SetEnvIfNoCase User-Agent "officestorebot" blockua
+SetEnvIfNoCase User-Agent "Offline Explorer" blockua
+SetEnvIfNoCase User-Agent "Offline Navigator" blockua
+SetEnvIfNoCase User-Agent "Offline.Explorer" blockua
+SetEnvIfNoCase User-Agent "Offline.Navigator" blockua
+SetEnvIfNoCase User-Agent "OGspider" blockua
+SetEnvIfNoCase User-Agent "okhttp" blockua
+SetEnvIfNoCase User-Agent "OLE" blockua
+SetEnvIfNoCase User-Agent "omgili" blockua
+SetEnvIfNoCase User-Agent "OmiExplorer" blockua
+SetEnvIfNoCase User-Agent "OmniExplorer" blockua
+SetEnvIfNoCase User-Agent "OmniFind" blockua
+SetEnvIfNoCase User-Agent "OmniWeb" blockua
+SetEnvIfNoCase User-Agent "Onespot" blockua
+SetEnvIfNoCase User-Agent "OnetSzukaj" blockua
+SetEnvIfNoCase User-Agent "online link validator" blockua
+SetEnvIfNoCase User-Agent "online-webceo-bot" blockua
+SetEnvIfNoCase User-Agent "OntoDB" blockua
+SetEnvIfNoCase User-Agent "OOZBOT" blockua
+SetEnvIfNoCase User-Agent "open-source" blockua
+SetEnvIfNoCase User-Agent "Openbot" blockua
+SetEnvIfNoCase User-Agent "Openfind" blockua
+SetEnvIfNoCase User-Agent "OpenHoseBot" blockua
+SetEnvIfNoCase User-Agent "openindexspider" blockua
+SetEnvIfNoCase User-Agent "OpenIntelligenceData" blockua
+SetEnvIfNoCase User-Agent "OpenISearch" blockua
+SetEnvIfNoCase User-Agent "OpenLink Virtuoso" blockua
+SetEnvIfNoCase User-Agent "OpenLinkProfiler" blockua
+SetEnvIfNoCase User-Agent "OpenSearchServer" blockua
+SetEnvIfNoCase User-Agent "OpenSource" blockua
+SetEnvIfNoCase User-Agent "OpiDig" blockua
+SetEnvIfNoCase User-Agent "OppO" blockua
+SetEnvIfNoCase User-Agent "optidiscover" blockua
+SetEnvIfNoCase User-Agent "Oracle Secure Enterprise" blockua
+SetEnvIfNoCase User-Agent "Oracle Ultra" blockua
+SetEnvIfNoCase User-Agent "orange-ftgroup" blockua
+SetEnvIfNoCase User-Agent "OrangeBot" blockua
+SetEnvIfNoCase User-Agent "ORISBot" blockua
+SetEnvIfNoCase User-Agent "ornl_crawler" blockua
+SetEnvIfNoCase User-Agent "ORNL_Mercury" blockua
+SetEnvIfNoCase User-Agent "osis-project" blockua
+SetEnvIfNoCase User-Agent "OsO" blockua
+SetEnvIfNoCase User-Agent "our-crawler" blockua
+SetEnvIfNoCase User-Agent "outbrain" blockua
+SetEnvIfNoCase User-Agent "OutclicksBot" blockua
+SetEnvIfNoCase User-Agent "Outfox" blockua
+SetEnvIfNoCase User-Agent "Outlook" blockua
+SetEnvIfNoCase User-Agent "overleaf" blockua
+SetEnvIfNoCase User-Agent "OWLER-BOT" blockua
+SetEnvIfNoCase User-Agent "owsBot" blockua
+SetEnvIfNoCase User-Agent "ozelot" blockua
+SetEnvIfNoCase User-Agent "P3P Client" blockua
+SetEnvIfNoCase User-Agent "page2rss" blockua
+SetEnvIfNoCase User-Agent "PageBitesHyper" blockua
+SetEnvIfNoCase User-Agent "Pagebull" blockua
+SetEnvIfNoCase User-Agent "Pagechecker" blockua
+SetEnvIfNoCase User-Agent "PageDown" blockua
+SetEnvIfNoCase User-Agent "PageFetcher" blockua
+SetEnvIfNoCase User-Agent "PageGetter" blockua
+SetEnvIfNoCase User-Agent "PageGrabber" blockua
+SetEnvIfNoCase User-Agent "PagePeeker" blockua
+SetEnvIfNoCase User-Agent "PageRank Monitor" blockua
+SetEnvIfNoCase User-Agent "page_verifier" blockua
+SetEnvIfNoCase User-Agent "pamsnbot.htm" blockua
+SetEnvIfNoCase User-Agent "Pandalytics" blockua
+SetEnvIfNoCase User-Agent "Panopy" blockua
+SetEnvIfNoCase User-Agent "panscient" blockua
+SetEnvIfNoCase User-Agent "Pansophica" blockua
+SetEnvIfNoCase User-Agent "Papa Foto" blockua
+SetEnvIfNoCase User-Agent "PaperLiBot" blockua
+SetEnvIfNoCase User-Agent "parasite" blockua
+SetEnvIfNoCase User-Agent "Parser" blockua
+SetEnvIfNoCase User-Agent "parsijoo" blockua
+SetEnvIfNoCase User-Agent "partager" blockua
+SetEnvIfNoCase User-Agent "partner-deep" blockua
+SetEnvIfNoCase User-Agent "Pathtraq" blockua
+SetEnvIfNoCase User-Agent "Pattern" blockua
+SetEnvIfNoCase User-Agent "Patwebbot" blockua
+SetEnvIfNoCase User-Agent "pavuk" blockua
+SetEnvIfNoCase User-Agent "PaxleFramework" blockua
+SetEnvIfNoCase User-Agent "PBBOT" blockua
+SetEnvIfNoCase User-Agent "pcBrowser" blockua
+SetEnvIfNoCase User-Agent "Pcore-HTTP" blockua
+SetEnvIfNoCase User-Agent "pd-crawler" blockua
+SetEnvIfNoCase User-Agent "PEAR" blockua
+SetEnvIfNoCase User-Agent "penthesila" blockua
+SetEnvIfNoCase User-Agent "People" blockua
+SetEnvIfNoCase User-Agent "perform_crawl" blockua
+SetEnvIfNoCase User-Agent "PerMan" blockua
+SetEnvIfNoCase User-Agent "personal ultimate" blockua
+SetEnvIfNoCase User-Agent "PetalBot" blockua
+SetEnvIfNoCase User-Agent "Peter" blockua
+SetEnvIfNoCase User-Agent "pge" blockua
+SetEnvIfNoCase User-Agent "phanendra" blockua
+SetEnvIfNoCase User-Agent "Phantom" blockua
+SetEnvIfNoCase User-Agent "PHP version tracker" blockua
+SetEnvIfNoCase User-Agent "PHP-Curl-Class" blockua
+SetEnvIfNoCase User-Agent "PHPCrawl" blockua
+SetEnvIfNoCase User-Agent "PhpDig" blockua
+SetEnvIfNoCase User-Agent "PicoSearch" blockua
+SetEnvIfNoCase User-Agent "picsearch" blockua
+SetEnvIfNoCase User-Agent "PIENO" blockua
+SetEnvIfNoCase User-Agent "Pingdom" blockua
+SetEnvIfNoCase User-Agent "Pinterest" blockua
+SetEnvIfNoCase User-Agent "pipBot" blockua
+SetEnvIfNoCase User-Agent "pipeLiner" blockua
+SetEnvIfNoCase User-Agent "PiplBot" blockua
+SetEnvIfNoCase User-Agent "Pita" blockua
+SetEnvIfNoCase User-Agent "pitypacka" blockua
+SetEnvIfNoCase User-Agent "pixfinder" blockua
+SetEnvIfNoCase User-Agent "PiyushBot" blockua
+SetEnvIfNoCase User-Agent "Plagger" blockua
+SetEnvIfNoCase User-Agent "plaNETWORK" blockua
+SetEnvIfNoCase User-Agent "Plucker" blockua
+SetEnvIfNoCase User-Agent "Plukkie" blockua
+SetEnvIfNoCase User-Agent "Plumtree" blockua
+SetEnvIfNoCase User-Agent "PlurkBot" blockua
+SetEnvIfNoCase User-Agent "Pocket" blockua
+SetEnvIfNoCase User-Agent "Pockey" blockua
+SetEnvIfNoCase User-Agent "PoCoHTTP" blockua
+SetEnvIfNoCase User-Agent "Pogodak" blockua
+SetEnvIfNoCase User-Agent "Poirot" blockua
+SetEnvIfNoCase User-Agent "polybot" blockua
+SetEnvIfNoCase User-Agent "Pompos" blockua
+SetEnvIfNoCase User-Agent "ponkan" blockua
+SetEnvIfNoCase User-Agent "Poodle" blockua
+SetEnvIfNoCase User-Agent "PopScreenBot" blockua
+SetEnvIfNoCase User-Agent "Portuguxeas" blockua
+SetEnvIfNoCase User-Agent "PostmanRuntime" blockua
+SetEnvIfNoCase User-Agent "PostPost" blockua
+SetEnvIfNoCase User-Agent "postrank" blockua
+SetEnvIfNoCase User-Agent "PR-CY.RU" blockua
+SetEnvIfNoCase User-Agent "predictor" blockua
+SetEnvIfNoCase User-Agent "prefbot" blockua
+SetEnvIfNoCase User-Agent "Primalbot" blockua
+SetEnvIfNoCase User-Agent "PrivacyAwareBot" blockua
+SetEnvIfNoCase User-Agent "PrivacyFinder" blockua
+SetEnvIfNoCase User-Agent "problems" blockua
+SetEnvIfNoCase User-Agent "profound" blockua
+SetEnvIfNoCase User-Agent "ProjectWF-java-test-crawler" blockua
+SetEnvIfNoCase User-Agent "ProPowerBot" blockua
+SetEnvIfNoCase User-Agent "Protopage" blockua
+SetEnvIfNoCase User-Agent "ProWebWalker" blockua
+SetEnvIfNoCase User-Agent "Proxem WebSearch" blockua
+SetEnvIfNoCase User-Agent "proximic" blockua
+SetEnvIfNoCase User-Agent "PROXY crawler" blockua
+SetEnvIfNoCase User-Agent "psbot" blockua
+SetEnvIfNoCase User-Agent "PSS-Bot" blockua
+SetEnvIfNoCase User-Agent "psycheclone" blockua
+SetEnvIfNoCase User-Agent "PTST" blockua
+SetEnvIfNoCase User-Agent "pub-crawler" blockua
+SetEnvIfNoCase User-Agent "Publisher" blockua
+SetEnvIfNoCase User-Agent "PubMatic" blockua
+SetEnvIfNoCase User-Agent "pubsub" blockua
+SetEnvIfNoCase User-Agent "pucl" blockua
+SetEnvIfNoCase User-Agent "PulpFiction" blockua
+SetEnvIfNoCase User-Agent "pulse Web Miner" blockua
+SetEnvIfNoCase User-Agent "pulseBot" blockua
+SetEnvIfNoCase User-Agent "Pulsepoint" blockua
+SetEnvIfNoCase User-Agent "Pump" blockua
+SetEnvIfNoCase User-Agent "purebot" blockua
+SetEnvIfNoCase User-Agent "PWeBot" blockua
+SetEnvIfNoCase User-Agent "PyExalead" blockua
+SetEnvIfNoCase User-Agent "python-requests" blockua
+SetEnvIfNoCase User-Agent "Python-urllib" blockua
+SetEnvIfNoCase User-Agent "pythonic-crawler" blockua
+SetEnvIfNoCase User-Agent "PythonWikipediaBot" blockua
+SetEnvIfNoCase User-Agent "pyxis" blockua
+SetEnvIfNoCase User-Agent "q1" blockua
+SetEnvIfNoCase User-Agent "QEAVis" blockua
+SetEnvIfNoCase User-Agent "QFKBot" blockua
+SetEnvIfNoCase User-Agent "QQBrowser" blockua
+SetEnvIfNoCase User-Agent "qualidade" blockua
+SetEnvIfNoCase User-Agent "Qualidator" blockua
+SetEnvIfNoCase User-Agent "Quantcastbot" blockua
+SetEnvIfNoCase User-Agent "QuepasaCreep" blockua
+SetEnvIfNoCase User-Agent "QueryN" blockua
+SetEnvIfNoCase User-Agent "quest" blockua
+SetEnvIfNoCase User-Agent "Quintura-Crw" blockua
+SetEnvIfNoCase User-Agent "QunarBot" blockua
+SetEnvIfNoCase User-Agent "Qwant" blockua
+SetEnvIfNoCase User-Agent "Qweery" blockua
+SetEnvIfNoCase User-Agent "QweeryBot" blockua
+SetEnvIfNoCase User-Agent "r2iBot" blockua
+SetEnvIfNoCase User-Agent "R6_CommentReader" blockua
+SetEnvIfNoCase User-Agent "R6_FeedFetcher" blockua
+SetEnvIfNoCase User-Agent "R6_VoteReader" blockua
+SetEnvIfNoCase User-Agent "RaBot" blockua
+SetEnvIfNoCase User-Agent "Radian6" blockua
+SetEnvIfNoCase User-Agent "Radiation" blockua
+SetEnvIfNoCase User-Agent "ramonkcom" blockua
+SetEnvIfNoCase User-Agent "RAMPyBot" blockua
+SetEnvIfNoCase User-Agent "ranchero" blockua
+SetEnvIfNoCase User-Agent "RankActiveLinkBot" blockua
+SetEnvIfNoCase User-Agent "Rankur" blockua
+SetEnvIfNoCase User-Agent "Rational" blockua
+SetEnvIfNoCase User-Agent "rawdog" blockua
+SetEnvIfNoCase User-Agent "RCA" blockua
+SetEnvIfNoCase User-Agent "RcStartBot" blockua
+SetEnvIfNoCase User-Agent "RDF crawler" blockua
+SetEnvIfNoCase User-Agent "RealDownload" blockua
+SetEnvIfNoCase User-Agent "Reaper" blockua
+SetEnvIfNoCase User-Agent "REBI-Shoveler" blockua
+SetEnvIfNoCase User-Agent "Recon" blockua
+SetEnvIfNoCase User-Agent "Recorder" blockua
+SetEnvIfNoCase User-Agent "RedBot" blockua
+SetEnvIfNoCase User-Agent "RedCarpet" blockua
+SetEnvIfNoCase User-Agent "redditbot" blockua
+SetEnvIfNoCase User-Agent "Redirector" blockua
+SetEnvIfNoCase User-Agent "Refindbot" blockua
+SetEnvIfNoCase User-Agent "ReGet" blockua
+SetEnvIfNoCase User-Agent "region" blockua
+SetEnvIfNoCase User-Agent "RegionStuttgartBot" blockua
+SetEnvIfNoCase User-Agent "relaunch" blockua
+SetEnvIfNoCase User-Agent "renderbot" blockua
+SetEnvIfNoCase User-Agent "renlifangbot" blockua
+SetEnvIfNoCase User-Agent "RepoMonkey" blockua
+SetEnvIfNoCase User-Agent "request" blockua
+SetEnvIfNoCase User-Agent "research robot" blockua
+SetEnvIfNoCase User-Agent "Researchscan" blockua
+SetEnvIfNoCase User-Agent "resources" blockua
+SetEnvIfNoCase User-Agent "RetrevoPageAnalyzer" blockua
+SetEnvIfNoCase User-Agent "Retriever" blockua
+SetEnvIfNoCase User-Agent "rexx" blockua
+SetEnvIfNoCase User-Agent "RidderBot" blockua
+SetEnvIfNoCase User-Agent "Riddler" blockua
+SetEnvIfNoCase User-Agent "RIIGHT" blockua
+SetEnvIfNoCase User-Agent "RiseNetBot" blockua
+SetEnvIfNoCase User-Agent "RiverGlassScanner" blockua
+SetEnvIfNoCase User-Agent "Rivva" blockua
+SetEnvIfNoCase User-Agent "rjpower" blockua
+SetEnvIfNoCase User-Agent "RMA" blockua
+SetEnvIfNoCase User-Agent "RoboPal" blockua
+SetEnvIfNoCase User-Agent "Robosourcer" blockua
+SetEnvIfNoCase User-Agent "robot identified" blockua
+SetEnvIfNoCase User-Agent "robotek" blockua
+SetEnvIfNoCase User-Agent "robotgenius" blockua
+SetEnvIfNoCase User-Agent "roboto" blockua
+SetEnvIfNoCase User-Agent "robots" blockua
+SetEnvIfNoCase User-Agent "Robozilla" blockua
+SetEnvIfNoCase User-Agent "rogerbot" blockua
+SetEnvIfNoCase User-Agent "Rogue" blockua
+SetEnvIfNoCase User-Agent "rojo" blockua
+SetEnvIfNoCase User-Agent "Rome Client" blockua
+SetEnvIfNoCase User-Agent "Rondello" blockua
+SetEnvIfNoCase User-Agent "Rotondo" blockua
+SetEnvIfNoCase User-Agent "Roverbot" blockua
+SetEnvIfNoCase User-Agent "RPT-HTTPClient" blockua
+SetEnvIfNoCase User-Agent "RSiteAuditor" blockua
+SetEnvIfNoCase User-Agent "rss-bot" blockua
+SetEnvIfNoCase User-Agent "RssBar" blockua
+SetEnvIfNoCase User-Agent "rssbot" blockua
+SetEnvIfNoCase User-Agent "rssguide" blockua
+SetEnvIfNoCase User-Agent "RSSingBot" blockua
+SetEnvIfNoCase User-Agent "rssmicro" blockua
+SetEnvIfNoCase User-Agent "RSSOwl" blockua
+SetEnvIfNoCase User-Agent "rtgibot" blockua
+SetEnvIfNoCase User-Agent "RufusBot" blockua
+SetEnvIfNoCase User-Agent "runnk" blockua
+SetEnvIfNoCase User-Agent "Runtime" blockua
+SetEnvIfNoCase User-Agent "RustRssBot" blockua
+SetEnvIfNoCase User-Agent "RyteBot" blockua
+SetEnvIfNoCase User-Agent "S2Bot" blockua
+SetEnvIfNoCase User-Agent "SafariBookmarkChecker" blockua
+SetEnvIfNoCase User-Agent "safeassign" blockua
+SetEnvIfNoCase User-Agent "SafeDNSBot" blockua
+SetEnvIfNoCase User-Agent "SafeSearch" blockua
+SetEnvIfNoCase User-Agent "SafetyNet" blockua
+SetEnvIfNoCase User-Agent "SaladSpoon" blockua
+SetEnvIfNoCase User-Agent "Sapienti" blockua
+SetEnvIfNoCase User-Agent "SapphireWebCrawler" blockua
+SetEnvIfNoCase User-Agent "sbibusiness" blockua
+SetEnvIfNoCase User-Agent "SBIder" blockua
+SetEnvIfNoCase User-Agent "SBL-BOT" blockua
+SetEnvIfNoCase User-Agent "SBooksNet" blockua
+SetEnvIfNoCase User-Agent "scanbot" blockua
+SetEnvIfNoCase User-Agent "scaninfo" blockua
+SetEnvIfNoCase User-Agent "Scanner" blockua
+SetEnvIfNoCase User-Agent "SCFCrawler" blockua
+SetEnvIfNoCase User-Agent "Schibsted" blockua
+SetEnvIfNoCase User-Agent "schmorp" blockua
+SetEnvIfNoCase User-Agent "Scich" blockua
+SetEnvIfNoCase User-Agent "ScientificCommons" blockua
+SetEnvIfNoCase User-Agent "scirus" blockua
+SetEnvIfNoCase User-Agent "ScollSpider" blockua
+SetEnvIfNoCase User-Agent "ScooperBot" blockua
+SetEnvIfNoCase User-Agent "Scooter" blockua
+SetEnvIfNoCase User-Agent "ScoutJet" blockua
+SetEnvIfNoCase User-Agent "ScrapeBox" blockua
+SetEnvIfNoCase User-Agent "Scraper" blockua
+SetEnvIfNoCase User-Agent "Scrapy" blockua
+SetEnvIfNoCase User-Agent "SCrawlTest" blockua
+SetEnvIfNoCase User-Agent "Screaming" blockua
+SetEnvIfNoCase User-Agent "ScreenshotBot" blockua
+SetEnvIfNoCase User-Agent "scribd" blockua
+SetEnvIfNoCase User-Agent "scritch" blockua
+SetEnvIfNoCase User-Agent "Scrubby" blockua
+SetEnvIfNoCase User-Agent "scSpider" blockua
+SetEnvIfNoCase User-Agent "Scumbot" blockua
+SetEnvIfNoCase User-Agent "search x-bot" blockua
+SetEnvIfNoCase User-Agent "Search-Channel" blockua
+SetEnvIfNoCase User-Agent "Search-Engine-Studio" blockua
+SetEnvIfNoCase User-Agent "Search-hp" blockua
+SetEnvIfNoCase User-Agent "search-overview" blockua
+SetEnvIfNoCase User-Agent "search.KumKie" blockua
+SetEnvIfNoCase User-Agent "search.msn" blockua
+SetEnvIfNoCase User-Agent "search.updated" blockua
+SetEnvIfNoCase User-Agent "search.usgs.gov" blockua
+SetEnvIfNoCase User-Agent "search2" blockua
+SetEnvIfNoCase User-Agent "Searcharoo.NET" blockua
+SetEnvIfNoCase User-Agent "SearchAtlas" blockua
+SetEnvIfNoCase User-Agent "SearchBlox" blockua
+SetEnvIfNoCase User-Agent "searchbot" blockua
+SetEnvIfNoCase User-Agent "searchengine" blockua
+SetEnvIfNoCase User-Agent "searchhippo" blockua
+SetEnvIfNoCase User-Agent "SearchIt" blockua
+SetEnvIfNoCase User-Agent "searchmarking" blockua
+SetEnvIfNoCase User-Agent "searchmarks" blockua
+SetEnvIfNoCase User-Agent "Searchmee" blockua
+SetEnvIfNoCase User-Agent "searchmining" blockua
+SetEnvIfNoCase User-Agent "SearchnowBot" blockua
+SetEnvIfNoCase User-Agent "searchpreview" blockua
+SetEnvIfNoCase User-Agent "SearchShop" blockua
+SetEnvIfNoCase User-Agent "SearchSpider" blockua
+SetEnvIfNoCase User-Agent "SearQuBot" blockua
+SetEnvIfNoCase User-Agent "SEB Spider" blockua
+SetEnvIfNoCase User-Agent "SecurityResearch" blockua
+SetEnvIfNoCase User-Agent "seekbot" blockua
+SetEnvIfNoCase User-Agent "seekda" blockua
+SetEnvIfNoCase User-Agent "Seeker" blockua
+SetEnvIfNoCase User-Agent "Seekport" blockua
+SetEnvIfNoCase User-Agent "SeeqBot" blockua
+SetEnvIfNoCase User-Agent "seeqpod" blockua
+SetEnvIfNoCase User-Agent "seewithkids" blockua
+SetEnvIfNoCase User-Agent "Selflinkchecker" blockua
+SetEnvIfNoCase User-Agent "Semager" blockua
+SetEnvIfNoCase User-Agent "semalt" blockua
+SetEnvIfNoCase User-Agent "Semantic" blockua
+SetEnvIfNoCase User-Agent "Semantifire" blockua
+SetEnvIfNoCase User-Agent "semisearch" blockua
+SetEnvIfNoCase User-Agent "SemrushBot" blockua
+SetEnvIfNoCase User-Agent "sengine" blockua
+SetEnvIfNoCase User-Agent "SentiBot" blockua
+SetEnvIfNoCase User-Agent "sentry" blockua
+SetEnvIfNoCase User-Agent "SeobilityBot" blockua
+SetEnvIfNoCase User-Agent "SEOENGWorldBot" blockua
+SetEnvIfNoCase User-Agent "SEOkicks" blockua
+SetEnvIfNoCase User-Agent "seomoz" blockua
+SetEnvIfNoCase User-Agent "seoprofiler" blockua
+SetEnvIfNoCase User-Agent "seoscanners" blockua
+SetEnvIfNoCase User-Agent "SerendeputyBot" blockua
+SetEnvIfNoCase User-Agent "serpstatbot" blockua
+SetEnvIfNoCase User-Agent "Serval Controller" blockua
+SetEnvIfNoCase User-Agent "Serval GetMapBot" blockua
+SetEnvIfNoCase User-Agent "Setaccio" blockua
+SetEnvIfNoCase User-Agent "SeznamBot" blockua
+SetEnvIfNoCase User-Agent "sf.net" blockua
+SetEnvIfNoCase User-Agent "ShablastBot" blockua
+SetEnvIfNoCase User-Agent "ShadowWebAnalyzer" blockua
+SetEnvIfNoCase User-Agent "Shareaza" blockua
+SetEnvIfNoCase User-Agent "SharpReader" blockua
+SetEnvIfNoCase User-Agent "Shelob" blockua
+SetEnvIfNoCase User-Agent "sherlock" blockua
+SetEnvIfNoCase User-Agent "ShopSalad" blockua
+SetEnvIfNoCase User-Agent "ShopWiki" blockua
+SetEnvIfNoCase User-Agent "ShowLinks" blockua
+SetEnvIfNoCase User-Agent "ShowyouBot" blockua
+SetEnvIfNoCase User-Agent "Shrook" blockua
+SetEnvIfNoCase User-Agent "siclab" blockua
+SetEnvIfNoCase User-Agent "silk" blockua
+SetEnvIfNoCase User-Agent "SimilarPages" blockua
+SetEnvIfNoCase User-Agent "similartech" blockua
+SetEnvIfNoCase User-Agent "Simple" blockua
+SetEnvIfNoCase User-Agent "SimpleCrawler" blockua
+SetEnvIfNoCase User-Agent "SimplePie" blockua
+SetEnvIfNoCase User-Agent "SimpleScraper" blockua
+SetEnvIfNoCase User-Agent "sindresorhus" blockua
+SetEnvIfNoCase User-Agent "Siphon" blockua
+SetEnvIfNoCase User-Agent "SISTRIX" blockua
+SetEnvIfNoCase User-Agent "site.ru" blockua
+SetEnvIfNoCase User-Agent "SiteArchive" blockua
+SetEnvIfNoCase User-Agent "sitebot" blockua
+SetEnvIfNoCase User-Agent "SiteCat" blockua
+SetEnvIfNoCase User-Agent "SiteCheck" blockua
+SetEnvIfNoCase User-Agent "sitecrawl" blockua
+SetEnvIfNoCase User-Agent "SiteExplorer" blockua
+SetEnvIfNoCase User-Agent "SiteFinder" blockua
+SetEnvIfNoCase User-Agent "SiteGuardBot" blockua
+SetEnvIfNoCase User-Agent "Siteimprove" blockua
+SetEnvIfNoCase User-Agent "Sitelinks" blockua
+SetEnvIfNoCase User-Agent "SiteOrbiter" blockua
+SetEnvIfNoCase User-Agent "SiteSearch" blockua
+SetEnvIfNoCase User-Agent "SiteSnagger" blockua
+SetEnvIfNoCase User-Agent "SiteSucker" blockua
+SetEnvIfNoCase User-Agent "SiteSweeper" blockua
+SetEnvIfNoCase User-Agent "SiteXpert" blockua
+SetEnvIfNoCase User-Agent "Sitios" blockua
+SetEnvIfNoCase User-Agent "Skanktale" blockua
+SetEnvIfNoCase User-Agent "SkimBot" blockua
+SetEnvIfNoCase User-Agent "SkimWordsBot" blockua
+SetEnvIfNoCase User-Agent "SkreemRBot" blockua
+SetEnvIfNoCase User-Agent "Skype" blockua
+SetEnvIfNoCase User-Agent "Skywalker" blockua
+SetEnvIfNoCase User-Agent "slabot" blockua
+SetEnvIfNoCase User-Agent "Slack" blockua
+SetEnvIfNoCase User-Agent "Sleipnir" blockua
+SetEnvIfNoCase User-Agent "Sleuth" blockua
+SetEnvIfNoCase User-Agent "slow-crawler" blockua
+SetEnvIfNoCase User-Agent "SlySearch" blockua
+SetEnvIfNoCase User-Agent "smart-crawler" blockua
+SetEnvIfNoCase User-Agent "SmartDownload" blockua
+SetEnvIfNoCase User-Agent "Smarte Bot" blockua
+SetEnvIfNoCase User-Agent "smartwit" blockua
+SetEnvIfNoCase User-Agent "SMTBot" blockua
+SetEnvIfNoCase User-Agent "Snacktory" blockua
+SetEnvIfNoCase User-Agent "snafu" blockua
+SetEnvIfNoCase User-Agent "Snake" blockua
+SetEnvIfNoCase User-Agent "snap.com" blockua
+SetEnvIfNoCase User-Agent "Snapbot" blockua
+SetEnvIfNoCase User-Agent "SnapPreviewBot" blockua
+SetEnvIfNoCase User-Agent "Snappy" blockua
+SetEnvIfNoCase User-Agent "SNAPSHOT" blockua
+SetEnvIfNoCase User-Agent "Snarfer" blockua
+SetEnvIfNoCase User-Agent "snookit" blockua
+SetEnvIfNoCase User-Agent "Snooper" blockua
+SetEnvIfNoCase User-Agent "Snoopy" blockua
+SetEnvIfNoCase User-Agent "So-net" blockua
+SetEnvIfNoCase User-Agent "SOAP" blockua
+SetEnvIfNoCase User-Agent "socbay" blockua
+SetEnvIfNoCase User-Agent "SocialRank" blockua
+SetEnvIfNoCase User-Agent "SocSciBot" blockua
+SetEnvIfNoCase User-Agent "SOFT411" blockua
+SetEnvIfNoCase User-Agent "SoftByte" blockua
+SetEnvIfNoCase User-Agent "softvisio" blockua
+SetEnvIfNoCase User-Agent "Sogou" blockua
+SetEnvIfNoCase User-Agent "sohu agent" blockua
+SetEnvIfNoCase User-Agent "sohu-search" blockua
+SetEnvIfNoCase User-Agent "Sokitomi" blockua
+SetEnvIfNoCase User-Agent "Solbot" blockua
+SetEnvIfNoCase User-Agent "SOLOFIELD" blockua
+SetEnvIfNoCase User-Agent "sondeur" blockua
+SetEnvIfNoCase User-Agent "Sonic" blockua
+SetEnvIfNoCase User-Agent "sootle" blockua
+SetEnvIfNoCase User-Agent "Sosospider" blockua
+SetEnvIfNoCase User-Agent "Sottopop" blockua
+SetEnvIfNoCase User-Agent "Space Bison" blockua
+SetEnvIfNoCase User-Agent "Space Fung" blockua
+SetEnvIfNoCase User-Agent "SpaceBison" blockua
+SetEnvIfNoCase User-Agent "SpankBot" blockua
+SetEnvIfNoCase User-Agent "spanner" blockua
+SetEnvIfNoCase User-Agent "Spatineo " blockua
+SetEnvIfNoCase User-Agent "spbot" blockua
+SetEnvIfNoCase User-Agent "special_archiver" blockua
+SetEnvIfNoCase User-Agent "Speedy" blockua
+SetEnvIfNoCase User-Agent "Sphere Scout" blockua
+SetEnvIfNoCase User-Agent "Sphider" blockua
+SetEnvIfNoCase User-Agent "spider" blockua
+SetEnvIfNoCase User-Agent "SpiderEngine" blockua
+SetEnvIfNoCase User-Agent "SpiderKU" blockua
+SetEnvIfNoCase User-Agent "SpiderMan" blockua
+SetEnvIfNoCase User-Agent "Spinn3r" blockua
+SetEnvIfNoCase User-Agent "Spinne" blockua
+SetEnvIfNoCase User-Agent "sportcrew" blockua
+SetEnvIfNoCase User-Agent "Sprav" blockua
+SetEnvIfNoCase User-Agent "spyder3.microsys.com" blockua
+SetEnvIfNoCase User-Agent "SQ Webscanner" blockua
+SetEnvIfNoCase User-Agent "sqlmap" blockua
+SetEnvIfNoCase User-Agent "Squid-Prefetch" blockua
+SetEnvIfNoCase User-Agent "SquidClamAV" blockua
+SetEnvIfNoCase User-Agent "Sqworm" blockua
+SetEnvIfNoCase User-Agent "SrevBot" blockua
+SetEnvIfNoCase User-Agent "srsapp" blockua
+SetEnvIfNoCase User-Agent "sslbot" blockua
+SetEnvIfNoCase User-Agent "SSM Agent" blockua
+SetEnvIfNoCase User-Agent "stable" blockua
+SetEnvIfNoCase User-Agent "stackoverflow" blockua
+SetEnvIfNoCase User-Agent "StackRambler" blockua
+SetEnvIfNoCase User-Agent "StarDownloader" blockua
+SetEnvIfNoCase User-Agent "startmebot" blockua
+SetEnvIfNoCase User-Agent "statbot" blockua
+SetEnvIfNoCase User-Agent "statcrawler" blockua
+SetEnvIfNoCase User-Agent "statedept-crawler" blockua
+SetEnvIfNoCase User-Agent "Steeler" blockua
+SetEnvIfNoCase User-Agent "STEGMANN-Bot" blockua
+SetEnvIfNoCase User-Agent "stero" blockua
+SetEnvIfNoCase User-Agent "StormCrawler" blockua
+SetEnvIfNoCase User-Agent "StorygizeBot" blockua
+SetEnvIfNoCase User-Agent "Streamline3Bot" blockua
+SetEnvIfNoCase User-Agent "stremor-crawler" blockua
+SetEnvIfNoCase User-Agent "Stripper" blockua
+SetEnvIfNoCase User-Agent "Stumbler" blockua
+SetEnvIfNoCase User-Agent "stuttgart" blockua
+SetEnvIfNoCase User-Agent "subscribers" blockua
+SetEnvIfNoCase User-Agent "suchclip" blockua
+SetEnvIfNoCase User-Agent "suchen" blockua
+SetEnvIfNoCase User-Agent "Sucker" blockua
+SetEnvIfNoCase User-Agent "Suggybot" blockua
+SetEnvIfNoCase User-Agent "suki" blockua
+SetEnvIfNoCase User-Agent "SumeetBot" blockua
+SetEnvIfNoCase User-Agent "SumitBot" blockua
+SetEnvIfNoCase User-Agent "summify" blockua
+SetEnvIfNoCase User-Agent "SummizeBot" blockua
+SetEnvIfNoCase User-Agent "SummizeFeedReader" blockua
+SetEnvIfNoCase User-Agent "Sunrise" blockua
+SetEnvIfNoCase User-Agent "SuperBot" blockua
+SetEnvIfNoCase User-Agent "Superfeedr" blockua
+SetEnvIfNoCase User-Agent "SuperHTTP" blockua
+SetEnvIfNoCase User-Agent "SuperLumin Downloader" blockua
+SetEnvIfNoCase User-Agent "SuperPagesBot" blockua
+SetEnvIfNoCase User-Agent "Supybot" blockua
+SetEnvIfNoCase User-Agent "sur.ly" blockua
+SetEnvIfNoCase User-Agent "SurdotlyBot" blockua
+SetEnvIfNoCase User-Agent "SURF" blockua
+SetEnvIfNoCase User-Agent "Surfbot" blockua
+SetEnvIfNoCase User-Agent "SurfControl" blockua
+SetEnvIfNoCase User-Agent "Surfer" blockua
+SetEnvIfNoCase User-Agent "SurveyAgent" blockua
+SetEnvIfNoCase User-Agent "SurveyBot" blockua
+SetEnvIfNoCase User-Agent "suzuran" blockua
+SetEnvIfNoCase User-Agent "SWEBot" blockua
+SetEnvIfNoCase User-Agent "SWIMGBot" blockua
+SetEnvIfNoCase User-Agent "swish-e" blockua
+SetEnvIfNoCase User-Agent "SygolBot" blockua
+SetEnvIfNoCase User-Agent "Synaptic" blockua
+SetEnvIfNoCase User-Agent "Syndication" blockua
+SetEnvIfNoCase User-Agent "Syntryx ANT Scout" blockua
+SetEnvIfNoCase User-Agent "Sysomos" blockua
+SetEnvIfNoCase User-Agent "sysscan" blockua
+SetEnvIfNoCase User-Agent "SystemSearch" blockua
+SetEnvIfNoCase User-Agent "Szukacz" blockua
+SetEnvIfNoCase User-Agent "T-H-U-N-D-E-R-S-T-O-N-E" blockua
+SetEnvIfNoCase User-Agent "T-Mobile" blockua
+SetEnvIfNoCase User-Agent "Taboolabot" blockua
+SetEnvIfNoCase User-Agent "Tackle" blockua
+SetEnvIfNoCase User-Agent "tagoobot" blockua
+SetEnvIfNoCase User-Agent "Tailrank" blockua
+SetEnvIfNoCase User-Agent "tAkeOut" blockua
+SetEnvIfNoCase User-Agent "Talkro Web-Shot" blockua
+SetEnvIfNoCase User-Agent "TAMU_CRAWLER" blockua
+SetEnvIfNoCase User-Agent "TangibleeBot" blockua
+SetEnvIfNoCase User-Agent "TapuzBot" blockua
+SetEnvIfNoCase User-Agent "Tarantula" blockua
+SetEnvIfNoCase User-Agent "targetblaster" blockua
+SetEnvIfNoCase User-Agent "TargetYourNews" blockua
+SetEnvIfNoCase User-Agent "TAUSDataBot" blockua
+SetEnvIfNoCase User-Agent "taxinomiabot" blockua
+SetEnvIfNoCase User-Agent "Tazmans" blockua
+SetEnvIfNoCase User-Agent "tb0hdan" blockua
+SetEnvIfNoCase User-Agent "TeamSoft WinInet Component" blockua
+SetEnvIfNoCase User-Agent "techinfo" blockua
+SetEnvIfNoCase User-Agent "technologies" blockua
+SetEnvIfNoCase User-Agent "Technorati" blockua
+SetEnvIfNoCase User-Agent "Tecomi" blockua
+SetEnvIfNoCase User-Agent "TeezirBot" blockua
+SetEnvIfNoCase User-Agent "TelegramBot" blockua
+SetEnvIfNoCase User-Agent "Teleport" blockua
+SetEnvIfNoCase User-Agent "Telesoft" blockua
+SetEnvIfNoCase User-Agent "Teoma" blockua
+SetEnvIfNoCase User-Agent "Teradex Mapper" blockua
+SetEnvIfNoCase User-Agent "TERAGRAM_CRAWLER" blockua
+SetEnvIfNoCase User-Agent "TerraNautic" blockua
+SetEnvIfNoCase User-Agent "TerrawizBot" blockua
+SetEnvIfNoCase User-Agent "Test FeedCrawler" blockua
+SetEnvIfNoCase User-Agent "testbot" blockua
+SetEnvIfNoCase User-Agent "testing" blockua
+SetEnvIfNoCase User-Agent "testomato" blockua
+SetEnvIfNoCase User-Agent "TextBot" blockua
+SetEnvIfNoCase User-Agent "thatrobotsite" blockua
+SetEnvIfNoCase User-Agent "TheNomad" blockua
+SetEnvIfNoCase User-Agent "theoldreader" blockua
+SetEnvIfNoCase User-Agent "Theophrastus" blockua
+SetEnvIfNoCase User-Agent "TheUsefulbot" blockua
+SetEnvIfNoCase User-Agent "Thinklab" blockua
+SetEnvIfNoCase User-Agent "ThumbBot" blockua
+SetEnvIfNoCase User-Agent "Thumbnail.CZ" blockua
+SetEnvIfNoCase User-Agent "thumbshots-de-bot" blockua
+SetEnvIfNoCase User-Agent "tigerbot" blockua
+SetEnvIfNoCase User-Agent "TightTwatBot" blockua
+SetEnvIfNoCase User-Agent "TinEye" blockua
+SetEnvIfNoCase User-Agent "Tiny" blockua
+SetEnvIfNoCase User-Agent "tiscali" blockua
+SetEnvIfNoCase User-Agent "TITAN" blockua
+SetEnvIfNoCase User-Agent "TmstmpExt" blockua
+SetEnvIfNoCase User-Agent "to-dress_ru_bot" blockua
+SetEnvIfNoCase User-Agent "to-night-Bot" blockua
+SetEnvIfNoCase User-Agent "TOBBOT" blockua
+SetEnvIfNoCase User-Agent "toCrawl" blockua
+SetEnvIfNoCase User-Agent "tokiwa" blockua
+SetEnvIfNoCase User-Agent "tomnomnom" blockua
+SetEnvIfNoCase User-Agent "tomtom" blockua
+SetEnvIfNoCase User-Agent "ToolPak" blockua
+SetEnvIfNoCase User-Agent "Tools_Management" blockua
+SetEnvIfNoCase User-Agent "Topicalizer" blockua
+SetEnvIfNoCase User-Agent "topicblogs" blockua
+SetEnvIfNoCase User-Agent "Toplistbot" blockua
+SetEnvIfNoCase User-Agent "TopServer" blockua
+SetEnvIfNoCase User-Agent "topyx-crawler" blockua
+SetEnvIfNoCase User-Agent "Toread-Crawler" blockua
+SetEnvIfNoCase User-Agent "torrent" blockua
+SetEnvIfNoCase User-Agent "Touche" blockua
+SetEnvIfNoCase User-Agent "TourlentaScanner" blockua
+SetEnvIfNoCase User-Agent "ToutiaoSpider" blockua
+SetEnvIfNoCase User-Agent "TPSystem" blockua
+SetEnvIfNoCase User-Agent "Tq2" blockua
+SetEnvIfNoCase User-Agent "Traackr" blockua
+SetEnvIfNoCase User-Agent "TRAAZI" blockua
+SetEnvIfNoCase User-Agent "tracemyfile" blockua
+SetEnvIfNoCase User-Agent "Tracker" blockua
+SetEnvIfNoCase User-Agent "TranSGeniKBot" blockua
+SetEnvIfNoCase User-Agent "Translation-Search-Machine" blockua
+SetEnvIfNoCase User-Agent "travel-search" blockua
+SetEnvIfNoCase User-Agent "TravelBot" blockua
+SetEnvIfNoCase User-Agent "TravelLazerBot" blockua
+SetEnvIfNoCase User-Agent "treat" blockua
+SetEnvIfNoCase User-Agent "Treezy" blockua
+SetEnvIfNoCase User-Agent "Trend Match" blockua
+SetEnvIfNoCase User-Agent "trendictionbot" blockua
+SetEnvIfNoCase User-Agent "TrendsmapResolver" blockua
+SetEnvIfNoCase User-Agent "TREX" blockua
+SetEnvIfNoCase User-Agent "trf" blockua
+SetEnvIfNoCase User-Agent "TridentSpider" blockua
+SetEnvIfNoCase User-Agent "trivial" blockua
+SetEnvIfNoCase User-Agent "Trovator" blockua
+SetEnvIfNoCase User-Agent "Trove" blockua
+SetEnvIfNoCase User-Agent "True_Robot" blockua
+SetEnvIfNoCase User-Agent "tScholarsBot" blockua
+SetEnvIfNoCase User-Agent "TSM" blockua
+SetEnvIfNoCase User-Agent "TsWebBot" blockua
+SetEnvIfNoCase User-Agent "tt-rss.org" blockua
+SetEnvIfNoCase User-Agent "TTD-Content" blockua
+SetEnvIfNoCase User-Agent "TulipChain" blockua
+SetEnvIfNoCase User-Agent "TunnelPro" blockua
+SetEnvIfNoCase User-Agent "turingos" blockua
+SetEnvIfNoCase User-Agent "TurnitinBot" blockua
+SetEnvIfNoCase User-Agent "TutorGigBot" blockua
+SetEnvIfNoCase User-Agent "tweetedtimes" blockua
+SetEnvIfNoCase User-Agent "TweetmemeBot" blockua
+SetEnvIfNoCase User-Agent "twengabot" blockua
+SetEnvIfNoCase User-Agent "Twiceler" blockua
+SetEnvIfNoCase User-Agent "Twikle" blockua
+SetEnvIfNoCase User-Agent "Twingly" blockua
+SetEnvIfNoCase User-Agent "twinuffbot" blockua
+SetEnvIfNoCase User-Agent "Twisted" blockua
+SetEnvIfNoCase User-Agent "Twitturls" blockua
+SetEnvIfNoCase User-Agent "Twitturly " blockua
+SetEnvIfNoCase User-Agent "Twurly" blockua
+SetEnvIfNoCase User-Agent "TxtFetcher" blockua
+SetEnvIfNoCase User-Agent "TygoBot" blockua
+SetEnvIfNoCase User-Agent "TygoProwler" blockua
+SetEnvIfNoCase User-Agent "Typhoeus" blockua
+SetEnvIfNoCase User-Agent "t_st" blockua
+SetEnvIfNoCase User-Agent "U.S. Government Printing Office" blockua
+SetEnvIfNoCase User-Agent "uberbot" blockua
+SetEnvIfNoCase User-Agent "ubermetrics" blockua
+SetEnvIfNoCase User-Agent "ubtsupport" blockua
+SetEnvIfNoCase User-Agent "ucb-nutch" blockua
+SetEnvIfNoCase User-Agent "uCrawler" blockua
+SetEnvIfNoCase User-Agent "ucri" blockua
+SetEnvIfNoCase User-Agent "UdmSearch" blockua
+SetEnvIfNoCase User-Agent "UFAM-crawler" blockua
+SetEnvIfNoCase User-Agent "Ultraseek" blockua
+SetEnvIfNoCase User-Agent "um-LN" blockua
+SetEnvIfNoCase User-Agent "UnChaos" blockua
+SetEnvIfNoCase User-Agent "UnisterBot" blockua
+SetEnvIfNoCase User-Agent "Unitek UniEngine" blockua
+SetEnvIfNoCase User-Agent "UniversalSearch" blockua
+SetEnvIfNoCase User-Agent "unknown" blockua
+SetEnvIfNoCase User-Agent "unspecified" blockua
+SetEnvIfNoCase User-Agent "unternehmen" blockua
+SetEnvIfNoCase User-Agent "UnwindFetchor" blockua
+SetEnvIfNoCase User-Agent "UofTDB_experiment" blockua
+SetEnvIfNoCase User-Agent "UP.Browser" blockua
+SetEnvIfNoCase User-Agent "updated" blockua
+SetEnvIfNoCase User-Agent "Upflow" blockua
+SetEnvIfNoCase User-Agent "Uptimebot" blockua
+SetEnvIfNoCase User-Agent "UptimeRobot" blockua
+SetEnvIfNoCase User-Agent "Urchin" blockua
+SetEnvIfNoCase User-Agent "URL Control" blockua
+SetEnvIfNoCase User-Agent "URL-Checker" blockua
+SetEnvIfNoCase User-Agent "urlappendbot" blockua
+SetEnvIfNoCase User-Agent "URLBlaze" blockua
+SetEnvIfNoCase User-Agent "urlchecker" blockua
+SetEnvIfNoCase User-Agent "urlck" blockua
+SetEnvIfNoCase User-Agent "UrlDispatcher" blockua
+SetEnvIfNoCase User-Agent "urlfan-bot" blockua
+SetEnvIfNoCase User-Agent "URLSpider" blockua
+SetEnvIfNoCase User-Agent "URLy.Warning" blockua
+SetEnvIfNoCase User-Agent "url_gather" blockua
+SetEnvIfNoCase User-Agent "USAF AFKN K2SPIDER" blockua
+SetEnvIfNoCase User-Agent "Usamimi" blockua
+SetEnvIfNoCase User-Agent "usasearch" blockua
+SetEnvIfNoCase User-Agent "USEPA" blockua
+SetEnvIfNoCase User-Agent "UsineNouvelleCrawler" blockua
+SetEnvIfNoCase User-Agent "USS-Cosmix" blockua
+SetEnvIfNoCase User-Agent "USyd-NLP-Spider" blockua
+SetEnvIfNoCase User-Agent "UT-Dorkbot" blockua
+SetEnvIfNoCase User-Agent "utexas" blockua
+SetEnvIfNoCase User-Agent "Vacobot" blockua
+SetEnvIfNoCase User-Agent "Vacuum" blockua
+SetEnvIfNoCase User-Agent "VadixBot" blockua
+SetEnvIfNoCase User-Agent "Vagabondo" blockua
+SetEnvIfNoCase User-Agent "Validator.nu" blockua
+SetEnvIfNoCase User-Agent "Valkyrie" blockua
+SetEnvIfNoCase User-Agent "vBSEO" blockua
+SetEnvIfNoCase User-Agent "VCI WebViewer" blockua
+SetEnvIfNoCase User-Agent "vebidoobot" blockua
+SetEnvIfNoCase User-Agent "VelenPublicWebCrawler" blockua
+SetEnvIfNoCase User-Agent "ventures" blockua
+SetEnvIfNoCase User-Agent "veoh" blockua
+SetEnvIfNoCase User-Agent "Veoozbot" blockua
+SetEnvIfNoCase User-Agent "VerbstarBot" blockua
+SetEnvIfNoCase User-Agent "VeriCiteCrawler" blockua
+SetEnvIfNoCase User-Agent "Verifactrola" blockua
+SetEnvIfNoCase User-Agent "Verity-URL-Gateway" blockua
+SetEnvIfNoCase User-Agent "Vermut" blockua
+SetEnvIfNoCase User-Agent "versus crawler" blockua
+SetEnvIfNoCase User-Agent "versus.integis" blockua
+SetEnvIfNoCase User-Agent "Vert.x-WebClient" blockua
+SetEnvIfNoCase User-Agent "vertical-crawler" blockua
+SetEnvIfNoCase User-Agent "verticals" blockua
+SetEnvIfNoCase User-Agent "Vertis" blockua
+SetEnvIfNoCase User-Agent "viasarchivinginformation" blockua
+SetEnvIfNoCase User-Agent "Viber" blockua
+SetEnvIfNoCase User-Agent "Vienna" blockua
+SetEnvIfNoCase User-Agent "Vigil" blockua
+SetEnvIfNoCase User-Agent "vipnytt" blockua
+SetEnvIfNoCase User-Agent "VIPr" blockua
+SetEnvIfNoCase User-Agent "virus" blockua
+SetEnvIfNoCase User-Agent "virustotal" blockua
+SetEnvIfNoCase User-Agent "VisBot" blockua
+SetEnvIfNoCase User-Agent "Vishal For CLIA" blockua
+SetEnvIfNoCase User-Agent "VisWeb" blockua
+SetEnvIfNoCase User-Agent "Vital Search" blockua
+SetEnvIfNoCase User-Agent "VKRobot" blockua
+SetEnvIfNoCase User-Agent "vkShare" blockua
+SetEnvIfNoCase User-Agent "vlad" blockua
+SetEnvIfNoCase User-Agent "vlsearch" blockua
+SetEnvIfNoCase User-Agent "VMBot" blockua
+SetEnvIfNoCase User-Agent "Vocus" blockua
+SetEnvIfNoCase User-Agent "VoidEYE" blockua
+SetEnvIfNoCase User-Agent "VoilaBot" blockua
+SetEnvIfNoCase User-Agent "VoluumDSP" blockua
+SetEnvIfNoCase User-Agent "Voracious" blockua
+SetEnvIfNoCase User-Agent "Vortex" blockua
+SetEnvIfNoCase User-Agent "voyager" blockua
+SetEnvIfNoCase User-Agent "VSBot" blockua
+SetEnvIfNoCase User-Agent "VSE" blockua
+SetEnvIfNoCase User-Agent "vspider" blockua
+SetEnvIfNoCase User-Agent "W3C-checklink" blockua
+SetEnvIfNoCase User-Agent "W3C-mobileOK" blockua
+SetEnvIfNoCase User-Agent "W3C-WebCon" blockua
+SetEnvIfNoCase User-Agent "W3C_CSS_Validator" blockua
+SetEnvIfNoCase User-Agent "W3C_I18n-Checker" blockua
+SetEnvIfNoCase User-Agent "W3C_Unicorn" blockua
+SetEnvIfNoCase User-Agent "W3C_Validator" blockua
+SetEnvIfNoCase User-Agent "w3m" blockua
+SetEnvIfNoCase User-Agent "w3search" blockua
+SetEnvIfNoCase User-Agent "wacbot" blockua
+SetEnvIfNoCase User-Agent "Walker" blockua
+SetEnvIfNoCase User-Agent "Wang" blockua
+SetEnvIfNoCase User-Agent "warebay" blockua
+SetEnvIfNoCase User-Agent "waseda" blockua
+SetEnvIfNoCase User-Agent "wastrix" blockua
+SetEnvIfNoCase User-Agent "Water Conserve" blockua
+SetEnvIfNoCase User-Agent "WatzBot" blockua
+SetEnvIfNoCase User-Agent "wauuu" blockua
+SetEnvIfNoCase User-Agent "Wavefire" blockua
+SetEnvIfNoCase User-Agent "Waypath" blockua
+SetEnvIfNoCase User-Agent "Wazzup" blockua
+SetEnvIfNoCase User-Agent "wbdbot" blockua
+SetEnvIfNoCase User-Agent "wbot" blockua
+SetEnvIfNoCase User-Agent "WBSearchBot" blockua
+SetEnvIfNoCase User-Agent "Web CEO Online" blockua
+SetEnvIfNoCase User-Agent "web crawler" blockua
+SetEnvIfNoCase User-Agent "Web Downloader" blockua
+SetEnvIfNoCase User-Agent "Web Image Collector" blockua
+SetEnvIfNoCase User-Agent "Web Link Validator" blockua
+SetEnvIfNoCase User-Agent "Web Magnet" blockua
+SetEnvIfNoCase User-Agent "Web Site Downloader" blockua
+SetEnvIfNoCase User-Agent "Web Sucker" blockua
+SetEnvIfNoCase User-Agent "web-agent" blockua
+SetEnvIfNoCase User-Agent "web-archive-net" blockua
+SetEnvIfNoCase User-Agent "Web-Sniffer" blockua
+SetEnvIfNoCase User-Agent "Web.Image.Collector" blockua
+SetEnvIfNoCase User-Agent "WebaltBot" blockua
+SetEnvIfNoCase User-Agent "webarchiv" blockua
+SetEnvIfNoCase User-Agent "WebAuto" blockua
+SetEnvIfNoCase User-Agent "WebBandit" blockua
+SetEnvIfNoCase User-Agent "Webbot" blockua
+SetEnvIfNoCase User-Agent "webbul" blockua
+SetEnvIfNoCase User-Agent "WebCapture" blockua
+SetEnvIfNoCase User-Agent "webcheck" blockua
+SetEnvIfNoCase User-Agent "Webclipping" blockua
+SetEnvIfNoCase User-Agent "webcollage" blockua
+SetEnvIfNoCase User-Agent "webcompanycrawler" blockua
+SetEnvIfNoCase User-Agent "WebCopier" blockua
+SetEnvIfNoCase User-Agent "WebCopy" blockua
+SetEnvIfNoCase User-Agent "WebCorp" blockua
+SetEnvIfNoCase User-Agent "webcrawl" blockua
+SetEnvIfNoCase User-Agent "WebDataStats" blockua
+SetEnvIfNoCase User-Agent "WebDownloader" blockua
+SetEnvIfNoCase User-Agent "Webdup" blockua
+SetEnvIfNoCase User-Agent "webeaver" blockua
+SetEnvIfNoCase User-Agent "WebEMailExtrac" blockua
+SetEnvIfNoCase User-Agent "WebEnhancer" blockua
+SetEnvIfNoCase User-Agent "Weber" blockua
+SetEnvIfNoCase User-Agent "WebFetch" blockua
+SetEnvIfNoCase User-Agent "webfilter" blockua
+SetEnvIfNoCase User-Agent "WebGather" blockua
+SetEnvIfNoCase User-Agent "WebGet" blockua
+SetEnvIfNoCase User-Agent "WebGo IS" blockua
+SetEnvIfNoCase User-Agent "webGobbler" blockua
+SetEnvIfNoCase User-Agent "WebImages" blockua
+SetEnvIfNoCase User-Agent "Webinator" blockua
+SetEnvIfNoCase User-Agent "Webinator-WBI" blockua
+SetEnvIfNoCase User-Agent "WebIndex" blockua
+SetEnvIfNoCase User-Agent "weblayers" blockua
+SetEnvIfNoCase User-Agent "WebLeacher" blockua
+SetEnvIfNoCase User-Agent "WeblexBot" blockua
+SetEnvIfNoCase User-Agent "WebLinker" blockua
+SetEnvIfNoCase User-Agent "webLyzard" blockua
+SetEnvIfNoCase User-Agent "WebmasterCoffee" blockua
+SetEnvIfNoCase User-Agent "WebmasterWorld Extractor" blockua
+SetEnvIfNoCase User-Agent "WebmasterWorldForumBot" blockua
+SetEnvIfNoCase User-Agent "webmeup" blockua
+SetEnvIfNoCase User-Agent "WebMiner" blockua
+SetEnvIfNoCase User-Agent "webmon" blockua
+SetEnvIfNoCase User-Agent "WebMoose" blockua
+SetEnvIfNoCase User-Agent "WeBot" blockua
+SetEnvIfNoCase User-Agent "WeBox" blockua
+SetEnvIfNoCase User-Agent "WebPix" blockua
+SetEnvIfNoCase User-Agent "WebReaper" blockua
+SetEnvIfNoCase User-Agent "WebRipper" blockua
+SetEnvIfNoCase User-Agent "WebryReader" blockua
+SetEnvIfNoCase User-Agent "WebSauger" blockua
+SetEnvIfNoCase User-Agent "Webscan" blockua
+SetEnvIfNoCase User-Agent "webscouter" blockua
+SetEnvIfNoCase User-Agent "websearchbench" blockua
+SetEnvIfNoCase User-Agent "Website Downloader" blockua
+SetEnvIfNoCase User-Agent "Website Explorer" blockua
+SetEnvIfNoCase User-Agent "Website eXtractor" blockua
+SetEnvIfNoCase User-Agent "Website Quester" blockua
+SetEnvIfNoCase User-Agent "websitemirror" blockua
+SetEnvIfNoCase User-Agent "WebSpear" blockua
+SetEnvIfNoCase User-Agent "websphinx" blockua
+SetEnvIfNoCase User-Agent "WebSpider" blockua
+SetEnvIfNoCase User-Agent "Webster" blockua
+SetEnvIfNoCase User-Agent "WebStripper" blockua
+SetEnvIfNoCase User-Agent "WebTrafficExpress" blockua
+SetEnvIfNoCase User-Agent "WebTrends Link Analyzer" blockua
+SetEnvIfNoCase User-Agent "WebVac" blockua
+SetEnvIfNoCase User-Agent "webwalk" blockua
+SetEnvIfNoCase User-Agent "WebWasher" blockua
+SetEnvIfNoCase User-Agent "WebWatch" blockua
+SetEnvIfNoCase User-Agent "WebWhacker" blockua
+SetEnvIfNoCase User-Agent "WebXM" blockua
+SetEnvIfNoCase User-Agent "WebZIP" blockua
+SetEnvIfNoCase User-Agent "web_capture" blockua
+SetEnvIfNoCase User-Agent "Weddings.info" blockua
+SetEnvIfNoCase User-Agent "wenbin" blockua
+SetEnvIfNoCase User-Agent "WEP Search" blockua
+SetEnvIfNoCase User-Agent "WEPA" blockua
+SetEnvIfNoCase User-Agent "WeRelateBot" blockua
+SetEnvIfNoCase User-Agent "WeSEE:Search" blockua
+SetEnvIfNoCase User-Agent "Whacker" blockua
+SetEnvIfNoCase User-Agent "WhatsApp" blockua
+SetEnvIfNoCase User-Agent "wherecat" blockua
+SetEnvIfNoCase User-Agent "Whirlpool" blockua
+SetEnvIfNoCase User-Agent "WhoWhere" blockua
+SetEnvIfNoCase User-Agent "Widow" blockua
+SetEnvIfNoCase User-Agent "WikiaBot" blockua
+SetEnvIfNoCase User-Agent "Wikio" blockua
+SetEnvIfNoCase User-Agent "wikiwix" blockua
+SetEnvIfNoCase User-Agent "WinHTTP Example" blockua
+SetEnvIfNoCase User-Agent "WinHTTP Robot" blockua
+SetEnvIfNoCase User-Agent "WinHttp.WinHttpRequest" blockua
+SetEnvIfNoCase User-Agent "WinWebBot" blockua
+SetEnvIfNoCase User-Agent "WIRE" blockua
+SetEnvIfNoCase User-Agent "wired-digital-newsbot" blockua
+SetEnvIfNoCase User-Agent "WISEbot" blockua
+SetEnvIfNoCase User-Agent "WISENutbot" blockua
+SetEnvIfNoCase User-Agent "wish-la" blockua
+SetEnvIfNoCase User-Agent "wish-project" blockua
+SetEnvIfNoCase User-Agent "wisponbot" blockua
+SetEnvIfNoCase User-Agent "WiWi" blockua
+SetEnvIfNoCase User-Agent "wixsite" blockua
+SetEnvIfNoCase User-Agent "Wizz" blockua
+SetEnvIfNoCase User-Agent "WMCAI-robot" blockua
+SetEnvIfNoCase User-Agent "wminer" blockua
+SetEnvIfNoCase User-Agent "WMSBot" blockua
+SetEnvIfNoCase User-Agent "wocbot" blockua
+SetEnvIfNoCase User-Agent "woobot" blockua
+SetEnvIfNoCase User-Agent "WooRank" blockua
+SetEnvIfNoCase User-Agent "WordupInfoSearch" blockua
+SetEnvIfNoCase User-Agent "worio" blockua
+SetEnvIfNoCase User-Agent "working" blockua
+SetEnvIfNoCase User-Agent "WorldSearch" blockua
+SetEnvIfNoCase User-Agent "worldshop" blockua
+SetEnvIfNoCase User-Agent "WorQmada" blockua
+SetEnvIfNoCase User-Agent "wortschatz" blockua
+SetEnvIfNoCase User-Agent "Wotbox" blockua
+SetEnvIfNoCase User-Agent "wp.com" blockua
+SetEnvIfNoCase User-Agent "wume_crawler" blockua
+SetEnvIfNoCase User-Agent "WWW Collector" blockua
+SetEnvIfNoCase User-Agent "WWW-Mechanize" blockua
+SetEnvIfNoCase User-Agent "WWWC" blockua
+SetEnvIfNoCase User-Agent "WWWOFFLE" blockua
+SetEnvIfNoCase User-Agent "wwwrobot" blockua
+SetEnvIfNoCase User-Agent "wwwster" blockua
+SetEnvIfNoCase User-Agent "WWWWanderer" blockua
+SetEnvIfNoCase User-Agent "wwwxref" blockua
+SetEnvIfNoCase User-Agent "Wysigot" blockua
+SetEnvIfNoCase User-Agent "X-crawler" blockua
+SetEnvIfNoCase User-Agent "Xaldon" blockua
+SetEnvIfNoCase User-Agent "Xenu" blockua
+SetEnvIfNoCase User-Agent "Xerka" blockua
+SetEnvIfNoCase User-Agent "XGET" blockua
+SetEnvIfNoCase User-Agent "xirq" blockua
+SetEnvIfNoCase User-Agent "XmarksFetch" blockua
+SetEnvIfNoCase User-Agent "xovibot" blockua
+SetEnvIfNoCase User-Agent "xqrobot" blockua
+SetEnvIfNoCase User-Agent "xrawler" blockua
+SetEnvIfNoCase User-Agent "XT3" blockua
+SetEnvIfNoCase User-Agent "Y!J" blockua
+SetEnvIfNoCase User-Agent "yacy.net" blockua
+SetEnvIfNoCase User-Agent "yacybot" blockua
+SetEnvIfNoCase User-Agent "Yahoo Link Preview" blockua
+SetEnvIfNoCase User-Agent "Yahoo Pipes" blockua
+SetEnvIfNoCase User-Agent "Yahoo! Slurp" blockua
+SetEnvIfNoCase User-Agent "Yahoo-MMCrawler" blockua
+SetEnvIfNoCase User-Agent "YahooFeedSeeker" blockua
+SetEnvIfNoCase User-Agent "YaK" blockua
+SetEnvIfNoCase User-Agent "Yandex" blockua
+SetEnvIfNoCase User-Agent "Yanga" blockua
+SetEnvIfNoCase User-Agent "yarienavoir" blockua
+SetEnvIfNoCase User-Agent "Yasaklibot" blockua
+SetEnvIfNoCase User-Agent "yasserg" blockua
+SetEnvIfNoCase User-Agent "YATS crawler" blockua
+SetEnvIfNoCase User-Agent "yBot" blockua
+SetEnvIfNoCase User-Agent "YebolBot" blockua
+SetEnvIfNoCase User-Agent "yellowJacket" blockua
+SetEnvIfNoCase User-Agent "yes" blockua
+SetEnvIfNoCase User-Agent "YesupBot" blockua
+SetEnvIfNoCase User-Agent "Yeti" blockua
+SetEnvIfNoCase User-Agent "YioopBot" blockua
+SetEnvIfNoCase User-Agent "YisouSpider" blockua
+SetEnvIfNoCase User-Agent "YodaoBot" blockua
+SetEnvIfNoCase User-Agent "yolinkBot" blockua
+SetEnvIfNoCase User-Agent "yoogliFetchAgent" blockua
+SetEnvIfNoCase User-Agent "Yoono" blockua
+SetEnvIfNoCase User-Agent "yoozBot" blockua
+SetEnvIfNoCase User-Agent "Yoriwa" blockua
+SetEnvIfNoCase User-Agent "YottaCars" blockua
+SetEnvIfNoCase User-Agent "you-dir" blockua
+SetEnvIfNoCase User-Agent "YoudaoBot" blockua
+SetEnvIfNoCase User-Agent "yptrino" blockua
+SetEnvIfNoCase User-Agent "ysearch" blockua
+SetEnvIfNoCase User-Agent "YunGuanCe" blockua
+SetEnvIfNoCase User-Agent "Z-Add Link Checker" blockua
+SetEnvIfNoCase User-Agent "Zabbix" blockua
+SetEnvIfNoCase User-Agent "zagrebin" blockua
+SetEnvIfNoCase User-Agent "Zao" blockua
+SetEnvIfNoCase User-Agent "ZAr8wX" blockua
+SetEnvIfNoCase User-Agent "zedzo.digest" blockua
+SetEnvIfNoCase User-Agent "zedzo.validate" blockua
+SetEnvIfNoCase User-Agent "zenback" blockua
+SetEnvIfNoCase User-Agent "zermelo" blockua
+SetEnvIfNoCase User-Agent "Zeus" blockua
+SetEnvIfNoCase User-Agent "zgrab" blockua
+SetEnvIfNoCase User-Agent "zibber-v" blockua
+SetEnvIfNoCase User-Agent "zimeno" blockua
+SetEnvIfNoCase User-Agent "Zing-BottaBot" blockua
+SetEnvIfNoCase User-Agent "ZipppBot" blockua
+SetEnvIfNoCase User-Agent "zite" blockua
+SetEnvIfNoCase User-Agent "zmap" blockua
+SetEnvIfNoCase User-Agent "ZmEu" blockua
+SetEnvIfNoCase User-Agent "ZoomBot" blockua
+SetEnvIfNoCase User-Agent "ZoominfoBot" blockua
+SetEnvIfNoCase User-Agent "ZoomSpider" blockua
+SetEnvIfNoCase User-Agent "Zotag Search" blockua
+SetEnvIfNoCase User-Agent "ZSEBOT" blockua
+SetEnvIfNoCase User-Agent "ZuiBot" blockua
+SetEnvIfNoCase User-Agent "ZumBot" blockua
+SetEnvIfNoCase User-Agent "ZuperlistBot" blockua
+SetEnvIfNoCase User-Agent "ZyBorg" blockua
+SetEnvIfNoCase User-Agent "Zyte" blockua
+
+# The keywords after this are marked with a "caret" indicating the UA line head match.
+# This will prevent another service from being involved and blocked as much as possible, but it will still be inevitable that some normal services will be blocked.
+# Therefore, it is advisable for each user to adjust the following parts accordingly.
+
+SetEnvIfNoCase User-Agent "^beta" blockua
+SetEnvIfNoCase User-Agent "^BlackBerry" blockua
+SetEnvIfNoCase User-Agent "^BOT" blockua
+SetEnvIfNoCase User-Agent "^Compatible" blockua
+SetEnvIfNoCase User-Agent "^core" blockua
+SetEnvIfNoCase User-Agent "^Crawl" blockua
+SetEnvIfNoCase User-Agent "^Curl" blockua
+SetEnvIfNoCase User-Agent "^cvs" blockua
+SetEnvIfNoCase User-Agent "^DA" blockua
+SetEnvIfNoCase User-Agent "^DISCo" blockua
+SetEnvIfNoCase User-Agent "^DoCoMo" blockua
+SetEnvIfNoCase User-Agent "^Download" blockua
+SetEnvIfNoCase User-Agent "^es" blockua
+SetEnvIfNoCase User-Agent "^fast" blockua
+SetEnvIfNoCase User-Agent "^favicon" blockua
+SetEnvIfNoCase User-Agent "^Fetch" blockua
+SetEnvIfNoCase User-Agent "^got" blockua
+SetEnvIfNoCase User-Agent "^grub" blockua
+SetEnvIfNoCase User-Agent "^gsa" blockua
+SetEnvIfNoCase User-Agent "^Java" blockua
+SetEnvIfNoCase User-Agent "^JOC" blockua
+SetEnvIfNoCase User-Agent "^KDDI" blockua
+SetEnvIfNoCase User-Agent "^meg" blockua
+SetEnvIfNoCase User-Agent "^mini" blockua
+SetEnvIfNoCase User-Agent "^nbot" blockua
+SetEnvIfNoCase User-Agent "^NG" blockua
+SetEnvIfNoCase User-Agent "^Nokia" blockua
+SetEnvIfNoCase User-Agent "^portal" blockua
+SetEnvIfNoCase User-Agent "^python" blockua
+SetEnvIfNoCase User-Agent "^robi" blockua
+SetEnvIfNoCase User-Agent "^Robot" blockua
+SetEnvIfNoCase User-Agent "^SAMSUNG" blockua
+SetEnvIfNoCase User-Agent "^Slurp" blockua
+SetEnvIfNoCase User-Agent "^uptime" blockua
+SetEnvIfNoCase User-Agent "^Validator" blockua
+SetEnvIfNoCase User-Agent "^VCI" blockua
+SetEnvIfNoCase User-Agent "^VIP" blockua
+SetEnvIfNoCase User-Agent "^WebSite" blockua
+SetEnvIfNoCase User-Agent "^Wget" blockua
+
+##### UAs not blocked due to need. #####
+# AddThis
+# Amazonbot
+# Chrome-Lighthouse
+# DuckDuck
+# Hatena
+# Let's Encrypt validation server
+# Twitterbot
+
+##### UAs not blocked because it's Google. #####
+# AdsBot-Google
+# AdsBot-Google-Mobile
+# APIs-Google
+# AppEngine-Google
+# Feedfetcher-Google
+# Google-Adwords-Instant
+# Googlebot
+# Googlebot-Image
+# Googlebot-News
+# Googlebot-Video
+# Google Favicon
+# Google-PhysicalWeb
+# Google-Site-Verification
+# Google-Structured-Data-Testing-Tool
+# Google Web Preview
+# Mediapartners-Google
+# Mediapartners \(Googlebot\)
+
+##### Low priority but unblocked UAs. #####
+# Amazon CloudFront
+# bingbot
+# BingPreview
+# blogmura
+# CloudFlare-AlwaysOnline
+# facebook
+
+##### UAs blocked because they are Google services with unknown details. #####
+# Google-Certificates-Bridge
+# google-xrawler
+
+##### UA blocked because they contain the keywords Docomo, Nokia, and Samsung. #####
+# Googlebot-Mobile
+
+##### UAs blocked for other reasons, such as not using it as much. #####
+# Crowsnest 
+# Discordbot
+# Disqus
+# Embedly
+# Feedly
+# Gunosy
+# HeadlessChrome
+# IABot
+# Mastodon
+# mixi
+# ndl-japan-warp
+# Skype
+# Slack
