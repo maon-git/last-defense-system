@@ -7,6 +7,9 @@
 # Therefore, it is desirable that this list be maintained regularly by each user.
 # Note: UAs that are defined as "blockua" are listed separately.
 
+# Note: The SAMEORIGIN should be set to prevent reprinting using iframe. Use the following options if necessary.
+# Header always append X-Frame-Options SAMEORIGIN
+
 Require not env blockua
 Require not host archive.ec
 Require not host archive.fo
@@ -17,6 +20,8 @@ Require not host archive.ph
 Require not host archive.today
 Require not host bibalex.org
 Require not host webcitation.org
+
+# probably archive.is
 Require not ip 46.45.128.0/18
 Require not ip 45.128.133.0/24
 Require not ip 45.135.229.0/24
@@ -31,22 +36,15 @@ Require not ip 46.166.184.0/21
 Require not ip 46.182.16.0/21
 Require not ip 51.89.0.0/16
 Require not ip 54.144.0.0/14
-Require not ip 64.246.160.0/19
-Require not ip 65.21.0.0/16
-Require not ip 65.108.0.0/16
-Require not ip 65.109.0.0/16
 Require not ip 78.46.0.0/15
 Require not ip 78.108.176.0/20
 Require not ip 89.34.27.0/24
 Require not ip 91.121.0.0/16
 Require not ip 92.38.178.0/24
 Require not ip 94.242.0.0/18
-Require not ip 95.216.0.0/16
-Require not ip 95.217.0.0/16
 Require not ip 104.16.0.0/12
 Require not ip 109.70.100.0/24
 Require not ip 130.0.232.0/21
-Require not ip 135.181.0.0/16
 Require not ip 139.162.192.0/19
 Require not ip 143.202.161.0/24
 Require not ip 146.0.72.0/24
@@ -62,7 +60,22 @@ Require not ip 185.244.39.0/24
 Require not ip 198.12.64.0/22
 Require not ip 198.245.48.0/20
 Require not ip 199.249.230.0/24
-Require not ip 207.241.224.0/20
 Require not ip 213.61.0.0/16
 Require not ip 213.174.128.0/19
 Require not ip 217.79.176.0/20
+
+# probably archive.org
+Require not ip 65.21.0.0/16
+Require not ip 65.108.0.0/16
+Require not ip 65.109.0.0/16
+Require not ip 95.216.0.0/16
+Require not ip 95.217.0.0/16
+Require not ip 135.181.0.0/16
+Require not ip 207.241.224.0/20
+Require not ip 208.70.24.0/21
+
+# others
+Require not ip 31.210.170.0/23
+Require not ip 51.79.128.0/17
+Require not ip 64.246.160.0/19
+Require not ip 176.56.224.0/20

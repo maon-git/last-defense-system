@@ -1,6 +1,6 @@
 # the-last-defense-system
 
-This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, junk robots, suspicious spiders, and malicious spammers.
+This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, bat robots, suspicious spiders, junk scraper, malicious spammers, and unauthorized access.
 
 ## Introduction
 
@@ -125,9 +125,17 @@ Currently, IPs at certain hosting companies are being used, but this is expected
 
 Therefore, it would be most efficient to contact the site administrator directly by email and ask them to exclude your site from being crawled.
 
+However, in that case, the archive.org administration team will come to check your site ownership, and you may need to temporarily unblock their IP.
+
 For archive.is (and other affiliated domains), blocking by remote hosts will have little effect. And contacting the site administrator will almost certainly result in no response.
 
+For example, reporting an abuse or alleging a DMCA violation may be successful as a countermeasure in no small measure.
+
 In fact, the only way to block is by IP, but since IPs such as archive.is change quickly, it is difficult to identify them, making it difficult to block them completely.
+
+Note that you should always set the SAMEORIGIN to prevent reprinting using iframe clickjacking. It may be enabled by default on most servers now, but if you need it, use the option below.
+
+`Header always append X-Frame-Options SAMEORIGIN`
 
 Reference to the IP information used in archive.is:
 

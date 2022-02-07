@@ -1,6 +1,6 @@
 # the-last-defense-system
 
-This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, junk robots, suspicious spiders, and malicious spammers.
+This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, bat robots, suspicious spiders, junk scraper, malicious spammers, and unauthorized access.
 
 ## はじめに
 
@@ -125,9 +125,17 @@ block_uaリストにおいては古今東西、ネット上において確認で
 
 そのため、サイト管理者へメールで直接連絡することによって、自サイトへのクロールを除外依頼することが最も効率的になるでしょう。
 
+ただしその場合、archive.orgの管理チームがあなたのサイト所有権を確認しに来るので、一時的に彼らのIPブロックを解除する必要があるでしょう。
+
 また、archive.is(その他系列ドメイン)に対しては、リモートホストによるブロックはほとんど効果は期待できません。そしてサイト管理者への連絡によっても、対応はほぼ間違いなくなされません。
 
+例えばabuseの報告やDMCA侵害の申し立ては、少なからず対抗策として成功するかもしれません。
+
 つまり実際のところ、こちらもIPでのブロックしか手段がありませんが、archive.is等のIPは変化が早いため特定が難しく、完全なブロックには至りにくいのが現状です。
+
+なお、iframeのクリックジャッキングを利用した転載を防ぐために、必ずSAMEORIGINを設定すべきでしょう。いまやほとんどのサーバーではデフォルトで有効になっているかもしれませんが、もし必要なら下記のオプションを使用してください。
+
+`Header always append X-Frame-Options SAMEORIGIN`
 
 archive.is情報 参考：
 
