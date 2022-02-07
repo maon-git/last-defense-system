@@ -272,6 +272,20 @@ get_ip.phpに適宜追記することによって、普段使用しているリ�
 
 しかし複数のディレクトリにそれぞれhtaccessが存在することによって、リクエストはそれらを同時に確認しに行くことになりますので、かえってパフォーマンス低下を招く可能性があります。
 
+NOTE：もし現状でBasic認証を使用しているなら、以下のように既存のコードはブロックリスト内のRequireディレクティブの中に挿入しなければなりません。
+
+例)
+```
+<RequireAll>
+    AuthUserFile /var/www/html/.htpasswd
+    AuthGroupFile /dev/null
+    AuthName "Input ID and Password"
+    AuthType Basic
+    Require valid-user
+［...]
+</RequireAll>
+```
+
 SetEnvIf変数引き継ぎ 参考：
 
 http://web.tvbok.com/web/server/htaccesssetenvifor.html

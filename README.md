@@ -275,6 +275,20 @@ Taking advantage of this property, it may be possible to distribute the blacklis
 
 However, the presence of htaccess in multiple directories will cause requests to check each of them at the same time, which may result in performance degradation.
 
+NOTE: If you are currently using Basic authentication, then the existing code must be inserted into the Require directive in the blocklist, as shown below.
+
+example:
+```
+<RequireAll>
+    AuthUserFile /var/www/html/.htpasswd
+    AuthGroupFile /dev/null
+    AuthName "Input ID and Password"
+    AuthType Basic
+    Require valid-user
+［...]
+</RequireAll>
+```
+
 Reference for taking over the SetEnvIf variable:
 
 http://web.tvbok.com/web/server/htaccesssetenvifor.html
