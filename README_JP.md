@@ -49,9 +49,9 @@ jpip_get.shをcronによって実行することで、ブロックリストの�
 
 もしこのとき、キャレットを使用して"^Google"と設定してしまうと、UAの行頭に「Google」があるときにしかマッチしません。
 
-これはどういうことかというと、実際のUA例として、"Googlebot/2.1 (+http&#58;//www.google.com/bot.html)"の場合であればブロックが可能です。
+これはどういうことかというと、実際のUA例として、"Googlebot/2.1 (+http//`www.google.com/bot.html`)"の場合であればブロックが可能です。
 
-ところが、"Mozilla/5.0 (compatible; Googlebot/2.1; +http&#58;//www.google.com/bot.html)"の場合は、「Google」の文字列が行頭ではないため、ブロックすることができません。
+ところが、"Mozilla/5.0 (compatible; Googlebot/2.1; +http//`www.google.com/bot.html`)"の場合は、「Google」の文字列が行頭ではないため、ブロックすることができません。
 
 つまり、キャレットの定義はあくまでも「行頭」を示すものであり、「Googlebot」といった個々のボット名称の先頭を示すために無闇に付与するのは誤用です。
 
@@ -109,6 +109,10 @@ block_uaリストにおいては古今東西、ネット上において確認で
 
 日本で主要なアーカイブサイトである、いわゆるWeb魚拓は"Megalodon"のUA指定、あるいはmetaタグで"noarchive"等とすることでブロックできることは有名です。
 
+※検索エンジンへのインデックスはしてほしいが、キャッシュを保存されたくないならnoarchiveは忘れるべきではありません。その他にnoimageindexも画像の著作権を守るために有効ですし、Pinterest向けにnopinを設定しておくのも良いでしょう。
+
+※ちなみに、htmlの文法的には正しくないものの、少なくともGoogleのbotはheader以外のどこにmeta robotsを書いても読みに来て、適切に解釈してくれることが良く知られています。これは無料のブログサービスなどを利用していてheaderタグ内をさわれないユーザーにとっては、次善の策となるでしょう。
+
 しかし同じく世界で主要なWayback Machine(ウェイバックマシン/インターネットアーカイブ)のブロックに関しては、状況が変わっています。
 
 いまでもrobots.txtでは、ia_archiverやia_archiver-web.archive.org、archive.org_bot、あるいはalexaなどのUAでブロックを試みる例がしばしば見受けられます。
@@ -127,7 +131,7 @@ block_uaリストにおいては古今東西、ネット上において確認で
 
 archive.is情報 参考：
 
-https&#58;//blog.wolfs.jp/contents/archiveis-ipaddress/ (閉鎖)
+https://`blog.wolfs.jp/contents/archiveis-ipaddress/` (閉鎖)
 
 ## 国内IPリスト
 
