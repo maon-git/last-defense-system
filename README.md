@@ -49,9 +49,9 @@ For example, if you set the keyword for the UA to be rejected as "Google" enclos
 
 If you use a caret and set it to "^Google", it will only match if the UA has 'Google' at the beginning of the line.
 
-What this means is that you can block "Googlebot/2.1 (+http&#58;//www.google.com/bot.html)" as an example of a real UA.
+What this means is that you can block "Googlebot/2.1 (+http://`www.google.com/bot.html`)" as an example of a real UA.
 
-However, in the case of "Mozilla/5.0 (compatible; Googlebot/2.1; +http&#58;//www.google.com/bot.html)", the string 'Google' is not at the beginning of the line, so it cannot be blocked.
+However, in the case of "Mozilla/5.0 (compatible; Googlebot/2.1; +http://`www.google.com/bot.html`)", the string 'Google' is not at the beginning of the line, so it cannot be blocked.
 
 In other words, the definition of a caret is only to indicate the 'beginning of a line', and it is a misnomer to blindly add a caret to indicate the beginning of an individual bot name, such as 'Googlebot'.
 
@@ -109,6 +109,10 @@ As for the block_ip list, it is intended to block remote hosts and IPs of the ar
 
 It is well known that the so-called Web-Gyotaku, which is a major archive site in Japan, can be blocked by specifying the UA 'Megalodon' or by using meta tags such as 'noarchive'.
 
+Note: If you want search engines to index your site, but don't want the cache to be saved, 'noarchive' should not be forgotten. Other than that, 'noimageindex' is also useful to protect the copyright of your images, and setting 'nopin' for Pinterest is also a good idea.
+
+Note: Incidentally, it is well known that, although it is not correct in terms of html syntax, at least Google's bot will come and read and properly interpret 'meta robots' no matter where you write them except in the header. This is the next best thing for users who use free blog services and cannot touch the header tag.
+
 However, the situation has changed when it comes to blocking the world's major Wayback Machine (Internet Archive).
 
 Even now, robots.txt often tries to block UAs such as ia_archiver, ia_archiver-web.archive.org, archive.org_bot, or alexa.
@@ -127,7 +131,7 @@ In fact, the only way to block is by IP, but since IPs such as archive.is change
 
 Reference to the IP information used in archive.is:
 
-https&#58;//blog.wolfs.jp/contents/archiveis-ipaddress/ (already closed)
+https://`blog.wolfs.jp/contents/archiveis-ipaddress/` (already closed)
 
 ## List of IPs used in the country
 
