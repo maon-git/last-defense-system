@@ -313,6 +313,7 @@ SetEnvIfNoCase User-Agent "camper" blockua
 SetEnvIfNoCase User-Agent "Canon-WebRecord" blockua
 SetEnvIfNoCase User-Agent "CapsuleChecker" blockua
 SetEnvIfNoCase User-Agent "capsulink" blockua
+SetEnvIfNoCase User-Agent "Capture" blockua
 SetEnvIfNoCase User-Agent "careerbot" blockua
 SetEnvIfNoCase User-Agent "cataguru" blockua
 SetEnvIfNoCase User-Agent "catchall" blockua
@@ -829,6 +830,7 @@ SetEnvIfNoCase User-Agent "HD nutch agent" blockua
 SetEnvIfNoCase User-Agent "Header_Test_Client" blockua
 SetEnvIfNoCase User-Agent "HeadlessChrome" blockua
 SetEnvIfNoCase User-Agent "healia" blockua
+SetEnvIfNoCase User-Agent "HeartRails" blockua
 SetEnvIfNoCase User-Agent "Helix" blockua
 SetEnvIfNoCase User-Agent "helsinki" blockua
 SetEnvIfNoCase User-Agent "here will be link to crawler site" blockua

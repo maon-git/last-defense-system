@@ -109,10 +109,6 @@ As for the block_ip list, it is intended to block remote hosts and IPs of the ar
 
 It is well known that the so-called Web-Gyotaku, which is a major archive site in Japan, can be blocked by specifying the UA 'Megalodon' or by using meta tags such as 'noarchive'.
 
-Note: If you want search engines to index your site, but don't want the cache to be saved, 'noarchive' should not be forgotten. Other than that, 'noimageindex' is also useful to protect the copyright of your images, and setting 'nopin' for Pinterest is also a good idea.
-
-Note: Incidentally, it is well known that, although it is not correct in terms of html syntax, at least Google's bot will come and read and properly interpret 'meta robots' no matter where you write them except in the header. This is the next best thing for users who use free blog services and cannot touch the header tag.
-
 However, the situation has changed when it comes to blocking the world's major Wayback Machine (Internet Archive).
 
 Even now, robots.txt often tries to block UAs such as ia_archiver, ia_archiver-web.archive.org, archive.org_bot, or alexa.
@@ -136,6 +132,18 @@ In fact, the only way to block is by IP, but since IPs such as archive.is change
 Note that you should always set the SAMEORIGIN to prevent reprinting using iframe clickjacking. It may be enabled by default on most servers now, but if you need it, use the option below.
 
 `Header always append X-Frame-Options SAMEORIGIN`
+
+NOTES:
+
+If you want your site to be indexed by search engines, but you don't want the cache to be saved, you should not forget the 'noarchive' in the meta tag. Some web capture sites will follow that description.
+
+Other than that, 'noimageindex' is also useful to protect the copyright of your images, and setting 'nopin' for Pinterest is also a good idea.
+
+Incidentally, it is well known that although it is not correct in terms of html syntax, at least Google's bot will read and properly interpret meta robots tag no matter where you write them except in the header.
+
+This is the next best thing for users who use free blogging services and can't touch the header tags.
+
+Also, needless to say, if you block them with the blocklist (.htaccess) you have created, they will no longer be able to read your robots.txt, so you will not need to pollute your txt file with their robot names in the future.
 
 Reference to the IP information used in archive.is:
 

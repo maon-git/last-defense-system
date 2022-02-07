@@ -22,6 +22,7 @@ Require not host bibalex.org
 Require not host webcitation.org
 
 # probably archive.is
+Require not ip 46.17.42.0/23
 Require not ip 46.45.128.0/18
 Require not ip 45.128.133.0/24
 Require not ip 45.135.229.0/24
@@ -77,5 +78,7 @@ Require not ip 208.70.24.0/21
 # others
 Require not ip 31.210.170.0/23
 Require not ip 51.79.128.0/17
-Require not ip 64.246.160.0/19
 Require not ip 176.56.224.0/20
+Require not ip 184.72.0.0/15
+Require not ip 204.236.128.0/17
+Require not ip 216.18.192.0/19
