@@ -1,7 +1,7 @@
 #!/bin/php
 <?php 
 
-$jp_ip4 = "##### The Last Defense System #####" . "\n\n"; 
+$jp_ip4 = "##### Last Defense System #####" . "\n\n"; 
 
 // Get from the list of UAs to block.
 $file = fopen("/home/hogehoge/hogehoge.domain/public_html/cron/block_ua.txt", "r");

@@ -1,6 +1,6 @@
-# the-last-defense-system
+# last-defense-system
 
-This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, bat robots, suspicious spiders, junk scraper, malicious spammers, and unauthorized access.
+This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, bat robots, suspicious spiders, junk scraper, malicious spammers, and unauthorized access. No doubt about it, this will be our final resort.
 
 ## Introduction
 
