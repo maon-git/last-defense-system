@@ -1,9 +1,12 @@
 # last-defense-system
 
 This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, bat robots, suspicious spiders, junk scraper, malicious spammers, and unauthorized access including DDoS attack. 
+
 —This makes your arsenal iron-wall and protected, like a magical mithril-shield that bounces back monsters with ease.
-However, this is not the final network security tool used by web professionals, nor is it special fantasy.
-An ordinary suit that anyone can easily equip will become the armor of legend. Let's overcome our daily battles and get peace together...
+
+However, this is not the final network security tool used by web professionals, nor is it special fantasy. It's just a first choice.
+
+An ordinary suit that anyone can easily equip will become the armor of legend. Let's overcome our daily battles against threats and get peace together...
 
 ## Introduction
 
