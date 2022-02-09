@@ -191,6 +191,8 @@ The basic flow of the program is as shown in the reference site, but this time I
 As a matter of fact, if access is restricted to domestic IPs only, blocking using UAs and the like may be unnecessary in most cases. However, because it is a very versatile program, I use it to achieve ultimate peace of mind for my website.
 If it works this time, the cron on the server will run the jpip_get.sh shell script->php will get the IP from APNIC and generate the string from the UA and IP block list->automatically place the integrated .htaccess.
 
+NOTE: If you are using a CMS such as WordPress, please make a backup of your existing htaccess and be sure to save the code written in that file.
+
 ## Example on StarServer
 
 When applying the above to a hosting service, the biggest obstacle is the difference in the specifications of each company's service, the difference in the UI part that users can tweak, and the difference in information.
