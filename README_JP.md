@@ -6,7 +6,7 @@ This repository contains User-Agent lists and IPv4 addresses to block unwanted c
 
 However, this is not the final network security tool used by web professionals, nor is it special fantasy. It's just a first choice.
 
-An ordinary suit that anyone can easily equip will become the armor of legend. Let's overcome our daily battles against threats and also get safety and peace together...
+An ordinary suit that anyone can easily equip will become the armor of legend. Let's overcome our daily battle saga against threats and also get safety and peace frontier together...
 
 ## はじめに
 
