@@ -55,9 +55,9 @@ For example, if you set the keyword for the UA to be rejected as "Google" enclos
 
 If you use a caret and set it to "^Google", it will only match if the UA has 'Google' at the beginning of the line.
 
-What this means is that you can block "Googlebot/2.1 (+http://`www.google.com/bot.html`)" as an example of a real UA.
+What this means is that you can block "Googlebot/2.1 (+`http://www.google.com/bot.html`)" as an example of a real UA.
 
-However, in the case of "Mozilla/5.0 (compatible; Googlebot/2.1; +http://`www.google.com/bot.html`)", the string 'Google' is not at the beginning of the line, so it cannot be blocked.
+However, in the case of "Mozilla/5.0 (compatible; Googlebot/2.1; +`http://www.google.com/bot.html`)", the string 'Google' is not at the beginning of the line, so it cannot be blocked.
 
 In other words, the definition of a caret is only to indicate the 'beginning of a line', and it is a misnomer to blindly add a caret to indicate the beginning of an individual bot name, such as 'Googlebot'.
 
@@ -99,7 +99,7 @@ This means that SetEnv is unsuitable for large block lists with many branches of
 
 Reference to SetEnv and SetEnvIf:
 
-https://elephantcat.work/2020/01/30/post-279/
+`https://elephantcat.work/2020/01/30/post-279/`
 
 ## Contents of the block list
 
@@ -153,7 +153,7 @@ Also, needless to say, if you block them with the blocklist (.htaccess) you have
 
 Reference to the IP information used in archive.is:
 
-https://`blog.wolfs.jp/contents/archiveis-ipaddress/` (already closed)
+`https://blog.wolfs.jp/contents/archiveis-ipaddress/` (already closed)
 
 ## List of IPs used in the country
 
@@ -170,9 +170,9 @@ I would like to take this opportunity to thank the following two sites for their
 
 Reference for automatic IP acquisition and htaccess generation:
 
-https://nodoame.net/archives/550 (origin)
+`https://nodoame.net/archives/550` (origin)
 
-https://zuntan02.hateblo.jp/entry/20140523/1400837726 (modified)
+`https://zuntan02.hateblo.jp/entry/20140523/1400837726` (modified)
 
 ### Allowed Remote Hosts
 
@@ -299,7 +299,7 @@ example:
 
 Reference for taking over the SetEnvIf variable:
 
-http://web.tvbok.com/web/server/htaccesssetenvifor.html
+`http://web.tvbok.com/web/server/htaccesssetenvifor.html`
 
 ## Licence
 
@@ -307,4 +307,4 @@ Author: maon-git
 
 This repository is licensed under the MIT license.
 
-https://opensource.org/licenses/mit-license.php
+`https://opensource.org/licenses/mit-license.php`
