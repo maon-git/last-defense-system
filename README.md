@@ -301,6 +301,8 @@ Reference for taking over the SetEnvIf variable:
 
 `http://web.tvbok.com/web/server/htaccesssetenvifor.html`
 
+—Now that our work is done, let's get some rest.
+
 ## Licence
 
 Author: maon-git
