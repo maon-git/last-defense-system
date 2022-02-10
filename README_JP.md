@@ -170,7 +170,7 @@ archive.is情報 参考：
 
 今般は、国内IPの取得をしhtaccess化の作業を自動化するにあたって、下記2つのサイトが非常に有益かつ明瞭であったこと、この場を借りて感謝申し上げます。
 
-ip自動取得およびhtaccess生成 参考：
+ip自動取得およびhtaccess作成 参考：
 
 `https://nodoame.net/archives/550` (origin)
 
@@ -268,7 +268,7 @@ Apacheバージョンは2.4を使用しているため、それに準拠し、Re
 
 ### 応用例
 
-get_ip.phpに適宜追記することによって、普段使用しているリダイレクトや、Header set X-Robots-Tag, ErrorDocumentなど各種設定を同時に一元化し生成することも可能です。
+get_ip.phpに適宜追記することによって、普段使用しているリダイレクトや、Header set X-Robots-Tag, ErrorDocumentなど各種設定を同時に一元化し作成することも可能です。
 
 ただしリダイレクトのRewriteCond, RewriteRuleにおいては、上位ディレクトリのリダイレクトを上書きする影響を及ぼすことは忘れがちです。
 
