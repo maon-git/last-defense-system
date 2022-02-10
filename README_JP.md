@@ -55,9 +55,9 @@ jpip_get.shをcronによって実行することで、ブロックリストの�
 
 もしこのとき、キャレットを使用して"^Google"と設定してしまうと、UAの行頭に「Google」があるときにしかマッチしません。
 
-これはどういうことかというと、実際のUA例として、"Googlebot/2.1 (+http//`www.google.com/bot.html`)"の場合であればブロックが可能です。
+これはどういうことかというと、実際のUA例として、"Googlebot/2.1 (+`http//www.google.com/bot.html`)"の場合であればブロックが可能です。
 
-ところが、"Mozilla/5.0 (compatible; Googlebot/2.1; +http//`www.google.com/bot.html`)"の場合は、「Google」の文字列が行頭ではないため、ブロックすることができません。
+ところが、"Mozilla/5.0 (compatible; Googlebot/2.1; +`http//www.google.com/bot.html`)"の場合は、「Google」の文字列が行頭ではないため、ブロックすることができません。
 
 つまり、キャレットの定義はあくまでも「行頭」を示すものであり、「Googlebot」といった個々のボット名称の先頭を示すために無闇に付与するのは誤用です。
 
@@ -99,7 +99,7 @@ SetEnvによる表記でも結果としてボットをブロックすること�
 
 SetEnvとSetEnvIfの比較 参考：
 
-https://elephantcat.work/2020/01/30/post-279/
+`https://elephantcat.work/2020/01/30/post-279/`
 
 ## ブロックリストの内容
 
@@ -153,7 +153,7 @@ NOTES：
 
 archive.is情報 参考：
 
-https://`blog.wolfs.jp/contents/archiveis-ipaddress/` (閉鎖)
+`https://blog.wolfs.jp/contents/archiveis-ipaddress/` (閉鎖)
 
 ## 国内IPリスト
 
@@ -170,9 +170,9 @@ https://`blog.wolfs.jp/contents/archiveis-ipaddress/` (閉鎖)
 
 ip自動取得およびhtaccess生成 参考：
 
-https://nodoame.net/archives/550 (origin)
+`https://nodoame.net/archives/550` (origin)
 
-https://zuntan02.hateblo.jp/entry/20140523/1400837726 (mod)
+`https://zuntan02.hateblo.jp/entry/20140523/1400837726` (mod)
 
 ### 許可リモートホスト
 
@@ -296,7 +296,7 @@ NOTE：もし現状でBasic認証を使用しているなら、以下のよう�
 
 SetEnvIf変数引き継ぎ 参考：
 
-http://web.tvbok.com/web/server/htaccesssetenvifor.html
+`http://web.tvbok.com/web/server/htaccesssetenvifor.html`
 
 ## ライセンス表記
 
@@ -304,4 +304,4 @@ Author: maon-git
 
 このリポジトリにはMITライセンスが適用されます。
 
-https://opensource.org/licenses/mit-license.php
+`https://opensource.org/licenses/mit-license.php`
