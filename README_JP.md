@@ -298,6 +298,8 @@ SetEnvIf変数引き継ぎ 参考：
 
 `http://web.tvbok.com/web/server/htaccesssetenvifor.html`
 
+—Now that our work is done, let's get some rest.
+
 ## ライセンス表記
 
 Author: maon-git
