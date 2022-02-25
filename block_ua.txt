@@ -162,6 +162,7 @@ SetEnvIfNoCase User-Agent "axfeedsbot" blockua
 SetEnvIfNoCase User-Agent "axios" blockua
 SetEnvIfNoCase User-Agent "Axonize-bot" blockua
 SetEnvIfNoCase User-Agent "Ayna" blockua
+SetEnvIfNoCase User-Agent "Azby" blockua
 SetEnvIfNoCase User-Agent "B2B Bot" blockua
 SetEnvIfNoCase User-Agent "b2w" blockua
 SetEnvIfNoCase User-Agent "b97" blockua
