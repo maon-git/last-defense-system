@@ -1,15 +1,19 @@
 #!/bin/sh
 
-/bin/php /home/hogehoge/hogehoge.domain/public_html/cron/get_ip.php > /home/hogehoge/hogehoge.domain/public_html/cron/.htaccess.new
+CRONDIR="/home/hogehoge/hogehoge.domain/public_html/cron"
 
-SIZE=`ls -l /home/hogehoge/hogehoge.domain/public_html/cron/.htaccess.new | awk '{ print $5 }'`
+DESTDIR="/home/hogehoge/hogehoge.domain/public_html/"
 
-if [ -e /home/hogehoge/hogehoge.domain/public_html/cron/.htaccess.new ] && [ $SIZE -gt 50000 ]; then
+/bin/php $CRONDIR/get_ip.php > $CRONDIR/.htaccess.new
 
-rm /home/hogehoge/hogehoge.domain/public_html/cron/.htaccess.old
-mv /home/hogehoge/hogehoge.domain/public_html/cron/.htaccess /home/hogehoge/hogehoge.domain/public_html/cron/.htaccess.old
-mv /home/hogehoge/hogehoge.domain/public_html/cron/.htaccess.new /home/hogehoge/hogehoge.domain/public_html/cron/.htaccess
+SIZE=`ls -l $CRONDIR/.htaccess.new | awk '{ print $5 }'`
 
-\cp -f /home/hogehoge/hogehoge.domain/public_html/cron/.htaccess /home/hogehoge/hogehoge.domain/public_html/.htaccess
+if [ -e $CRONDIR/.htaccess.new ] && [ $SIZE -gt 50000 ]; then
+
+rm $CRONDIR/.htaccess.old
+mv $CRONDIR/.htaccess $CRONDIR/.htaccess.old
+mv $CRONDIR/.htaccess.new $CRONDIR/.htaccess
+
+\cp -f $CRONDIR/.htaccess $DESTDIR/.htaccess
 
 fi
