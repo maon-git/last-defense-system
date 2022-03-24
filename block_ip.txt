@@ -11,15 +11,16 @@
 # Header always append X-Frame-Options SAMEORIGIN
 
 Require not env blockua
-Require not host archive.ec
-Require not host archive.fo
-Require not host archive.is
-Require not host archive.li
-Require not host archive.org
-Require not host archive.ph
-Require not host archive.today
-Require not host bibalex.org
-Require not host webcitation.org
+
+Require not forward-dns archive.ec
+Require not forward-dns archive.fo
+Require not forward-dns archive.is
+Require not forward-dns archive.li
+Require not forward-dns archive.org
+Require not forward-dns archive.ph
+Require not forward-dns archive.today
+Require not forward-dns bibalex.org
+Require not forward-dns webcitation.org
 
 # probably archive.is
 Require not ip 46.17.42.0/23
