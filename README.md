@@ -149,9 +149,9 @@ If you want your site to be indexed by search engines, but you don't want the ca
 
 Other than that, 'noimageindex' is also useful to protect the copyright of your images, and setting 'nopin' for Pinterest is also a good idea.
 
-Incidentally, it is well known that although it is not correct in terms of html syntax, at least Google's bot will read and properly interpret meta robots tag no matter where you write them except in the header.
+Incidentally, it is well known that although it is not correct in terms of html syntax, at least Google's bot will read and properly interpret meta robots tag no matter where you write them except in the head.
 
-This is the next best thing for users who use free blogging services and can't touch the header tags.
+This is the next best thing for users who use free blogging services and can't touch the head tags.
 
 Also, needless to say, if you block them with the blocklist (.htaccess) you have created, they will no longer be able to read your robots.txt, so you will not need to pollute your txt file with their robot names in the future.
 
