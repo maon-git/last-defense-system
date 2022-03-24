@@ -1,5 +1,7 @@
 # last-defense-system
 
+UPDATE: Added list of IPs to allow googlebot.
+
 This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, bad robots, suspicious spiders, junk web-scrapers, malicious spammers, and unauthorized access including DDoS attack. 
 
 ![monogatari_sanbikinokobuta](https://user-images.githubusercontent.com/99088821/153359727-543d3837-2b21-46ca-8fe0-e8d1a3750fc6.png)
