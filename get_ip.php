@@ -69,6 +69,8 @@ if($file){
 
 fclose($file);
 
+    $jp_ip4 .= "\n\n";
+
     $jp_ip4 .= "</RequireAny>" . "\n\n"; 
 
     $jp_ip4 .= "</RequireAll>" . "\n\n"; 
