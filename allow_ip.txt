@@ -1,0 +1,33 @@
+# Specially allowed foreign IPs and remote hosts should be listed here in advance.
+
+Require forward-dns googlebot.com
+Require forward-dns google.com
+Require forward-dns letsencrypt.org
+
+Require forward-dns hatenablog-parts.com
+Require ip 13.230.115.161
+Require forward-dns hatenablog.com
+Require ip 54.199.90.60
+Require forward-dns hatena.ne.jp
+Require ip 54.224.0.0/11
+Require forward-dns gae.googleusercontent.com
+Require ip 107.178.192.0/18
+Require forward-dns st-hatena.com
+Require ip 59.106.194.19
+Require ip 23.193.53.31
+Require ip 3.114.80.54
+Require forward-dns b.hatena.ne.jp
+Require ip 13.35.49.121
+
+# twitter OGP
+Require ip 199.16.156.0/22
+Require ip 199.59.148.0/22
+
+# FB OGP
+Require ip 157.240.22.0/24
+Require ip 157.240.0.0/17 
+
+# Below is a list of googlebots IPs.
+# https://developers.google.com/search/apis/ipranges/googlebot.json
+# If you need the IPs used by all google services, use this JSON.
+# https://www.gstatic.com/ipranges/goog.json

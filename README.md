@@ -1,12 +1,16 @@
 # last-defense-system
 
-UPDATE: Added list of IPs to allow googlebot.
+UPDATE: Added script to automatically retrieve IP list to allow googlebot.
+
+Reference to list IP ranges used by google:
+
+`https://ichiro-kun.com/post/14049/`
 
 This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, bad robots, suspicious spiders, junk web-scrapers, malicious spammers, and unauthorized access including DDoS attack. 
 
 ![monogatari_sanbikinokobuta](https://user-images.githubusercontent.com/99088821/153359727-543d3837-2b21-46ca-8fe0-e8d1a3750fc6.png)
 
-—This makes your arsenal iron-wall and protected, like a magical mithril-shield that bounces back monsters with ease.
+...This makes your arsenal iron-wall and protected, like a magical mithril-shield that bounces back monsters with ease.
 
 However, this is not the final network security tool used by web professionals, nor is it special fantasy. It's just a first choice.
 
@@ -307,7 +311,7 @@ Reference for taking over the SetEnvIf variable:
 
 ![renga_pattern](https://user-images.githubusercontent.com/99088821/153359928-a13b4450-5cd1-42ca-8ff7-a8e04798ab45.png)
 
-—Now that our work is done, let's get some rest.
+...Now that our work is done, let's get some rest.
 
 ## Licence
 

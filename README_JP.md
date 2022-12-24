@@ -1,6 +1,10 @@
 # last-defense-system
 
-UPDATE：googlebotを許可するためのIPリストを追加しました。
+UPDATE：googlebotを許可するためのIPリスト自動取得スクリプトを追加しました。
+
+googleが使用するIPレンジを一覧化 参考：
+
+`https://ichiro-kun.com/post/14049/`
 
 This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, bad robots, suspicious spiders, junk web-scrapers, malicious spammers, and unauthorized access including DDoS attack.
 

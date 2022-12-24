@@ -54,9 +54,18 @@ fclose($file);
 
     // Foreign IPs, but allow Remote-Hosts.
     $jp_ip4 .= "\n";
-    $jp_ip4 .= "Require forward-dns googlebot.com" . "\n";
-    $jp_ip4 .= "Require forward-dns google.com" . "\n"; 
-    $jp_ip4 .= "Require forward-dns letsencrypt.org" . "\n\n"; 
+
+$file = fopen("/home/hogehoge/hogehoge.domain/public_html/cron/allow_ip.txt", "r");
+ 
+if($file){
+  while ($line = fgets($file)) {
+    $jp_ip4 .= $line;
+  }
+}
+ 
+fclose($file);
+
+    $jp_ip4 .= "\n\n";
 
 // Get from the list of Googlebot IPs to allow.
 $file = fopen("/home/hogehoge/hogehoge.domain/public_html/cron/googlebot_ip.txt", "r");
