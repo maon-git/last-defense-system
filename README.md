@@ -1,10 +1,14 @@
 # last-defense-system
 
+//////////
+
 UPDATE: Added script to automatically retrieve IP list to allow googlebot.
 
 Reference to list IP ranges used by google:
 
 `https://ichiro-kun.com/post/14049/`
+
+//////////
 
 This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, bad robots, suspicious spiders, junk web-scrapers, malicious spammers, and unauthorized access including DDoS attack. 
 
@@ -34,12 +38,14 @@ Note: In the future, Google aims to replace existing user-agents in browsers wit
 
 Upload the following files to the server. In this example, place them in the directory /home/hogehoge/hogehoge.domain/public_html/cron/.
 
+* allow_ip.txt - Define special allowed IPs here.
 * block_ua.txt - Define the UA to be blocked here.
 * block_ip.txt - Define remote hosts and IPs to be blocked here.
 * get_ip.php - combines the above two lists with the domestic IP list obtained from APNIC.
 * jpip_get.sh - when executed, calls the above php and outputs as htaccess
+* googleip_get.sh - When executed, retrieve googlebot IP list from json (formatted list is output as googlebot_ip.txt)
 
-By running jpip_get.sh by cron, it is possible to update the block list periodically.
+By running jpip_get.sh (and googleip_get.sh) by cron, it is possible to update the block list periodically.
 
 Note that the file paths and other information in each file should be rewritten to suit your environment.
 
@@ -197,7 +203,10 @@ In addition, I think most website operators want to use Google services even if 
 The basic flow of the program is as shown in the reference site, but this time I modified the original get_ip.php to merge the pre-prepared UA and other blacklists into htaccess.
 
 As a matter of fact, if access is restricted to domestic IPs only, blocking using UAs and the like may be unnecessary in most cases. However, because it is a very versatile program, I use it to achieve ultimate peace of mind for my website.
-If it works this time, the cron on the server will run the jpip_get.sh shell script->php will get the IP from APNIC and generate the string from the UA and IP block list->automatically place the integrated .htaccess.
+
+The most important thing this time is to prepare each file and to run the shell script in cron.
+
+If it works, first googleip_get.sh is executed -> outputs the list of allowed IPs for google bots -> next jpip_get.sh is executed -> php gets IPs from APNIC and generates strings from UA and IP allow/block lists -> integrated .htaccess is The integrated .htaccess is automatically placed, and so on.
 
 NOTE: If you are using a CMS such as WordPress, please make a backup of your existing htaccess and be sure to save the code written in that file.
 
@@ -219,7 +228,7 @@ And the biggest problem with StarServer is the notation of the command part when
 
 ### Run cron
 
-Enter the execution date and time using asterisks, etc., as appropriate, and enter '/usr/bin/sh /home/hogehoge/hogehoge.domain/public_html/cron/jpip_get.sh' in the command part.
+Enter the execution date and time using asterisks, etc., as appropriate, and enter '/usr/bin/sh /home/hogehoge/hogehoge.domain/public_html/cron/jpip_get.sh' in the command part. (googleip_get.sh should be set to run about 1 minute before jpip_get.sh)
 
 Of course, hogehoge is the 'server ID' in the UI of the server management tool, and the domain is the com, net, etc. that you have subscribed to.
 
