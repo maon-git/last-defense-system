@@ -1,10 +1,14 @@
 # last-defense-system
 
+//////////
+
 UPDATE：googlebotを許可するためのIPリスト自動取得スクリプトを追加しました。
 
 googleが使用するIPレンジを一覧化 参考：
 
 `https://ichiro-kun.com/post/14049/`
+
+//////////
 
 This repository contains User-Agent lists and IPv4 addresses to block unwanted crawlers, bad robots, suspicious spiders, junk web-scrapers, malicious spammers, and unauthorized access including DDoS attack.
 
@@ -34,12 +38,14 @@ Googleを除いて、ほとんどのボットやスパムのアクセスを遮�
 
 以下のファイルをサーバ上にアップロードする。今回の例では /home/hogehoge/hogehoge.domain/public_html/cron/ のディレクトリに配置することとする。
 
+* allow_ip.txt - ここで特別に許可するIPを定義する
 * block_ua.txt - ここでブロックするUAを定義する
 * block_ip.txt - ここでブロックするリモートホストおよびIPを定義する
 * get_ip.php - 上記2つのリストと、APNICから取得した国内IPリストを結合する
 * jpip_get.sh - 実行されると上記phpを呼び出し、.htaccessとして出力する
+* googleip_get.sh - 実行されるとgoogleボットのIPリストをjsonから取得する (整形されたリストがgooglebot_ip.txtとして出力される)
 
-jpip_get.shをcronによって実行することで、ブロックリストの定期更新が可能となる。
+jpip_get.sh(およびgoogleip_get.sh)をcronによって実行することで、ブロックリストの定期更新が可能となる。
 
 なお、各ファイル内に記載されているファイルパス等は、各自の環境に合わせて適宜書き換える必要がある。
 
@@ -198,7 +204,9 @@ ip自動取得およびhtaccess作成 参考：
 
 ※実際問題、国内IPのみにアクセスが制限されていれば、ほとんどの場合においてUA等を併用したブロックは不要かと思いますが、実に汎用性の高いプログラムのため、Webサイトの究極的な平和を実現するために活用しています。
 
-今回の動作が上手くいくと、サーバに設定したcronによってjpip_get.shのシェルスクリプトが走り→phpがAPNICからIP取得しUAとIPのブロックリストから文字列を生成→統合された.htaccessを自動的に配置する、となります。
+今回、最も重要になってくるのは各ファイルの準備と、cronでシェルスクリプトを実行することです。
+
+動作が上手くいくと、まずgoogleip_get.shを実行され→googleボットの許可IPリストが出力→次にjpip_get.shが走り→phpがAPNICからIP取得しUAとIPの許可/ブロックリストから文字列を生成→統合された.htaccessを自動的に配置する、となります。
 
 NOTE：WordPressなどのCMSを使用している場合は、既存のhtaccessのバックアップを取り、必ずそのファイルに書かれたコードを保存しておきましょう。
 
@@ -220,7 +228,7 @@ cronを設定する前に、まず参考サイトのphpでは不足している�
 
 ### cronを実行する
 
-実行日時等はアスタリスクなどを用いて適宜入力するとして、コマンド部分には「/usr/bin/sh /home/hogehoge/hogehoge.ドメイン/public_html/cron/jpip_get.sh」とします。
+実行日時等はアスタリスクなどを用いて適宜入力するとして、コマンド部分には「/usr/bin/sh /home/hogehoge/hogehoge.ドメイン/public_html/cron/jpip_get.sh」とします。(googleip_get.shはjpip_get.shより1分前程度に実行するようにセットしておきましょう)
 
 もちろんhogehogeはサーバ管理ツールのUIにおける「サーバーID」であり、ドメインは自身が契約しているcomやnetなどです。
 
