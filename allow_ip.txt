@@ -4,6 +4,7 @@ Require forward-dns googlebot.com
 Require forward-dns google.com
 Require forward-dns letsencrypt.org
 
+# These are personal settings. Delete if not needed.
 Require forward-dns hatenablog-parts.com
 Require ip 13.230.115.161
 Require forward-dns hatenablog.com
